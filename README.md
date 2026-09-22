@@ -28,12 +28,14 @@ One row per HEV–ICE pair (715 rows). Prices are nominal model-year dollars.
 | `make`, `model` | Nameplate, after the renamings in `methodology.md` |
 | `trim_hyb`, `trim_ice` | Source trim names of the HEV and its ICE match |
 | `body_type_hyb` | Body type (identical for both sides by construction) |
+| `drive_type_hyb`, `drive_type_ice` | Drive type; all-wheel and four-wheel drive are pooled for matching, so a few pairs differ |
+| `truck_bed` | Pickup bed length in feet (blank for non-pickups); identical for both sides by construction |
 | `msrp_hyb`, `msrp_ice` | Base MSRP |
 | `hp_hyb`, `hp_ice` | Rated horsepower |
 | `mpg_combined_hyb`, `mpg_combined_ice` | EPA combined MPG |
 | `curb_weight_hyb`, `curb_weight_ice` | Curb weight (lb); blank where it could not be sourced |
 
-Some pairs share both trim names and differ only in drive (e.g. FWD and AWD) or truck bed length, which is why a year–model–trim combination can appear more than once.
+A year–model–trim combination can appear more than once when the trim is sold in several drive types or truck bed lengths; the drive and bed columns tell those rows apart.
 
 ### `data/curb-weight-corrections.csv`
 

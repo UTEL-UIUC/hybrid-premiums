@@ -554,8 +554,10 @@ The matching produced 715 HEV–ICE pairs from 715 distinct HEV catalog rows, co
 
 - `pair_id`: sequential row identifier.
 - `year`, `make`, `model`: model year and prepared nameplate (after the model renamings above).
-- `trim_hyb`, `trim_ice`: source trim names for the HEV and its ICE match. Some pairs share both trim names and differ in body or drive configuration.
+- `trim_hyb`, `trim_ice`: source trim names for the HEV and its ICE match.
 - `body_type_hyb`: HEV body type (the ICE body type is identical by construction).
+- `drive_type_hyb`, `drive_type_ice`: source drive types. They differ only where a four-wheel-drive HEV matches an all-wheel-drive ICE under the pooled `awd_4wd` key.
+- `truck_bed`: parsed pickup bed length in feet, blank for other bodies (identical on both sides by construction).
 - `msrp_hyb`, `msrp_ice`: base MSRP in nominal model-year dollars.
 - `hp_hyb`, `hp_ice`: rated horsepower.
 - `mpg_combined_hyb`, `mpg_combined_ice`: EPA combined fuel economy.

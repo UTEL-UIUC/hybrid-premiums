@@ -1,716 +1,716 @@
-"pair_id","year","make","model","trim_hyb","trim_ice","body_type_hyb","drive_type_hyb","drive_type_ice","truck_bed","msrp_hyb","msrp_ice","hp_hyb","hp_ice","mpg_combined_hyb","mpg_combined_ice","curb_weight_hyb","curb_weight_ice"
-1,2013,"Acura","ILX","Hybrid","Technology Package","Sedan","front wheel drive","front wheel drive",,34400,31400,111,150,38,28,2987,2970
-2,2014,"Acura","ILX","Technology Package","Technology Package","Sedan","front wheel drive","front wheel drive",,34600,31600,111,150,38,28,2987,2970
-3,2017,"Acura","MDX","Sport Hybrid SH-AWD","SH-AWD","SUV","all wheel drive","all wheel drive",,51960,50460,321,290,27,21,4471,4244
-4,2017,"Acura","MDX","Sport Hybrid SH-AWD","SH-AWD","SUV","all wheel drive","all wheel drive",,58000,56500,321,290,27,22,4484,4257
-5,2018,"Acura","MDX","Sport Hybrid SH-AWD","SH-AWD","SUV","all wheel drive","all wheel drive",,58150,56650,321,290,27,22,4484,4257
-6,2018,"Acura","MDX","Sport Hybrid SH-AWD","SH-AWD","SUV","all wheel drive","all wheel drive",,52100,50600,321,290,27,21,4471,4244
-7,2019,"Acura","MDX","Sport Hybrid SH-AWD","SH-AWD","SUV","all wheel drive","all wheel drive",,52800,51300,321,290,27,22,4471,4264
-8,2019,"Acura","MDX","Sport Hybrid SH-AWD","SH-AWD","SUV","all wheel drive","all wheel drive",,59550,58050,321,290,27,22,4486,4303
-9,2020,"Acura","MDX","Sport Hybrid SH-AWD","SH-AWD","SUV","all wheel drive","all wheel drive",,53000,51500,321,290,27,22,4471,4264
-10,2020,"Acura","MDX","Sport Hybrid SH-AWD","SH-AWD","SUV","all wheel drive","all wheel drive",,59750,58250,321,290,27,22,4486,4303
-11,2013,"Audi","Q5","2.0T Prestige quattro","3.0T Prestige quattro","SUV","all wheel drive","all wheel drive",,50900,51400,245,272,26,21,4431,4354
-12,2014,"Audi","Q5","2.0T Prestige quattro","3.0T Prestige quattro","SUV","all wheel drive","all wheel drive",,51300,51900,245,272,26,21,4431,
-13,2015,"Audi","Q5","2.0T Prestige quattro","3.0T Prestige quattro","SUV","all wheel drive","all wheel drive",,51900,52900,245,272,26,21,4431,4354
-14,2016,"Audi","Q5","2.0T Prestige quattro","3.0T Prestige quattro","SUV","all wheel drive","all wheel drive",,52500,53500,245,272,26,21,4431,4354
-15,2013,"BMW","3 Series","ActiveHybrid 3","335i","Sedan","rear wheel drive","rear wheel drive",,49650,43150,335,300,28,23,3860,3545
-16,2014,"BMW","3 Series","ActiveHybrid 3","335i","Sedan","rear wheel drive","rear wheel drive",,49900,43400,335,300,28,25,3825,3555
-17,2015,"BMW","3 Series","ActiveHybrid 3","335i","Sedan","rear wheel drive","rear wheel drive",,50150,43750,335,300,28,25,3825,3595
-18,2014,"BMW","5 Series","ActiveHybrid 5","535i","Sedan","rear wheel drive","rear wheel drive",,61400,55100,335,302,26,24,4365,4068
-19,2015,"BMW","5 Series","ActiveHybrid 5","535i","Sedan","rear wheel drive","rear wheel drive",,61900,55600,335,302,26,24,4365,4090
-20,2016,"BMW","5 Series","ActiveHybrid 5","535i","Sedan","rear wheel drive","rear wheel drive",,62100,55850,335,302,26,24,4288,3957
-21,2013,"BMW","7 Series","740Li","740Li","Sedan","rear wheel drive","rear wheel drive",,84300,77600,350,315,25,22,4680,4350
-22,2014,"BMW","7 Series","740Li","740Li","Sedan","rear wheel drive","rear wheel drive",,84300,78000,350,315,25,22,4680,4350
-23,2015,"BMW","7 Series","740Li","740Li","Sedan","rear wheel drive","rear wheel drive",,84300,78000,335,315,25,23,4680,4350
-24,2012,"Cadillac","Escalade","Platinum Edition","Platinum Edition","SUV","rear wheel drive","rear wheel drive",,83295,79945,332,403,21,16,5879,5488
-25,2012,"Cadillac","Escalade","Platinum Edition","Platinum Edition","SUV","four wheel drive","all wheel drive",,85845,82495,332,403,21,15,6120,5694
-26,2013,"Cadillac","Escalade","Platinum Edition","Platinum Edition","SUV","rear wheel drive","rear wheel drive",,83870,80520,332,403,21,16,5885,5527
-27,2013,"Cadillac","Escalade","Platinum Edition","Platinum Edition","SUV","four wheel drive","all wheel drive",,86420,83070,332,403,21,15,6142,5718
-28,2017,"Chevrolet","Malibu","Hybrid","LT","Sedan","front wheel drive","front wheel drive",,27875,25125,182,160,46,30,3457,3126
-29,2018,"Chevrolet","Malibu","Hybrid","LT","Sedan","front wheel drive","front wheel drive",,27875,25125,182,160,46,30,3366,3152
-30,2019,"Chevrolet","Malibu","Hybrid","LT","Sedan","front wheel drive","front wheel drive",,28220,26620,182,160,46,32,3366,3159
-31,2020,"Ford","Escape","Titanium","Titanium","SUV","all wheel drive","all wheel drive",,35050,36835,198,250,40,26,3668,3566
-32,2021,"Ford","Escape","Titanium Hybrid","Titanium","SUV","all wheel drive","all wheel drive",,34800,36155,165,250,40,26,3668,3566
-33,2021,"Ford","Escape","SE Hybrid","SE","SUV","front wheel drive","front wheel drive",,27605,26610,165,181,41,30,3491,3298
-34,2021,"Ford","Escape","SE Hybrid","SE","SUV","all wheel drive","all wheel drive",,29105,28110,165,181,40,28,3668,3474
-35,2021,"Ford","Escape","SEL Hybrid","SEL","SUV","front wheel drive","front wheel drive",,30200,29205,165,181,41,30,3534,3298
-36,2021,"Ford","Escape","SEL Hybrid","SEL","SUV","all wheel drive","all wheel drive",,31700,30705,165,181,40,28,3668,3474
-37,2022,"Ford","Escape","Titanium Hybrid","Titanium","SUV","all wheel drive","all wheel drive",,36595,37145,165,250,40,26,3668,3566
-38,2022,"Ford","Escape","SE Hybrid","SE","SUV","front wheel drive","front wheel drive",,30185,28360,165,181,41,30,3491,3298
-39,2022,"Ford","Escape","SEL Hybrid","SEL","SUV","all wheel drive","all wheel drive",,34055,32235,165,181,40,28,,3474
-40,2022,"Ford","Escape","SE Hybrid","SE","SUV","all wheel drive","all wheel drive",,31685,29860,165,181,40,28,,3474
-41,2022,"Ford","Escape","SEL Hybrid","SEL","SUV","front wheel drive","front wheel drive",,32550,30735,165,181,41,30,3534,3298
-42,2023,"Ford","Escape","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,38465,37465,192,250,39,26,3668,3566
-43,2023,"Ford","Escape","ST-Line","ST-Line","SUV","front wheel drive","front wheel drive",,33340,30340,192,180,39,30,3534,3298
-44,2023,"Ford","Escape","ST-Line Select","ST-Line Select","SUV","all wheel drive","all wheel drive",,35040,34040,192,250,39,26,3668,3566
-45,2023,"Ford","Escape","ST-Line Elite","ST-Line Elite","SUV","all wheel drive","all wheel drive",,39460,38460,192,250,39,26,3668,3566
-46,2024,"Ford","Escape","ST-Line Select","ST-Line Select","SUV","all wheel drive","all wheel drive",,35040,34040,192,250,39,26,3686,3543
-47,2024,"Ford","Escape","ST-Line Elite","ST-Line Elite","SUV","all wheel drive","all wheel drive",,39460,38460,192,250,39,26,3686,3543
-48,2024,"Ford","Escape","ST-Line","ST-Line","SUV","front wheel drive","front wheel drive",,33340,30340,192,180,39,30,3519,3283
-49,2024,"Ford","Escape","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,38465,37465,192,250,39,26,3686,3543
-50,2025,"Ford","Escape","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,37115,35910,192,250,39,26,3684,3574
-51,2025,"Ford","Escape","ST-Line","ST-Line","SUV","front wheel drive","front wheel drive",,32490,30360,192,180,39,30,3529,
-52,2025,"Ford","Escape","ST-Line Elite","ST-Line Elite","SUV","all wheel drive","all wheel drive",,38110,36905,192,250,39,26,3684,3574
-53,2025,"Ford","Escape","ST-Line Select","ST-Line Select","SUV","all wheel drive","all wheel drive",,34190,33195,192,250,39,26,3670,3505
-54,2026,"Ford","Escape","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,36215,37940,192,250,39,26,,
-55,2026,"Ford","Escape","ST-Line Select","ST-Line Select","SUV","all wheel drive","all wheel drive",,33890,35015,192,250,39,26,3670,3505
-56,2026,"Ford","Escape","ST-Line Elite","ST-Line Elite","SUV","all wheel drive","all wheel drive",,37210,38935,192,250,39,26,,
-57,2020,"Ford","Explorer","Limited Hybrid","Limited","SUV","rear wheel drive","rear wheel drive",,52530,48380,318,300,28,24,4969,4345
-58,2020,"Ford","Explorer","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,54725,50380,318,300,25,23,4969,4345
-59,2021,"Ford","Explorer","Limited Hybrid","Limited","SUV","rear wheel drive","rear wheel drive",,50105,45255,318,300,27,24,4969,4345
-60,2021,"Ford","Explorer","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,52105,47255,318,300,25,23,4969,4345
-61,2021,"Ford","Explorer","Platinum Hybrid","Platinum","SUV","all wheel drive","all wheel drive",,53335,54730,318,365,25,20,,4727
-62,2022,"Ford","Explorer","Limited Hybrid","Limited","SUV","rear wheel drive","rear wheel drive",,52060,47070,318,300,27,24,4969,4345
-63,2022,"Ford","Explorer","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,54060,49070,318,300,25,23,4969,4345
-64,2022,"Ford","Explorer","Platinum Hybrid","Platinum","SUV","all wheel drive","all wheel drive",,54375,55775,318,400,23,20,5076,4727
-65,2022,"Ford","Explorer","Platinum Hybrid","Platinum","SUV","rear wheel drive","rear wheel drive",,52375,53775,318,400,26,21,4969,4727
-66,2023,"Ford","Explorer","Limited Hybrid","Limited","SUV","rear wheel drive","rear wheel drive",,53005,47070,318,300,27,24,4969,4345
-67,2023,"Ford","Explorer","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,55005,49070,318,300,25,23,4969,4345
-68,2023,"Ford","Explorer","Platinum Hybrid","Platinum","SUV","rear wheel drive","rear wheel drive",,53820,54220,318,400,26,21,4969,4727
-69,2023,"Ford","Explorer","Platinum Hybrid","Platinum","SUV","all wheel drive","all wheel drive",,55820,56220,318,400,23,20,5076,4727
-70,2013,"Ford","Fusion","SE","SE","Sedan","front wheel drive","front wheel drive",,27200,23830,188,175,42,26,3615,3615
-71,2013,"Ford","Fusion","Titanium","Titanium","Sedan","front wheel drive","front wheel drive",,32100,30200,188,231,42,26,3615,3526
-72,2014,"Ford","Fusion","SE","SE","Sedan","front wheel drive","front wheel drive",,27280,23935,188,175,42,26,3615,3431
-73,2014,"Ford","Fusion","Titanium","Titanium","Sedan","front wheel drive","front wheel drive",,32600,30600,188,231,42,26,3615,3526
-74,2014,"Ford","Fusion","S","S","Sedan","front wheel drive","front wheel drive",,26270,21970,188,175,42,26,3615,3431
-75,2015,"Ford","Fusion","S","S","Sedan","front wheel drive","front wheel drive",,26575,22500,188,175,42,26,3615,3461
-76,2015,"Ford","Fusion","SE","SE","Sedan","front wheel drive","front wheel drive",,27380,24035,188,175,42,26,3615,3461
-77,2015,"Ford","Fusion","Titanium","Titanium","Sedan","front wheel drive","front wheel drive",,32330,30780,188,231,42,26,3615,3322
-78,2016,"Ford","Fusion","S","S","Sedan","front wheel drive","front wheel drive",,25675,22750,188,175,42,26,3615,3431
-79,2016,"Ford","Fusion","SE","SE","Sedan","front wheel drive","front wheel drive",,26480,24320,188,175,42,26,3615,3431
-80,2016,"Ford","Fusion","Titanium","Titanium","Sedan","front wheel drive","front wheel drive",,31430,31270,188,231,42,26,3615,3526
-81,2017,"Ford","Fusion","Titanium","Titanium","Sedan","front wheel drive","front wheel drive",,31010,30740,188,245,42,25,3668,3526
-82,2017,"Ford","Fusion","SE","SE","Sedan","front wheel drive","front wheel drive",,26480,23740,188,175,42,25,3668,3472
-83,2017,"Ford","Fusion","S","S","Sedan","front wheel drive","front wheel drive",,25675,22610,188,175,42,25,3668,3472
-84,2017,"Ford","Fusion","Platinum","Platinum","Sedan","front wheel drive","front wheel drive",,37020,36750,188,245,42,25,3668,3526
-85,2018,"Ford","Fusion","S","S","Sedan","front wheel drive","front wheel drive",,25390,22215,188,173,42,25,3668,3472
-86,2018,"Ford","Fusion","SE","SE","Sedan","front wheel drive","front wheel drive",,26340,23490,188,173,42,25,3668,3472
-87,2018,"Ford","Fusion","Titanium","Titanium","Sedan","front wheel drive","front wheel drive",,30870,30490,188,245,42,25,3668,3526
-88,2018,"Ford","Fusion","Platinum","Platinum","Sedan","front wheel drive","front wheel drive",,37370,36990,188,245,42,25,3668,3526
-89,2019,"Ford","Fusion","SEL","SEL","Sedan","front wheel drive","front wheel drive",,31520,28580,188,181,42,27,3668,
-90,2019,"Ford","Fusion","Titanium","Titanium","Sedan","front wheel drive","front wheel drive",,34485,34340,188,245,42,25,3668,
-91,2019,"Ford","Fusion","SE","SE","Sedan","front wheel drive","front wheel drive",,27555,24120,188,181,42,27,3668,
-92,2020,"Ford","Fusion","SE","SE","Sedan","front wheel drive","front wheel drive",,28000,24500,188,181,42,27,3668,
-93,2020,"Ford","Fusion","SEL","SEL","Sedan","front wheel drive","front wheel drive",,31630,28690,188,181,42,27,3668,
-94,2020,"Ford","Fusion","Titanium","Titanium","Sedan","front wheel drive","front wheel drive",,34595,34450,188,245,42,25,3668,
-95,2012,"GMC","Yukon","Denali","Denali","SUV","rear wheel drive","rear wheel drive",,60285,55010,332,403,21,16,5877,5505
-96,2012,"GMC","Yukon","Denali","Denali","SUV","four wheel drive","all wheel drive",,63130,58005,332,403,21,15,6110,5688
-97,2013,"GMC","Yukon","Denali","Denali","SUV","rear wheel drive","rear wheel drive",,61960,56685,332,403,21,16,5889,5491
-98,2013,"GMC","Yukon","Denali","Denali","SUV","four wheel drive","all wheel drive",,64805,59680,332,403,21,15,6103,5685
-99,2014,"Honda","Accord","EX-L","EX-L","Sedan","front wheel drive","front wheel drive",,31905,28270,195,185,47,30,3595,3358
-100,2014,"Honda","Accord","Touring","Touring V-6","Sedan","front wheel drive","front wheel drive",,34905,33480,195,278,47,25,3602,3559
-101,2015,"Honda","Accord","EX-L","EX-L","Sedan","front wheel drive","front wheel drive",,32055,28420,196,185,47,31,3595,3358
-102,2015,"Honda","Accord","Touring","Touring V-6","Sedan","front wheel drive","front wheel drive",,35055,33630,196,278,47,26,3602,3559
-103,2017,"Honda","Accord","Touring","Touring V-6","Sedan","front wheel drive","front wheel drive",,35955,34830,212,278,48,25,3536,3605
-104,2017,"Honda","Accord","EX-L","EX-L","Sedan","front wheel drive","front wheel drive",,32905,28820,212,185,48,30,3523,3360
-105,2018,"Honda","Accord","EX","EX","Sedan","front wheel drive","front wheel drive",,28890,27470,212,192,47,33,3377,3199
-106,2018,"Honda","Accord","EX-L","EX-L","Sedan","front wheel drive","front wheel drive",,31440,29970,212,192,47,33,3400,3217
-107,2018,"Honda","Accord","Base","LX","Sedan","front wheel drive","front wheel drive",,25100,23570,212,192,47,33,3342,3131
-108,2018,"Honda","Accord","Touring","Touring","Sedan","front wheel drive","front wheel drive",,34710,33800,212,192,47,31,3428,3294
-109,2018,"Honda","Accord","EX-L","EX-L","Sedan","front wheel drive","front wheel drive",,32440,30970,212,192,47,33,3400,3217
-110,2019,"Honda","Accord","EX","EX","Sedan","front wheel drive","front wheel drive",,29220,27620,212,192,48,33,3377,3199
-111,2019,"Honda","Accord","Touring","Touring","Sedan","front wheel drive","front wheel drive",,34990,35950,212,252,48,26,3428,3428
-112,2019,"Honda","Accord","Base","LX","Sedan","front wheel drive","front wheel drive",,25320,23720,212,192,48,33,3342,3131
-113,2019,"Honda","Accord","EX-L","EX-L","Sedan","front wheel drive","front wheel drive",,31720,30120,212,192,48,33,3400,3217
-114,2020,"Honda","Accord","EX","EX","Sedan","front wheel drive","front wheel drive",,29370,27770,212,192,48,33,3377,3199
-115,2020,"Honda","Accord","Touring","Touring","Sedan","front wheel drive","front wheel drive",,35140,36100,212,252,48,26,3428,3428
-116,2020,"Honda","Accord","Base","LX","Sedan","front wheel drive","front wheel drive",,25470,23870,212,192,48,33,3342,3131
-117,2020,"Honda","Accord","EX-L","EX-L","Sedan","front wheel drive","front wheel drive",,31870,30270,212,192,48,33,3400,3217
-118,2021,"Honda","Accord","Base","LX","Sedan","front wheel drive","front wheel drive",,26370,24770,212,192,48,33,3327,3131
-119,2021,"Honda","Accord","Touring","Touring","Sedan","front wheel drive","front wheel drive",,36240,36700,212,252,43,26,3415,3428
-120,2021,"Honda","Accord","EX-L","EX-L","Sedan","front wheel drive","front wheel drive",,32690,31090,212,192,48,33,3386,3217
-121,2022,"Honda","Accord","Base","LX","Sedan","front wheel drive","front wheel drive",,27720,26520,212,192,47,33,3326,3150
-122,2022,"Honda","Accord","EX-L","EX-L","Sedan","front wheel drive","front wheel drive",,34040,32840,212,192,47,33,3388,3221
-123,2022,"Honda","Accord","Touring","Touring","Sedan","front wheel drive","front wheel drive",,37590,38450,212,252,43,26,3446,3430
-124,2022,"Honda","Accord","Sport","Sport","Sedan","front wheel drive","front wheel drive",,31070,28980,212,192,43,32,3375,3223
-125,2020,"Honda","CR-V","LX","LX","SUV","all wheel drive","all wheel drive",,27850,26550,212,190,38,29,3649,3455
-126,2020,"Honda","CR-V","EX-L","EX-L","SUV","all wheel drive","all wheel drive",,32850,31550,212,190,38,29,3649,3536
-127,2020,"Honda","CR-V","EX","EX","SUV","all wheel drive","all wheel drive",,30360,29060,212,190,38,29,3649,3521
-128,2020,"Honda","CR-V","Touring","Touring","SUV","all wheel drive","all wheel drive",,36050,34750,212,190,38,29,3649,3576
-129,2021,"Honda","CR-V","Touring","Touring","SUV","all wheel drive","all wheel drive",,36350,35150,212,190,38,29,3649,3569
-130,2021,"Honda","CR-V","EX","EX","SUV","all wheel drive","all wheel drive",,30560,29360,212,190,38,29,3649,3514
-131,2021,"Honda","CR-V","EX-L","EX-L","SUV","all wheel drive","all wheel drive",,33150,31950,212,190,38,29,3649,3529
-132,2022,"Honda","CR-V","Touring","Touring","SUV","all wheel drive","all wheel drive",,37800,36600,212,190,38,29,3763,3569
-133,2022,"Honda","CR-V","EX","EX","SUV","all wheel drive","all wheel drive",,32010,30810,212,190,38,29,3708,3514
-134,2022,"Honda","CR-V","EX-L","EX-L","SUV","all wheel drive","all wheel drive",,34600,33400,212,190,38,29,3723,3529
-135,2024,"Honda","CR-V","Sport Hybrid","EX","SUV","front wheel drive","front wheel drive",,34050,32010,204,190,40,30,3752,3497
-136,2024,"Honda","CR-V","Sport Hybrid","EX","SUV","all wheel drive","all wheel drive",,35550,33510,204,190,37,29,3869,3616
-137,2024,"Honda","CR-V","Sport-L Hybrid","EX-L","SUV","front wheel drive","front wheel drive",,37050,34660,204,190,40,30,3777,3525
-138,2024,"Honda","CR-V","Sport-L Hybrid","EX-L","SUV","all wheel drive","all wheel drive",,38550,36160,204,190,37,29,3893,3635
-139,2025,"Honda","CR-V","Sport-L Hybrid","EX-L","SUV","front wheel drive","front wheel drive",,37650,35000,204,190,40,30,3777,3525
-140,2025,"Honda","CR-V","Sport-L Hybrid","EX-L","SUV","all wheel drive","all wheel drive",,39150,36500,204,190,37,28,3893,3635
-141,2025,"Honda","CR-V","Sport Hybrid","EX","SUV","all wheel drive","all wheel drive",,36150,33850,204,190,37,28,3869,3616
-142,2025,"Honda","CR-V","Sport Hybrid","EX","SUV","front wheel drive","front wheel drive",,34650,32350,204,190,40,30,3752,3497
-143,2026,"Honda","CR-V","Sport-L Hybrid","EX-L","SUV","front wheel drive","front wheel drive",,38725,35400,204,190,40,30,3777,3525
-144,2026,"Honda","CR-V","Sport Hybrid","EX","SUV","front wheel drive","front wheel drive",,35630,33150,204,190,40,30,3752,3497
-145,2026,"Honda","CR-V","Sport-L Hybrid","EX-L","SUV","all wheel drive","all wheel drive",,40225,36900,204,190,37,29,3893,3635
-146,2026,"Honda","CR-V","Sport Hybrid","EX","SUV","all wheel drive","all wheel drive",,37130,34650,204,190,37,29,3869,3616
-147,2019,"Honda","Civic","LX","LX","Sedan","front wheel drive","front wheel drive",,22930,20350,151,158,52,33,2987,2771
-148,2019,"Honda","Civic","Touring","Touring","Sedan","front wheel drive","front wheel drive",,28190,27400,151,174,48,33,3078,2963
-149,2019,"Honda","Civic","EX","EX","Sedan","front wheel drive","front wheel drive",,24160,23500,151,174,52,36,3000,2917
-150,2020,"Honda","Civic","Touring","Touring","Sedan","front wheel drive","front wheel drive",,28340,27600,151,174,48,33,3078,2963
-151,2020,"Honda","Civic","EX","EX","Sedan","front wheel drive","front wheel drive",,24310,23700,151,174,52,36,3000,2917
-152,2020,"Honda","Civic","LX","LX","Sedan","front wheel drive","front wheel drive",,22930,20550,151,158,52,33,2987,2771
-153,2021,"Honda","Civic","LX","LX","Sedan","front wheel drive","front wheel drive",,22930,21050,151,158,52,33,2987,2771
-154,2021,"Honda","Civic","EX","EX","Sedan","front wheel drive","front wheel drive",,24810,24200,151,174,52,36,3000,2917
-155,2021,"Honda","Civic","Touring","Touring","Sedan","front wheel drive","front wheel drive",,28840,28100,151,174,48,33,3078,2963
-156,2025,"Honda","Civic","Sport Hybrid","Sport","Sedan","front wheel drive","front wheel drive",,28950,26250,200,150,49,34,3208,2935
-157,2025,"Honda","Civic","Sport Hybrid","Sport","Hatchback","front wheel drive","front wheel drive",,31150,27450,200,150,48,34,3252,2976
-158,2026,"Honda","Civic","Sport Hybrid","Sport","Sedan","front wheel drive","front wheel drive",,29395,26695,200,150,49,34,3208,2926
-159,2026,"Honda","Civic","Sport Hybrid","Sport","Hatchback","front wheel drive","front wheel drive",,30595,27895,200,150,48,34,3252,2976
-160,2021,"Hyundai","Elantra","Limited","Limited","Sedan","front wheel drive","front wheel drive",,28100,25450,139,147,50,35,3069,2725
-161,2022,"Hyundai","Elantra","Limited","Limited","Sedan","front wheel drive","front wheel drive",,28600,25950,139,147,50,35,3069,2725
-162,2023,"Hyundai","Elantra","Limited","Limited","Sedan","front wheel drive","front wheel drive",,29150,26800,139,147,50,34,3069,2725
-163,2024,"Hyundai","Elantra","Limited","Limited","Sedan","front wheel drive","front wheel drive",,29450,27065,139,147,50,34,3069,2868
-164,2025,"Hyundai","Elantra","Limited","Limited","Sedan","front wheel drive","front wheel drive",,29800,26775,139,147,50,34,3069,2868
-165,2025,"Hyundai","Elantra","SEL Sport","SEL Sport","Sedan","front wheel drive","front wheel drive",,27425,23250,139,147,50,34,,2868
-166,2026,"Hyundai","Elantra","SEL Sport","SEL Sport","Sedan","front wheel drive","front wheel drive",,27425,23750,139,147,50,34,,2868
-167,2026,"Hyundai","Elantra","Limited","Limited","Sedan","front wheel drive","front wheel drive",,29800,27175,139,147,50,34,3069,2868
-168,2026,"Hyundai","Palisade","Hybrid Calligraphy","Calligraphy","SUV","front wheel drive","front wheel drive",,56780,54560,329,287,31,21,4795,4872
-169,2026,"Hyundai","Palisade","Hybrid SEL","SEL","SUV","all wheel drive","all wheel drive",,46160,43940,329,287,29,20,4795,4872
-170,2026,"Hyundai","Palisade","Hybrid Limited","Limited","SUV","front wheel drive","front wheel drive",,51990,49770,329,287,31,21,4795,4461
-171,2026,"Hyundai","Palisade","Hybrid Limited","Limited","SUV","all wheel drive","all wheel drive",,53990,51770,329,287,29,20,4938,4795
-172,2026,"Hyundai","Palisade","Hybrid SEL Premium","SEL Premium","SUV","all wheel drive","all wheel drive",,49520,47300,329,287,29,20,4795,4493
-173,2026,"Hyundai","Palisade","Hybrid Calligraphy","Calligraphy","SUV","all wheel drive","all wheel drive",,58780,56560,329,287,29,20,4938,4872
-174,2026,"Hyundai","Palisade","Hybrid SEL Premium","SEL Premium","SUV","all wheel drive","all wheel drive",,49520,47300,329,287,29,20,4795,4575
-175,2026,"Hyundai","Palisade","Hybrid SEL","SEL","SUV","all wheel drive","all wheel drive",,46160,43940,329,287,29,20,4795,4575
-176,2021,"Hyundai","Santa Fe","Limited","Limited","SUV","all wheel drive","all wheel drive",,39950,40450,226,277,32,24,4226,4017
-177,2022,"Hyundai","Santa Fe","Limited","Limited","SUV","all wheel drive","all wheel drive",,40710,41110,226,277,32,24,4226,4017
-178,2023,"Hyundai","Santa Fe","Limited","Limited","SUV","all wheel drive","all wheel drive",,41870,42300,226,281,32,24,4227,4017
-179,2024,"Hyundai","Santa Fe","Calligraphy Hybrid","Calligraphy","SUV","front wheel drive","front wheel drive",,47000,46500,231,277,36,24,4431,4343
-180,2024,"Hyundai","Santa Fe","Limited Hybrid","Limited","SUV","front wheel drive","front wheel drive",,43850,43350,231,277,36,24,4431,4343
-181,2024,"Hyundai","Santa Fe","SEL Hybrid","SEL","SUV","front wheel drive","front wheel drive",,36950,36450,231,277,36,24,4431,4343
-182,2024,"Hyundai","Santa Fe","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,45650,45150,231,277,34,23,4575,4486
-183,2024,"Hyundai","Santa Fe","SEL Hybrid","SEL","SUV","all wheel drive","all wheel drive",,38750,38250,231,277,34,23,4575,4486
-184,2024,"Hyundai","Santa Fe","Calligraphy Hybrid","Calligraphy","SUV","all wheel drive","all wheel drive",,48800,48300,231,277,34,23,4575,4486
-185,2025,"Hyundai","Santa Fe","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,46500,45500,231,277,34,23,4575,4486
-186,2025,"Hyundai","Santa Fe","SEL Hybrid","SEL","SUV","all wheel drive","all wheel drive",,39600,38600,231,277,34,23,4575,4486
-187,2025,"Hyundai","Santa Fe","Limited Hybrid","Limited","SUV","front wheel drive","front wheel drive",,44700,43700,231,277,36,24,4431,4343
-188,2025,"Hyundai","Santa Fe","SEL Hybrid","SEL","SUV","front wheel drive","front wheel drive",,37800,36800,231,277,36,24,4431,4343
-189,2025,"Hyundai","Santa Fe","Calligraphy Hybrid","Calligraphy","SUV","front wheel drive","front wheel drive",,47850,46850,231,277,36,24,4431,4343
-190,2025,"Hyundai","Santa Fe","Calligraphy Hybrid","Calligraphy","SUV","all wheel drive","all wheel drive",,49650,48650,231,277,34,23,4575,4486
-191,2026,"Hyundai","Santa Fe","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,47500,46400,231,277,34,23,4575,4486
-192,2026,"Hyundai","Santa Fe","SEL Hybrid","SEL","SUV","all wheel drive","all wheel drive",,40490,39390,231,277,34,23,4575,4486
-193,2026,"Hyundai","Santa Fe","Calligraphy Hybrid","Calligraphy","SUV","all wheel drive","all wheel drive",,50500,49400,231,277,34,23,4575,4486
-194,2026,"Hyundai","Santa Fe","Calligraphy Hybrid","Calligraphy","SUV","front wheel drive","front wheel drive",,48700,47600,231,277,36,24,4431,4343
-195,2026,"Hyundai","Santa Fe","Limited Hybrid","Limited","SUV","front wheel drive","front wheel drive",,45700,44600,231,277,36,24,4431,4343
-196,2026,"Hyundai","Santa Fe","SEL Hybrid","SEL","SUV","front wheel drive","front wheel drive",,38690,37590,231,277,36,24,4431,4343
-197,2026,"Hyundai","Santa Fe","SE Hybrid","SE","SUV","all wheel drive","all wheel drive",,38200,36850,231,277,34,23,4575,4486
-198,2026,"Hyundai","Santa Fe","SE Hybrid","SE","SUV","front wheel drive","front wheel drive",,36400,35050,231,277,36,24,4431,4343
-199,2020,"Hyundai","Sonata","Limited","Limited","Sedan","front wheel drive","front wheel drive",,35300,33500,192,180,47,31,3505,3336
-200,2021,"Hyundai","Sonata","Limited","Limited","Sedan","front wheel drive","front wheel drive",,35300,33950,192,180,47,30,3505,3336
-201,2022,"Hyundai","Sonata","Limited","Limited","Sedan","front wheel drive","front wheel drive",,35700,34400,192,180,47,31,3505,3336
-202,2023,"Hyundai","Sonata","Limited","Limited","Sedan","front wheel drive","front wheel drive",,36600,35325,192,180,47,31,3505,3336
-203,2022,"Hyundai","Tucson","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,38050,36800,227,187,37,26,3752,3651
-204,2023,"Hyundai","Tucson","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,39110,37660,226,187,37,25,3794,3651
-205,2024,"Hyundai","Tucson","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,39715,38260,226,187,37,25,3837,3663
-206,2025,"Hyundai","Tucson","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,41295,40145,231,187,35,26,3906,3801
-207,2025,"Hyundai","Tucson","SEL Convenience Hybrid","SEL Convenience","SUV","all wheel drive","all wheel drive",,36465,34515,231,187,35,26,3886,3676
-208,2026,"Hyundai","Tucson","Hybrid Limited","Limited","SUV","all wheel drive","all wheel drive",,42075,40925,231,187,36,26,3920,3800
-209,2026,"Hyundai","Tucson","Hybrid SEL","SEL","SUV","all wheel drive","all wheel drive",,33900,32300,231,187,36,26,3773,3638
-210,2014,"INFINITI","Q50","Hybrid Premium","Premium","Sedan","rear wheel drive","rear wheel drive",,44400,40000,360,328,31,23,3913,3611
-211,2014,"INFINITI","Q50","Hybrid Premium","Premium","Sedan","all wheel drive","all wheel drive",,46200,41800,360,328,30,22,4085,3787
-212,2014,"INFINITI","Q50","Hybrid Sport","Sport","Sedan","rear wheel drive","rear wheel drive",,46800,43650,360,328,31,23,3973,3675
-213,2014,"INFINITI","Q50","Hybrid Sport","Sport","Sedan","all wheel drive","all wheel drive",,48600,45450,360,328,30,22,4145,3849
-214,2015,"INFINITI","Q50","Hybrid Premium","Premium","Sedan","rear wheel drive","rear wheel drive",,44400,40000,360,328,31,23,3913,3611
-215,2015,"INFINITI","Q50","Hybrid Premium","Premium","Sedan","all wheel drive","all wheel drive",,46200,41800,360,328,30,22,4085,3787
-216,2015,"INFINITI","Q50","Hybrid Sport","Sport","Sedan","rear wheel drive","rear wheel drive",,46800,43650,360,328,31,23,3973,3675
-217,2015,"INFINITI","Q50","Hybrid Sport","Sport","Sedan","all wheel drive","all wheel drive",,48600,45450,360,328,30,22,4145,3849
-218,2012,"INFINITI","Q70","M35h","M37","Sedan","rear wheel drive","rear wheel drive",,53700,47700,360,330,29,21,4129,3849
-219,2013,"INFINITI","Q70","M35h","M37","Sedan","rear wheel drive","rear wheel drive",,54750,48700,360,330,29,21,4136,3863
-220,2014,"INFINITI","Q70","Hybrid","Base","Sedan","rear wheel drive","rear wheel drive",,55650,49600,360,330,31,21,4131,3832
-221,2015,"INFINITI","Q70","Hybrid","Base","Sedan","rear wheel drive","rear wheel drive",,55900,49850,360,330,31,21,4134,3867
-222,2016,"INFINITI","Q70","Hybrid","Base","Sedan","rear wheel drive","rear wheel drive",,55900,49850,360,330,31,21,4134,3867
-223,2017,"INFINITI","Q70","Hybrid","Base","Sedan","rear wheel drive","rear wheel drive",,56200,50100,360,330,30,21,4134,3867
-224,2018,"INFINITI","Q70","Hybrid LUXE","3.7 LUXE","Sedan","rear wheel drive","rear wheel drive",,56400,50300,360,330,30,21,4134,3876
-225,2014,"INFINITI","QX60","Hybrid","Base","SUV","front wheel drive","front wheel drive",,45100,42100,250,265,26,22,4485,4323
-226,2014,"INFINITI","QX60","Hybrid","Base","SUV","all wheel drive","all wheel drive",,46500,43500,250,265,26,21,4625,4462
-227,2015,"INFINITI","QX60","Hybrid","Base","SUV","front wheel drive","front wheel drive",,45400,42400,230,265,26,23,4538,4384
-228,2015,"INFINITI","QX60","Hybrid","Base","SUV","all wheel drive","all wheel drive",,46800,43800,230,265,26,22,4678,4523
-229,2025,"Kia","Carnival","SX","SX","Minivan","front wheel drive","front wheel drive",,47900,45900,242,287,33,21,4852,4810
-230,2025,"Kia","Carnival","EX","EX","Minivan","front wheel drive","front wheel drive",,43000,41000,242,287,33,21,4852,4725
-231,2025,"Kia","Carnival","SX Prestige","SX Prestige","Minivan","front wheel drive","front wheel drive",,52900,50900,242,287,33,21,4852,4720
-232,2025,"Kia","Carnival","LXS","LXS","Minivan","front wheel drive","front wheel drive",,40800,38800,242,287,33,21,4852,4630
-233,2026,"Kia","Carnival","LXS","LXS","Minivan","front wheel drive","front wheel drive",,41390,39390,242,287,32,21,4852,4630
-234,2026,"Kia","Carnival","EX","EX","Minivan","front wheel drive","front wheel drive",,43590,41590,242,287,32,21,4852,4725
-235,2026,"Kia","Carnival","SX Prestige","SX Prestige","Minivan","front wheel drive","front wheel drive",,53490,51490,242,287,32,21,4852,4720
-236,2026,"Kia","Carnival","SX","SX","Minivan","front wheel drive","front wheel drive",,48490,46490,242,287,32,21,4852,4810
-237,2019,"Kia","Optima","EX","EX","Sedan","front wheel drive","front wheel drive",,28090,26890,192,178,41,31,3486,3285
-238,2020,"Kia","Optima","EX","EX","Sedan","front wheel drive","front wheel drive",,29310,27190,192,178,42,31,3496,3285
-239,2021,"Kia","Sorento","S","S","SUV","front wheel drive","front wheel drive",,33590,31890,227,191,37,26,3794,3794
-240,2021,"Kia","Sorento","EX","EX","SUV","front wheel drive","front wheel drive",,36590,34990,227,281,37,25,3999,3999
-241,2022,"Kia","Sorento","S","S","SUV","front wheel drive","front wheel drive",,34090,32390,227,191,37,26,3979,3794
-242,2022,"Kia","Sorento","EX","EX","SUV","front wheel drive","front wheel drive",,36090,35490,227,281,37,25,3979,3999
-243,2023,"Kia","Sorento","EX","EX","SUV","front wheel drive","front wheel drive",,36690,35990,227,281,37,25,3979,3999
-244,2023,"Kia","Sorento","SX Prestige","SX Prestige","SUV","all wheel drive","all wheel drive",,42490,43490,227,281,34,24,4255,4120
-245,2024,"Kia","Sorento","EX","EX","SUV","front wheel drive","front wheel drive",,36990,37990,227,281,37,23,4000,4074
-246,2025,"Kia","Sorento","EX","EX","SUV","all wheel drive","all wheel drive",,40490,39590,227,281,36,23,4345,4123
-247,2025,"Kia","Sorento","EX","EX","SUV","front wheel drive","front wheel drive",,38690,38090,227,281,34,23,4211,4074
-248,2026,"Kia","Sorento","X-Line SX Prestige","X-Line SX Prestige","SUV","all wheel drive","all wheel drive",,47190,46790,227,281,34,23,4544,4250
-249,2026,"Kia","Sorento","EX","EX","SUV","all wheel drive","all wheel drive",,40690,39990,227,281,34,23,4431,4250
-250,2026,"Kia","Sorento","EX","EX","SUV","front wheel drive","front wheel drive",,38890,38490,227,281,37,23,4233,4074
-251,2023,"Kia","Sportage","LX","LX","SUV","front wheel drive","front wheel drive",,27490,26290,227,187,43,28,3713,3664
-252,2023,"Kia","Sportage","LX","LX","SUV","all wheel drive","all wheel drive",,29290,28090,227,187,38,25,3896,3834
-253,2023,"Kia","Sportage","EX","EX","SUV","all wheel drive","all wheel drive",,31190,30090,227,187,38,25,3896,3834
-254,2023,"Kia","Sportage","SX-Prestige","SX-Prestige","SUV","all wheel drive","all wheel drive",,36390,35590,227,187,38,25,3896,3834
-255,2024,"Kia","Sportage","LX","LX","SUV","all wheel drive","all wheel drive",,30090,28890,227,187,38,25,3757,3809
-256,2024,"Kia","Sportage","SX-Prestige","SX-Prestige","SUV","all wheel drive","all wheel drive",,37190,36390,227,187,38,25,3935,3809
-257,2024,"Kia","Sportage","LX","LX","SUV","front wheel drive","front wheel drive",,28290,27090,227,187,43,28,3757,3661
-258,2024,"Kia","Sportage","EX","EX","SUV","all wheel drive","all wheel drive",,31990,30890,227,187,38,25,3935,3809
-259,2025,"Kia","Sportage","LX","LX","SUV","front wheel drive","front wheel drive",,28790,27390,227,187,43,28,3757,3661
-260,2025,"Kia","Sportage","EX","EX","SUV","all wheel drive","all wheel drive",,32590,31290,227,187,38,25,3935,3809
-261,2025,"Kia","Sportage","LX","LX","SUV","all wheel drive","all wheel drive",,30590,29190,227,187,38,25,3935,3809
-262,2025,"Kia","Sportage","SX-Prestige","SX-Prestige","SUV","all wheel drive","all wheel drive",,37790,36790,227,187,38,25,3935,3809
-263,2026,"Kia","Sportage","SX-Prestige","SX-Prestige","SUV","all wheel drive","all wheel drive",,40590,38190,232,187,35,26,3994,3827
-264,2026,"Kia","Sportage","X-Line","X-Line","SUV","all wheel drive","all wheel drive",,35690,33090,232,187,35,26,3994,3827
-265,2026,"Kia","Sportage","LX","LX","SUV","front wheel drive","front wheel drive",,30490,28790,232,187,42,28,3831,3697
-266,2026,"Kia","Sportage","EX","EX","SUV","all wheel drive","all wheel drive",,33790,32390,232,187,35,26,3994,3827
-267,2013,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,39250,36370,200,268,40,24,3660,3549
-268,2014,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,39500,36620,200,268,40,24,3660,3549
-269,2015,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,40580,37700,200,268,40,24,3660,3549
-270,2016,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,41020,38100,200,268,40,24,3682,3571
-271,2017,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,41820,38900,200,268,40,24,3682,3571
-272,2018,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,41820,38950,200,268,40,24,3682,3571
-273,2019,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,41560,39750,215,302,44,26,3704,3649
-274,2019,"Lexus","ES","Luxury","Luxury","Sedan","front wheel drive","front wheel drive",,44215,42405,215,302,44,26,3704,3649
-275,2019,"Lexus","ES","Ultra Luxury","Ultra Luxury","Sedan","front wheel drive","front wheel drive",,45210,43400,215,302,44,26,3704,3649
-276,2020,"Lexus","ES","Ultra Luxury","Ultra Luxury","Sedan","front wheel drive","front wheel drive",,45660,43750,215,302,44,26,3704,3649
-277,2020,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,41810,39900,215,302,44,26,3704,3649
-278,2020,"Lexus","ES","Luxury","Luxury","Sedan","front wheel drive","front wheel drive",,44665,42755,215,302,44,26,3704,3649
-279,2021,"Lexus","ES","Ultra Luxury","Ultra Luxury","Sedan","front wheel drive","front wheel drive",,50910,49000,215,302,44,26,3730,3690
-280,2021,"Lexus","ES","Luxury","Luxury","Sedan","front wheel drive","front wheel drive",,47110,45200,215,302,44,26,3730,3690
-281,2021,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,41910,40000,215,302,44,26,3730,3690
-282,2022,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,42150,40950,215,302,44,26,3682,3690
-283,2022,"Lexus","ES","Ultra Luxury","Ultra Luxury","Sedan","front wheel drive","front wheel drive",,51330,50130,215,302,44,26,3682,3690
-284,2022,"Lexus","ES","Luxury","Luxury","Sedan","front wheel drive","front wheel drive",,47550,46350,215,302,44,26,3682,3690
-285,2022,"Lexus","ES","F SPORT","F SPORT","Sedan","front wheel drive","front wheel drive",,45700,45600,215,302,44,25,3682,3690
-286,2023,"Lexus","ES","F SPORT Design","F SPORT Design","Sedan","front wheel drive","front wheel drive",,47725,46525,215,302,44,25,3682,3690
-287,2023,"Lexus","ES","Ultra Luxury","Ultra Luxury","Sedan","front wheel drive","front wheel drive",,52130,50730,215,302,44,26,3682,3690
-288,2023,"Lexus","ES","Luxury","Luxury","Sedan","front wheel drive","front wheel drive",,48510,47110,215,302,44,26,3682,3690
-289,2023,"Lexus","ES","F SPORT Handling","F SPORT Handling","Sedan","front wheel drive","front wheel drive",,49635,48400,215,302,44,25,3682,3690
-290,2023,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,43340,41940,215,302,44,26,3682,3690
-291,2024,"Lexus","ES","300h","350","Sedan","front wheel drive","front wheel drive",,43440,42040,215,302,44,26,3730,3690
-292,2024,"Lexus","ES","300h F SPORT Handling","350 F SPORT Handling","Sedan","front wheel drive","front wheel drive",,49735,48500,215,302,44,25,3730,3690
-293,2024,"Lexus","ES","300h Luxury","350 Luxury","Sedan","front wheel drive","front wheel drive",,48610,47210,215,302,44,26,3730,3690
-294,2024,"Lexus","ES","300h Ultra Luxury","350 Ultra Luxury","Sedan","front wheel drive","front wheel drive",,52330,50930,215,302,44,26,3730,3690
-295,2024,"Lexus","ES","300h F SPORT Design","350 F SPORT Design","Sedan","front wheel drive","front wheel drive",,47825,46625,215,302,44,25,3730,3690
-296,2025,"Lexus","ES","300h F SPORT Handling","350 F SPORT Handling","Sedan","front wheel drive","front wheel drive",,49835,48600,215,302,44,25,3730,3690
-297,2025,"Lexus","ES","300h Luxury","350 Luxury","Sedan","front wheel drive","front wheel drive",,48710,47310,215,302,44,25,3730,3690
-298,2025,"Lexus","ES","300h","350","Sedan","front wheel drive","front wheel drive",,43540,42140,215,302,44,25,3730,3690
-299,2025,"Lexus","ES","300h Ultra Luxury","350 Ultra Luxury","Sedan","front wheel drive","front wheel drive",,52430,51030,215,302,44,25,3730,3690
-300,2025,"Lexus","ES","300h F SPORT Design","350 F SPORT Design","Sedan","front wheel drive","front wheel drive",,47925,46725,215,302,44,25,3730,3690
-301,2018,"Lexus","LS","Base","Base","Sedan","all wheel drive","all wheel drive",,82730,78220,354,416,26,21,5027,4905
-302,2018,"Lexus","LS","Base","Base","Sedan","rear wheel drive","rear wheel drive",,79510,75000,354,416,28,23,4850,4707
-303,2019,"Lexus","LS","Base","Base","Sedan","rear wheel drive","rear wheel drive",,79960,75450,354,416,28,23,4850,4707
-304,2019,"Lexus","LS","Base","Base","Sedan","all wheel drive","all wheel drive",,83180,78670,354,416,26,21,5027,4905
-305,2020,"Lexus","LS","Base","Base","Sedan","rear wheel drive","rear wheel drive",,80010,75450,354,416,28,23,4850,4707
-306,2020,"Lexus","LS","Base","Base","Sedan","all wheel drive","all wheel drive",,83230,78670,354,416,26,21,5027,4905
-307,2025,"Lexus","LX","700h F SPORT Handling","600 F SPORT Handling","SUV","four wheel drive","four wheel drive",,117000,113000,457,409,20,19,5945,5665
-308,2025,"Lexus","LX","700h Luxury","600 Luxury","SUV","four wheel drive","four wheel drive",,119000,115000,457,409,20,19,5945,5665
-309,2026,"Lexus","LX","700h F SPORT Handling","600 F SPORT Handling","SUV","four wheel drive","four wheel drive",,118000,114000,457,409,20,19,5665,5665
-310,2026,"Lexus","LX","700h Luxury","600 Luxury","SUV","four wheel drive","four wheel drive",,120000,116000,457,409,20,19,5945,5665
-311,2015,"Lexus","NX","Base","Base","SUV","front wheel drive","front wheel drive",,39720,34480,194,235,33,24,4055,3940
-312,2015,"Lexus","NX","Base","Base","SUV","all wheel drive","all wheel drive",,41310,35880,194,235,32,24,4180,4050
-313,2016,"Lexus","NX","Base","Base","SUV","front wheel drive","front wheel drive",,39720,34965,194,235,33,25,4055,3940
-314,2016,"Lexus","NX","Base","Base","SUV","all wheel drive","all wheel drive",,41310,36365,194,235,32,24,4180,4050
-315,2017,"Lexus","NX","Base","Base","SUV","all wheel drive","all wheel drive",,39720,36685,194,235,31,24,4180,4050
-316,2018,"Lexus","NX","Base","Base","SUV","all wheel drive","all wheel drive",,38335,37385,194,235,31,24,4180,4050
-317,2019,"Lexus","NX","Base","Base","SUV","all wheel drive","all wheel drive",,38835,37885,194,235,31,24,4180,4050
-318,2020,"Lexus","NX","Base","Base","SUV","all wheel drive","all wheel drive",,39070,38120,194,235,31,24,4180,4050
-319,2020,"Lexus","NX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,46160,45210,194,235,31,24,4180,4050
-320,2021,"Lexus","NX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,46610,45460,194,235,31,24,4180,4050
-321,2021,"Lexus","NX","Base","Base","SUV","all wheel drive","all wheel drive",,40160,39010,194,235,31,24,4180,4050
-322,2022,"Lexus","NX","Base","Base","SUV","all wheel drive","all wheel drive",,41550,39950,240,203,39,28,4080,3790
-323,2022,"Lexus","NX","Premium","Premium","SUV","all wheel drive","all wheel drive",,44600,43000,240,203,39,28,4080,3790
-324,2022,"Lexus","NX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,49000,46100,240,203,39,28,4080,3790
-325,2023,"Lexus","NX","Base","Base","SUV","all wheel drive","all wheel drive",,42655,40655,240,203,39,28,4080,3790
-326,2023,"Lexus","NX","Premium","Premium","SUV","all wheel drive","all wheel drive",,45705,43705,240,203,39,28,4080,3790
-327,2023,"Lexus","NX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,50105,46805,240,203,39,28,4080,3790
-328,2024,"Lexus","NX","350h Premium","250 Premium","SUV","all wheel drive","all wheel drive",,46515,44105,240,203,39,28,4080,3790
-329,2024,"Lexus","NX","350h","250","SUV","all wheel drive","all wheel drive",,43465,41055,240,203,39,28,4080,3790
-330,2024,"Lexus","NX","350h Luxury","350 Luxury","SUV","all wheel drive","all wheel drive",,49605,49355,240,275,39,24,4080,4035
-331,2025,"Lexus","NX","350h Luxury","350 Luxury","SUV","all wheel drive","all wheel drive",,51490,50790,240,275,39,24,4080,4035
-332,2025,"Lexus","NX","350h Premium","250 Premium","SUV","all wheel drive","all wheel drive",,47350,44490,240,203,39,28,4080,3790
-333,2025,"Lexus","NX","350h","250","SUV","all wheel drive","all wheel drive",,45425,42565,240,203,39,28,4080,3790
-334,2026,"Lexus","NX","350h Premium","350 Premium","SUV","all wheel drive","all wheel drive",,48650,47750,240,275,39,24,4080,4035
-335,2026,"Lexus","NX","350h","350","SUV","all wheel drive","all wheel drive",,46725,45825,240,275,39,24,4080,4035
-336,2026,"Lexus","NX","350h Luxury","350 Luxury","SUV","all wheel drive","all wheel drive",,52790,51890,240,275,39,24,4080,4035
-337,2026,"Lexus","NX","350h F SPORT Handling","350 F SPORT Handling","SUV","all wheel drive","all wheel drive",,55200,51800,240,275,39,24,4080,4035
-338,2018,"Lexus","RX","F SPORT","F SPORT","SUV","all wheel drive","all wheel drive",,51255,50520,308,295,30,22,4740,4387
-339,2018,"Lexus","RX","Base","Base","SUV","all wheel drive","all wheel drive",,45895,44870,308,295,30,22,4740,4387
-340,2018,"Lexus","RX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,54555,54085,308,290,30,21,4905,4619
-341,2019,"Lexus","RX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,54905,54435,308,290,30,21,4905,4619
-342,2019,"Lexus","RX","Base","Base","SUV","all wheel drive","all wheel drive",,50970,49420,308,290,30,21,4905,4619
-343,2019,"Lexus","RX","F SPORT","F SPORT","SUV","all wheel drive","all wheel drive",,51605,50870,308,295,30,22,4740,4387
-344,2020,"Lexus","RX","Base","Base","SUV","all wheel drive","all wheel drive",,46800,45550,308,295,30,22,4740,4387
-345,2020,"Lexus","RX","Base","Base","SUV","all wheel drive","all wheel drive",,50510,48700,308,295,29,21,4905,4619
-346,2020,"Lexus","RX","F SPORT","F SPORT","SUV","all wheel drive","all wheel drive",,50600,49350,308,295,30,22,4740,4387
-347,2020,"Lexus","RX","F SPORT Performance","F SPORT Performance","SUV","all wheel drive","all wheel drive",,52920,51750,308,295,30,22,4740,4387
-348,2020,"Lexus","RX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,56510,54700,308,295,29,21,4905,4619
-349,2021,"Lexus","RX","F SPORT","F SPORT","SUV","all wheel drive","all wheel drive",,51400,50100,308,295,30,22,4740,4387
-350,2021,"Lexus","RX","Base","Base","SUV","all wheel drive","all wheel drive",,47920,46620,308,295,30,22,4740,4387
-351,2021,"Lexus","RX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,57310,55400,308,290,29,21,4905,4619
-352,2021,"Lexus","RX","Base","Base","SUV","all wheel drive","all wheel drive",,51310,49400,308,290,29,21,4905,4619
-353,2022,"Lexus","RX","Base","Base","SUV","all wheel drive","all wheel drive",,48720,47320,308,295,30,22,4740,4387
-354,2022,"Lexus","RX","F SPORT","F SPORT","SUV","all wheel drive","all wheel drive",,52200,50800,308,295,30,22,4740,4387
-355,2022,"Lexus","RX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,58110,56150,308,290,29,21,4905,4619
-356,2022,"Lexus","RX","Base","Base","SUV","all wheel drive","all wheel drive",,52110,50150,308,290,29,21,4905,4619
-357,2023,"Lexus","RX","Base","Base","SUV","all wheel drive","all wheel drive",,49000,49000,246,275,36,24,4455,4221
-358,2023,"Lexus","RX","Premium","Premium","SUV","all wheel drive","all wheel drive",,51000,51000,246,275,36,24,4455,4221
-359,2023,"Lexus","RX","Premium Plus","Premium Plus","SUV","all wheel drive","all wheel drive",,53600,53600,246,275,36,24,4455,4221
-360,2023,"Lexus","RX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,57000,57000,246,275,36,24,4455,4221
-361,2024,"Lexus","RX","350h Premium Plus","350 Premium Plus","SUV","all wheel drive","all wheel drive",,54750,54200,246,275,36,24,4455,4310
-362,2024,"Lexus","RX","350h Premium","350 Premium","SUV","all wheel drive","all wheel drive",,52900,52350,246,275,36,24,4455,4310
-363,2024,"Lexus","RX","350h","350","SUV","all wheel drive","all wheel drive",,50750,50200,246,275,36,24,4455,4310
-364,2024,"Lexus","RX","350h Luxury","350 Luxury","SUV","all wheel drive","all wheel drive",,59880,59330,246,275,36,24,4455,4310
-365,2025,"Lexus","RX","350h F SPORT Design","350 F SPORT Design","SUV","all wheel drive","all wheel drive",,56005,55305,246,275,36,24,4480,4310
-366,2025,"Lexus","RX","350h Premium Plus","350 Premium Plus","SUV","all wheel drive","all wheel drive",,57165,56465,246,275,36,24,4480,4310
-367,2025,"Lexus","RX","350h Luxury","350 Luxury","SUV","all wheel drive","all wheel drive",,62220,61520,246,275,36,24,4480,4310
-368,2025,"Lexus","RX","350h Premium","350 Premium","SUV","all wheel drive","all wheel drive",,53675,52975,246,275,36,24,4480,4310
-369,2025,"Lexus","RX","350h","350","SUV","all wheel drive","all wheel drive",,51425,50725,246,275,36,24,4480,4310
-370,2026,"Lexus","RX","350h","350","SUV","all wheel drive","all wheel drive",,52825,52125,246,275,36,24,4480,4310
-371,2026,"Lexus","RX","350h F SPORT Design","350 F SPORT Design","SUV","all wheel drive","all wheel drive",,57330,56630,246,275,36,24,4480,4310
-372,2026,"Lexus","RX","350h Luxury","350 Luxury","SUV","all wheel drive","all wheel drive",,63545,62845,246,275,36,24,4480,4310
-373,2026,"Lexus","RX","350h Premium","350 Premium","SUV","all wheel drive","all wheel drive",,55000,54300,246,275,36,24,4480,4310
-374,2026,"Lexus","RX","350h Premium Plus","350 Premium Plus","SUV","all wheel drive","all wheel drive",,58490,57790,246,275,36,24,4480,4310
-375,2012,"Lincoln","MKZ","Hybrid","Base","Sedan","front wheel drive","front wheel drive",,34755,34755,191,263,39,21,3752,3598
-376,2013,"Lincoln","MKZ","Hybrid","Base","Sedan","front wheel drive","front wheel drive",,35925,35925,188,240,38,26,3828,3719
-377,2014,"Lincoln","MKZ","Hybrid","Base","Sedan","front wheel drive","front wheel drive",,35190,35190,188,231,38,26,3828,3719
-378,2015,"Lincoln","MKZ","Hybrid","Base","Sedan","front wheel drive","front wheel drive",,35190,35190,188,231,40,26,3792,3719
-379,2015,"Lincoln","MKZ","Black Label Hybrid","Black Label","Sedan","front wheel drive","front wheel drive",,45555,45555,188,231,40,26,3792,3719
-380,2016,"Lincoln","MKZ","Hybrid","Base","Sedan","front wheel drive","front wheel drive",,35190,35190,188,231,40,26,3792,3719
-381,2016,"Lincoln","MKZ","Black Label Hybrid","Black Label","Sedan","front wheel drive","front wheel drive",,45605,45605,188,231,40,26,3792,3719
-382,2017,"Lincoln","MKZ","Hybrid Reserve","Reserve","Sedan","front wheel drive","front wheel drive",,39670,39670,188,245,40,24,3871,3739
-383,2017,"Lincoln","MKZ","Hybrid Select","Select","Sedan","front wheel drive","front wheel drive",,36920,36920,188,245,40,24,3871,3739
-384,2017,"Lincoln","MKZ","Hybrid Premiere","Premiere","Sedan","front wheel drive","front wheel drive",,35170,35170,188,245,40,24,3871,3739
-385,2017,"Lincoln","MKZ","Hybrid Black Label","Black Label","Sedan","front wheel drive","front wheel drive",,47830,47830,188,245,40,24,3871,3739
-386,2018,"Lincoln","MKZ","Hybrid Reserve","Reserve","Sedan","front wheel drive","front wheel drive",,40170,40170,188,245,40,24,3871,3739
-387,2018,"Lincoln","MKZ","Hybrid Premiere","Premiere","Sedan","front wheel drive","front wheel drive",,35605,35605,188,245,40,24,3871,3739
-388,2018,"Lincoln","MKZ","Hybrid Select","Select","Sedan","front wheel drive","front wheel drive",,37355,37355,188,245,40,24,3871,3739
-389,2018,"Lincoln","MKZ","Hybrid Black Label","Black Label","Sedan","front wheel drive","front wheel drive",,47990,47990,188,245,40,24,3871,3739
-390,2019,"Lincoln","MKZ","Hybrid","Base","Sedan","front wheel drive","front wheel drive",,35995,35995,188,245,40,24,3849,3749
-391,2019,"Lincoln","MKZ","Hybrid Reserve I","Reserve I","Sedan","front wheel drive","front wheel drive",,38995,38995,188,245,40,24,3849,3749
-392,2019,"Lincoln","MKZ","Hybrid Reserve II","Reserve II","Sedan","front wheel drive","front wheel drive",,44995,44995,188,245,40,24,3849,3749
-393,2020,"Lincoln","MKZ","Hybrid Reserve","Reserve","Sedan","front wheel drive","front wheel drive",,42500,42500,188,245,41,24,3849,3749
-394,2025,"Mazda","CX-50","Hybrid Premium","2.5 S Premium","SUV","all wheel drive","all wheel drive",,37400,34200,219,187,38,28,4008,3741
-395,2025,"Mazda","CX-50","Hybrid Preferred","2.5 S Preferred","SUV","all wheel drive","all wheel drive",,33970,31850,219,187,38,28,4008,3741
-396,2026,"Mazda","CX-50","Hybrid Premium","2.5 S Premium","SUV","all wheel drive","all wheel drive",,38150,34900,219,187,38,26,4008,3741
-397,2026,"Mazda","CX-50","Hybrid Preferred","2.5 S Preferred","SUV","all wheel drive","all wheel drive",,34750,32400,219,187,38,26,4008,3741
-398,2013,"Mercedes-Benz","E-Class","E400 Hybrid","E350 Sport","Sedan","rear wheel drive","rear wheel drive",,55800,51000,302,302,26,23,4189,3825
-399,2014,"Mercedes-Benz","E-Class","E400 Sport Hybrid","E350 Sport","Sedan","rear wheel drive","rear wheel drive",,56700,51900,302,302,26,24,4409,4012
-400,2015,"Mercedes-Benz","E-Class","E400 Sport Hybrid","E 350 Sport","Sedan","rear wheel drive","rear wheel drive",,57100,52300,302,302,26,23,4255,4012
-401,2016,"Nissan","Murano","Platinum","Platinum","SUV","front wheel drive","front wheel drive",,42180,39180,250,260,29,24,4063,3891
-402,2016,"Nissan","Murano","SL","SL","SUV","all wheel drive","all wheel drive",,41730,38730,250,260,28,24,4145,3979
-403,2016,"Nissan","Murano","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,43780,40780,250,260,28,24,4189,4021
-404,2016,"Nissan","Murano","SL","SL","SUV","front wheel drive","front wheel drive",,40130,37130,250,260,29,24,4021,3847
-405,2014,"Nissan","Pathfinder","SV Hybrid","SV","SUV","four wheel drive","four wheel drive",,36900,33900,250,260,26,21,4558,4312
-406,2014,"Nissan","Pathfinder","Platinum Hybrid","Platinum","SUV","four wheel drive","four wheel drive",,44550,41550,250,260,26,21,4714,4471
-407,2014,"Nissan","Pathfinder","SL Hybrid","SL","SUV","front wheel drive","front wheel drive",,38250,35250,250,260,26,22,4451,4205
-408,2014,"Nissan","Pathfinder","SV Hybrid","SV","SUV","front wheel drive","front wheel drive",,35300,32300,250,260,26,22,4417,4170
-409,2014,"Nissan","Pathfinder","SL Hybrid","SL","SUV","four wheel drive","four wheel drive",,39850,36850,250,260,26,21,4592,4346
-410,2014,"Nissan","Pathfinder","Platinum Hybrid","Platinum","SUV","front wheel drive","front wheel drive",,42950,39950,250,260,26,22,4573,4330
-411,2017,"Nissan","Rogue","SL Hybrid","SL","SUV","all wheel drive","all wheel drive",,32910,31710,176,170,33,27,3814,3627
-412,2017,"Nissan","Rogue","SL Hybrid","SL","SUV","front wheel drive","front wheel drive",,31560,30360,176,170,34,29,3693,3505
-413,2017,"Nissan","Rogue","SV Hybrid","SV","SUV","all wheel drive","all wheel drive",,27990,26990,176,170,33,27,3746,3571
-414,2017,"Nissan","Rogue","SV Hybrid","SV","SUV","front wheel drive","front wheel drive",,26640,25640,176,170,34,29,3624,3441
-415,2018,"Nissan","Rogue","SV Hybrid","SV","SUV","front wheel drive","front wheel drive",,27020,26020,176,170,34,29,3663,3488
-416,2018,"Nissan","Rogue","SV Hybrid","SV","SUV","all wheel drive","all wheel drive",,28370,27370,176,170,33,27,3784,3614
-417,2018,"Nissan","Rogue","SL Hybrid","SL","SUV","front wheel drive","front wheel drive",,32380,31180,176,170,34,29,3717,3541
-418,2018,"Nissan","Rogue","SL Hybrid","SL","SUV","all wheel drive","all wheel drive",,33730,32530,176,170,33,27,3818,3659
-419,2019,"Nissan","Rogue","SV Hybrid","SV","SUV","all wheel drive","all wheel drive",,29050,27790,176,170,33,27,3787,3614
-420,2019,"Nissan","Rogue","SV Hybrid","SV","SUV","front wheel drive","front wheel drive",,27700,26440,176,170,34,29,3666,3488
-421,2012,"Porsche","Cayenne","S Hybrid","S","SUV","four wheel drive","four wheel drive",,69000,65000,380,400,21,18,4938,4553
-422,2013,"Porsche","Cayenne","S Hybrid","S","SUV","all wheel drive","all wheel drive",,69850,65850,380,400,21,18,4938,4553
-423,2014,"Porsche","Cayenne","S Hybrid","S","SUV","all wheel drive","all wheel drive",,70900,66800,380,400,21,18,4938,4553
-424,2014,"Subaru","Crosstrek","Hybrid","Limited","SUV","all wheel drive","all wheel drive",,25995,24495,160,148,31,28,3451,3175
-425,2015,"Subaru","Crosstrek","Hybrid","2.0i Limited PZEV","SUV","all wheel drive","all wheel drive",,25995,24795,160,148,31,29,3451,3208
-426,2016,"Subaru","Crosstrek","Hybrid","2.0i Limited PZEV","SUV","all wheel drive","all wheel drive",,26395,25095,160,148,31,29,3451,3208
-427,2026,"Subaru","Crosstrek","Sport Hybrid","Sport","SUV","all wheel drive","all wheel drive",,33995,30625,194,180,36,29,3677,3332
-428,2026,"Subaru","Crosstrek","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,34995,32995,194,180,36,29,3662,3349
-429,2025,"Subaru","Forester","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,41010,37695,194,180,35,29,3911,3613
-430,2025,"Subaru","Forester","Sport Hybrid","Sport","SUV","all wheel drive","all wheel drive",,39595,36105,194,180,35,28,3913,3611
-431,2025,"Subaru","Forester","Touring Hybrid","Touring","SUV","all wheel drive","all wheel drive",,43295,41595,194,180,35,28,3946,3664
-432,2025,"Subaru","Forester","Premium Hybrid","Premium","SUV","all wheel drive","all wheel drive",,36595,33385,194,180,35,29,3873,3569
-433,2026,"Subaru","Forester","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,38995,35995,194,180,35,29,3911,3613
-434,2026,"Subaru","Forester","Premium Hybrid","Premium","SUV","all wheel drive","all wheel drive",,34730,31995,194,180,35,29,3873,3569
-435,2026,"Subaru","Forester","Touring Hybrid","Touring","SUV","all wheel drive","all wheel drive",,41545,39995,194,180,35,28,3946,3664
-436,2026,"Subaru","Forester","Sport Hybrid","Sport","SUV","all wheel drive","all wheel drive",,37930,34795,194,180,35,28,3913,3611
-437,2025,"Toyota","4Runner","TRD Off-Road","TRD Off-Road","SUV","four wheel drive","four wheel drive",,52490,49690,326,278,23,21,5225,4850
-438,2025,"Toyota","4Runner","TRD Off-Road Premium","TRD Off-Road Premium","SUV","four wheel drive","four wheel drive",,58270,55470,326,278,23,21,5225,4850
-439,2025,"Toyota","4Runner","Limited","Limited","SUV","four wheel drive","four wheel drive",,60700,57900,326,278,23,21,5370,4970
-440,2026,"Toyota","4Runner","Limited","Limited","SUV","four wheel drive","four wheel drive",,61300,58500,326,278,23,21,5370,4970
-441,2026,"Toyota","4Runner","TRD Off-Road Premium","TRD Off-Road Premium","SUV","four wheel drive","four wheel drive",,58870,56070,326,278,23,21,5225,4850
-442,2026,"Toyota","4Runner","TRD Off-Road","TRD Off-Road","SUV","four wheel drive","four wheel drive",,53090,50290,326,278,23,21,5225,4850
-443,2013,"Toyota","Avalon","XLE Premium","XLE Premium","Sedan","front wheel drive","front wheel drive",,35555,33195,200,268,40,25,3594,3461
-444,2013,"Toyota","Avalon","XLE Touring","XLE Touring","Sedan","front wheel drive","front wheel drive",,37250,35500,200,268,40,24,3594,3505
-445,2013,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,41400,39650,200,268,40,24,3638,3538
-446,2014,"Toyota","Avalon","XLE Premium","XLE Premium","Sedan","front wheel drive","front wheel drive",,35805,33445,200,268,40,25,3594,3461
-447,2014,"Toyota","Avalon","XLE Touring","XLE Touring","Sedan","front wheel drive","front wheel drive",,37000,35250,200,268,40,24,3594,3505
-448,2014,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,41650,39900,200,268,40,24,3638,3538
-449,2015,"Toyota","Avalon","XLE Premium","XLE Premium","Sedan","front wheel drive","front wheel drive",,36470,34140,200,268,40,24,3638,3505
-450,2015,"Toyota","Avalon","XLE Touring","XLE Touring","Sedan","front wheel drive","front wheel drive",,37800,36080,200,268,40,24,3638,3549
-451,2015,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,41700,39980,200,268,40,24,3682,3583
-452,2016,"Toyota","Avalon","XLE Premium","XLE Premium","Sedan","front wheel drive","front wheel drive",,38100,35850,200,268,40,24,3594,3461
-453,2016,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,41950,40450,200,268,40,24,3638,3538
-454,2016,"Toyota","Avalon","XLE Plus","XLE Plus","Sedan","front wheel drive","front wheel drive",,36650,34400,200,268,40,24,3594,3461
-455,2017,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,42600,41100,200,268,40,24,3638,3538
-456,2017,"Toyota","Avalon","XLE Premium","XLE Premium","Sedan","front wheel drive","front wheel drive",,38750,36500,200,268,40,24,3594,3461
-457,2017,"Toyota","Avalon","XLE Plus","XLE Plus","Sedan","front wheel drive","front wheel drive",,37300,35050,200,268,40,24,3594,3461
-458,2018,"Toyota","Avalon","XLE Plus","XLE Plus","Sedan","front wheel drive","front wheel drive",,37500,35250,200,268,40,24,3594,3461
-459,2018,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,42800,41300,200,268,40,24,3638,3538
-460,2018,"Toyota","Avalon","XLE Premium","XLE Premium","Sedan","front wheel drive","front wheel drive",,38950,36700,200,268,40,24,3594,3461
-461,2019,"Toyota","Avalon","XLE","XLE","Sedan","front wheel drive","front wheel drive",,36650,35650,215,301,44,26,3638,3560
-462,2019,"Toyota","Avalon","XSE","XSE","Sedan","front wheel drive","front wheel drive",,39150,38150,215,301,43,25,3671,3638
-463,2019,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,42950,41950,215,301,43,25,3715,3660
-464,2020,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,43300,42175,215,301,43,25,3715,3660
-465,2020,"Toyota","Avalon","XLE","XLE","Sedan","front wheel drive","front wheel drive",,37000,35875,215,301,44,26,3638,3560
-466,2020,"Toyota","Avalon","XSE","XSE","Sedan","front wheel drive","front wheel drive",,39500,38375,215,301,43,25,3671,3638
-467,2021,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,43400,42425,215,301,43,25,3695,3695
-468,2021,"Toyota","Avalon","XLE","XLE","Sedan","front wheel drive","front wheel drive",,37100,36125,215,301,44,26,3610,3570
-469,2022,"Toyota","Avalon","XLE","XLE","Sedan","front wheel drive","front wheel drive",,37850,36825,215,301,44,26,3610,3570
-470,2022,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,44150,43125,215,301,43,25,3695,3695
-471,2012,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,25990,22600,200,178,41,28,3435,3190
-472,2012,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,27500,24775,200,178,40,28,3525,3245
-473,2013,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,27670,24855,200,178,40,28,3525,3245
-474,2013,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,26140,22680,200,178,41,28,3435,3190
-475,2014,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,26330,22870,200,178,41,28,3435,3215
-476,2014,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,28625,25810,200,178,40,28,3525,3280
-477,2015,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,29980,26150,200,178,40,28,3585,3340
-478,2015,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,26790,22970,200,178,41,28,3485,3240
-479,2015,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,27995,23840,200,178,40,28,3565,3300
-480,2016,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,27995,23840,200,178,40,28,3565,3300
-481,2016,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,26790,23070,200,178,41,28,3485,3240
-482,2016,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,30140,26310,200,178,40,28,3585,3340
-483,2017,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,27995,23840,200,178,38,27,3565,3300
-484,2017,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,30140,26310,200,178,38,27,3585,3340
-485,2017,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,26790,23070,200,178,40,27,3485,3240
-486,2018,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,27950,24150,208,203,52,32,3472,3296
-487,2018,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,32400,28600,208,203,46,32,3571,3351
-488,2018,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,29650,25350,208,203,46,32,3549,3340
-489,2019,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,32975,29175,208,203,46,32,3571,3351
-490,2019,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,28400,24600,208,203,52,32,3472,3296
-491,2019,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,30100,25800,208,203,46,32,3549,3340
-492,2020,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,30130,26170,208,203,46,32,3549,3340
-493,2020,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,32730,29455,208,203,46,31,3572,3351
-494,2020,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,28430,24970,208,203,52,32,3472,3296
-495,2021,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,27270,25045,208,203,52,32,3480,3310
-496,2021,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,32170,29945,208,203,46,31,3580,3380
-497,2021,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,28785,26560,208,203,46,32,3535,3340
-498,2021,"Toyota","Camry","XSE","XSE","Sedan","front wheel drive","front wheel drive",,32720,30495,208,206,46,31,3565,3425
-499,2022,"Toyota","Camry","XSE","XSE","Sedan","front wheel drive","front wheel drive",,33420,31145,208,206,46,31,3580,3425
-500,2022,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,29515,27385,208,203,46,32,3535,3340
-501,2022,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,27980,25845,208,203,52,32,3480,3310
-502,2022,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,32870,30595,208,203,46,31,3565,3380
-503,2023,"Toyota","Camry","XSE","XSE","Sedan","front wheel drive","front wheel drive",,34095,31620,208,206,46,31,3580,3425
-504,2023,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,28655,26320,208,203,52,32,3480,3310
-505,2023,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,33545,31070,208,203,46,31,3565,3380
-506,2023,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,30190,27860,208,203,46,32,3535,3340
-507,2024,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,28855,26420,208,203,52,32,3480,3310
-508,2024,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,30390,27960,208,203,46,32,3535,3340
-509,2024,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,33745,31170,208,203,46,31,3565,3380
-510,2024,"Toyota","Camry","XSE","XSE","Sedan","front wheel drive","front wheel drive",,34295,31720,208,206,46,31,3580,3425
-511,2020,"Toyota","Corolla","LE","LE","Sedan","front wheel drive","front wheel drive",,23100,20050,121,139,52,33,2850,2955
-512,2021,"Toyota","Corolla","LE","LE","Sedan","front wheel drive","front wheel drive",,23600,20475,121,139,52,33,2850,2955
-513,2022,"Toyota","Corolla","LE","LE","Sedan","front wheel drive","front wheel drive",,24050,20875,121,139,52,33,2850,2955
-514,2023,"Toyota","Corolla","LE","LE","Sedan","front wheel drive","front wheel drive",,23050,21700,134,169,50,35,2850,2955
-515,2023,"Toyota","Corolla","SE","SE","Sedan","front wheel drive","front wheel drive",,25490,24140,134,169,47,34,2850,3110
-516,2024,"Toyota","Corolla","LE","LE","Sedan","front wheel drive","front wheel drive",,23500,22050,138,169,50,35,2850,2955
-517,2024,"Toyota","Corolla","SE","SE","Sedan","front wheel drive","front wheel drive",,25940,24490,138,169,47,34,3140,3110
-518,2024,"Toyota","Corolla","Nightshade","Nightshade","Sedan","front wheel drive","front wheel drive",,26940,25490,138,169,47,34,3140,3110
-519,2025,"Toyota","Corolla","LE","LE","Sedan","front wheel drive","front wheel drive",,23825,22325,138,169,47,35,2850,2955
-520,2025,"Toyota","Corolla","SE","SE","Sedan","front wheel drive","front wheel drive",,26265,24765,138,169,47,34,3140,3110
-521,2026,"Toyota","Corolla","LE","LE","Sedan","front wheel drive","front wheel drive",,24975,23125,138,169,50,35,2850,2955
-522,2026,"Toyota","Corolla","SE","SE","Sedan","front wheel drive","front wheel drive",,27415,25565,138,169,47,34,3140,3110
-523,2023,"Toyota","Corolla Cross","S","L","SUV","all wheel drive","all wheel drive",,27970,24910,196,169,42,30,3395,3295
-524,2023,"Toyota","Corolla Cross","SE","LE","SUV","all wheel drive","all wheel drive",,29290,27240,196,169,42,30,3385,3285
-525,2023,"Toyota","Corolla Cross","XSE","XLE","SUV","all wheel drive","all wheel drive",,31065,29015,196,169,42,30,3430,3325
-526,2024,"Toyota","Corolla Cross","XSE","XLE","SUV","all wheel drive","all wheel drive",,31405,29385,196,169,42,30,3430,3325
-527,2024,"Toyota","Corolla Cross","S","L","SUV","all wheel drive","all wheel drive",,28220,25160,196,169,42,30,3395,3295
-528,2024,"Toyota","Corolla Cross","SE","LE","SUV","all wheel drive","all wheel drive",,29540,27490,196,169,42,30,3385,3285
-529,2025,"Toyota","Corolla Cross","S","L","SUV","all wheel drive","all wheel drive",,28495,25435,196,169,42,30,3340,3274
-530,2025,"Toyota","Corolla Cross","SE","LE","SUV","all wheel drive","all wheel drive",,29815,27765,196,169,42,30,3329,3263
-531,2025,"Toyota","Corolla Cross","XSE","XLE","SUV","all wheel drive","all wheel drive",,31680,29660,196,169,42,30,3373,3296
-532,2026,"Toyota","Corolla Cross","XSE","XLE","SUV","all wheel drive","all wheel drive",,33430,31410,196,169,42,30,3373,3296
-533,2026,"Toyota","Corolla Cross","S","L","SUV","all wheel drive","all wheel drive",,29395,26335,196,169,42,30,3340,3274
-534,2026,"Toyota","Corolla Cross","SE","LE","SUV","all wheel drive","all wheel drive",,30715,28665,196,169,42,30,3329,3263
-535,2024,"Toyota","Grand Highlander","XLE","XLE","SUV","front wheel drive","front wheel drive",,45020,43320,245,265,36,24,4455,4300
-536,2024,"Toyota","Grand Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,46620,44920,245,265,34,23,4575,4455
-537,2024,"Toyota","Grand Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,51410,49710,245,265,34,22,4710,4575
-538,2025,"Toyota","Grand Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,51710,49960,245,265,34,22,4620,4485
-539,2025,"Toyota","Grand Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,46980,45230,245,265,34,23,4565,4440
-540,2025,"Toyota","Grand Highlander","XLE","XLE","SUV","front wheel drive","front wheel drive",,45380,43630,245,265,36,24,4465,4290
-541,2025,"Toyota","Grand Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,44210,42460,245,265,36,23,4565,4440
-542,2026,"Toyota","Grand Highlander","XLE","XLE","SUV","front wheel drive","front wheel drive",,46380,44630,245,265,36,24,4465,4290
-543,2026,"Toyota","Grand Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,45210,43460,245,265,34,23,4565,4440
-544,2026,"Toyota","Grand Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,47980,46230,245,265,34,23,4565,4440
-545,2026,"Toyota","Grand Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,52710,50960,245,265,34,22,4620,4485
-546,2012,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,44370,37195,280,270,28,19,4762,4464
-547,2013,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,46370,39400,280,270,28,19,4762,4464
-548,2014,"Toyota","Highlander","Limited Platinum","Limited Platinum","SUV","all wheel drive","all wheel drive",,49790,43590,280,270,28,20,4861,4509
-549,2014,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,47300,41100,280,270,28,20,4861,4509
-550,2015,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,47850,41650,280,270,28,20,4861,4508
-551,2015,"Toyota","Highlander","Limited Platinum","Limited Platinum","SUV","all wheel drive","all wheel drive",,50340,44140,280,270,28,20,4861,4508
-552,2016,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,47870,42375,280,270,28,20,4861,4508
-553,2016,"Toyota","Highlander","Limited Platinum","Limited Platinum","SUV","all wheel drive","all wheel drive",,50485,44990,280,270,28,20,4861,4508
-554,2017,"Toyota","Highlander","Limited Platinum","Limited Platinum","SUV","all wheel drive","all wheel drive",,47880,46260,306,295,28,22,4965,4508
-555,2017,"Toyota","Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,36270,34140,306,295,29,23,4825,4398
-556,2017,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,41330,39980,306,295,28,22,4910,4464
-557,2017,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,44760,43140,306,295,28,22,4965,4508
-558,2018,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,45360,43740,306,295,28,22,4861,4508
-559,2018,"Toyota","Highlander","Limited Platinum","Limited Platinum","SUV","all wheel drive","all wheel drive",,48480,46860,306,295,28,22,4861,4508
-560,2018,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,41930,40580,306,295,28,22,4464,4464
-561,2018,"Toyota","Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,36870,34740,306,295,29,22,4398,4398
-562,2019,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,46060,44390,306,295,28,22,4861,4508
-563,2019,"Toyota","Highlander","Limited Platinum","Limited Platinum","SUV","all wheel drive","all wheel drive",,49180,47510,306,295,28,22,4861,4508
-564,2019,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,42580,41180,306,295,28,22,4464,4464
-565,2019,"Toyota","Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,37520,35340,306,295,29,22,4398,4398
-566,2020,"Toyota","Highlander","LE","LE","SUV","front wheel drive","front wheel drive",,38200,36800,243,295,36,24,4330,4145
-567,2020,"Toyota","Highlander","Platinum","Platinum","SUV","front wheel drive","front wheel drive",,48250,46850,243,295,36,24,4430,4260
-568,2020,"Toyota","Highlander","XLE","XLE","SUV","front wheel drive","front wheel drive",,41000,39600,243,295,36,24,4365,4195
-569,2020,"Toyota","Highlander","Limited","Limited","SUV","front wheel drive","front wheel drive",,45050,43650,243,295,36,24,4430,4260
-570,2020,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,47000,45600,243,295,35,23,4595,4450
-571,2020,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,42600,41200,243,295,35,23,4515,4370
-572,2020,"Toyota","Highlander","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,50200,48800,243,295,35,23,4595,4450
-573,2020,"Toyota","Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,39800,38400,243,295,35,23,4465,4330
-574,2021,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,47440,45990,243,295,35,23,4595,4450
-575,2021,"Toyota","Highlander","Limited","Limited","SUV","front wheel drive","front wheel drive",,45490,44040,243,295,36,24,4430,4260
-576,2021,"Toyota","Highlander","XLE","XLE","SUV","front wheel drive","front wheel drive",,41535,40085,243,295,36,24,4365,4195
-577,2021,"Toyota","Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,40335,38885,243,295,35,23,4465,4330
-578,2021,"Toyota","Highlander","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,50640,49190,243,295,35,23,4595,4450
-579,2021,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,43135,41685,243,295,35,23,4515,4370
-580,2021,"Toyota","Highlander","Platinum","Platinum","SUV","front wheel drive","front wheel drive",,48690,47240,243,295,36,24,4430,4260
-581,2021,"Toyota","Highlander","LE","LE","SUV","front wheel drive","front wheel drive",,38735,37285,243,295,36,24,4330,4145
-582,2022,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,48460,46960,243,295,35,23,4595,4450
-583,2022,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,44155,42655,243,295,35,23,4515,4370
-584,2022,"Toyota","Highlander","Platinum","Platinum","SUV","front wheel drive","front wheel drive",,49510,48010,243,295,36,24,4430,4260
-585,2022,"Toyota","Highlander","LE","LE","SUV","front wheel drive","front wheel drive",,39555,38055,243,295,36,24,4330,4145
-586,2022,"Toyota","Highlander","Limited","Limited","SUV","front wheel drive","front wheel drive",,46510,45010,243,295,36,24,4430,4260
-587,2022,"Toyota","Highlander","XLE","XLE","SUV","front wheel drive","front wheel drive",,42555,41055,243,295,36,24,4365,4195
-588,2022,"Toyota","Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,41155,39655,243,295,35,23,4465,4330
-589,2022,"Toyota","Highlander","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,51460,49960,243,295,35,23,4595,4450
-590,2023,"Toyota","Highlander","LE","LE","SUV","front wheel drive","front wheel drive",,40620,39020,243,265,36,25,4330,4155
-591,2023,"Toyota","Highlander","XLE","XLE","SUV","front wheel drive","front wheel drive",,43620,42020,243,265,36,25,4365,4199
-592,2023,"Toyota","Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,42220,40620,243,265,35,24,4465,4332
-593,2023,"Toyota","Highlander","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,53025,51425,243,265,35,24,4595,4453
-594,2023,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,45220,43620,243,265,35,24,4515,4376
-595,2023,"Toyota","Highlander","Platinum","Platinum","SUV","front wheel drive","front wheel drive",,51075,49475,243,265,36,25,4430,4265
-596,2023,"Toyota","Highlander","Limited","Limited","SUV","front wheel drive","front wheel drive",,47875,46275,243,265,36,25,4430,4265
-597,2023,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,49825,48225,243,265,35,24,4595,4453
-598,2024,"Toyota","Highlander","XLE","XLE","SUV","front wheel drive","front wheel drive",,44120,42420,243,265,36,25,4365,4199
-599,2024,"Toyota","Highlander","LE","LE","SUV","front wheel drive","front wheel drive",,40970,39270,243,265,36,25,4330,4155
-600,2024,"Toyota","Highlander","Limited","Limited","SUV","front wheel drive","front wheel drive",,48225,46525,243,265,36,25,4430,4265
-601,2024,"Toyota","Highlander","Platinum","Platinum","SUV","front wheel drive","front wheel drive",,51425,49725,243,265,36,25,4430,4265
-602,2024,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,50175,48475,243,265,35,24,4595,4453
-603,2024,"Toyota","Highlander","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,53375,51675,243,265,35,24,4595,4453
-604,2024,"Toyota","Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,42570,40870,243,265,35,24,4465,4332
-605,2024,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,45720,44020,243,265,35,24,4515,4376
-606,2025,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,46820,45070,243,265,35,24,4515,4376
-607,2025,"Toyota","Highlander","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,54475,52725,243,265,35,24,4595,4453
-608,2025,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,51275,49525,243,265,35,24,4595,4453
-609,2026,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,47620,45870,243,265,35,24,4515,4376
-610,2026,"Toyota","Highlander","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,55275,53525,243,265,35,24,4595,4453
-611,2026,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,52075,50325,243,265,35,24,4595,4453
-612,2016,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,33610,32910,194,176,33,25,3950,3630
-613,2016,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,28370,27670,194,176,33,25,3925,3605
-614,2017,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,34030,32305,194,176,32,24,3950,3630
-615,2017,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,29030,26900,194,176,32,25,3925,3605
-616,2017,"Toyota","RAV4","SE","SE","SUV","all wheel drive","all wheel drive",,32185,30190,194,176,32,25,3950,3630
-617,2018,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,29280,27150,194,176,32,25,3925,3605
-618,2018,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,34280,32555,194,176,32,24,3950,3630
-619,2018,"Toyota","RAV4","SE","SE","SUV","all wheel drive","all wheel drive",,32435,30440,194,176,32,24,3950,3630
-620,2018,"Toyota","RAV4","LE","LE","SUV","all wheel drive","all wheel drive",,27385,26060,194,176,32,25,3925,3570
-621,2019,"Toyota","RAV4","LE","LE","SUV","all wheel drive","all wheel drive",,27850,27050,219,203,39,30,3710,3490
-622,2019,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,29650,28850,219,203,39,28,3755,3490
-623,2019,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,35850,35050,219,203,39,28,3800,3620
-624,2020,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,36880,35880,219,203,40,28,3800,3620
-625,2020,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,29645,28645,219,203,40,29,3755,3490
-626,2020,"Toyota","RAV4","LE","LE","SUV","all wheel drive","all wheel drive",,28350,27350,219,203,40,30,3710,3490
-627,2021,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,30195,29045,219,203,40,29,3775,3490
-628,2021,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,37430,36280,219,203,40,28,3780,3620
-629,2021,"Toyota","RAV4","LE","LE","SUV","all wheel drive","all wheel drive",,28900,27750,219,203,40,30,3690,3490
-630,2021,"Toyota","RAV4","XLE Premium","XLE Premium","SUV","all wheel drive","all wheel drive",,32900,31750,219,203,40,29,3755,3490
-631,2022,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,31045,29845,219,203,40,29,3775,3560
-632,2022,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,38075,36875,219,203,40,28,3805,3690
-633,2022,"Toyota","RAV4","LE","LE","SUV","all wheel drive","all wheel drive",,29575,28375,219,203,40,30,3710,3510
-634,2022,"Toyota","RAV4","XLE Premium","XLE Premium","SUV","all wheel drive","all wheel drive",,33935,32735,219,203,40,29,3755,3560
-635,2023,"Toyota","RAV4","LE","LE","SUV","all wheel drive","all wheel drive",,31225,29675,219,203,40,30,3710,3510
-636,2023,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,39530,37980,219,203,40,28,3805,3690
-637,2023,"Toyota","RAV4","XLE Premium","XLE Premium","SUV","all wheel drive","all wheel drive",,35625,34075,219,203,40,29,3755,3560
-638,2023,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,32735,31185,219,203,40,29,3775,3560
-639,2024,"Toyota","RAV4","LE","LE","SUV","all wheel drive","all wheel drive",,31725,30075,219,203,39,30,3710,3490
-640,2024,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,33235,31585,219,203,39,29,3775,3515
-641,2024,"Toyota","RAV4","XLE Premium","XLE Premium","SUV","all wheel drive","all wheel drive",,36125,34475,219,203,39,29,3755,3515
-642,2024,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,40030,38380,219,203,39,28,3805,3640
-643,2025,"Toyota","RAV4","LE","LE","SUV","all wheel drive","all wheel drive",,32850,31200,219,203,39,30,3690,3490
-644,2025,"Toyota","RAV4","XLE Premium","XLE Premium","SUV","all wheel drive","all wheel drive",,37250,35600,219,203,39,29,3755,3515
-645,2025,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,41155,39505,219,203,39,28,3800,3640
-646,2025,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,34360,32710,219,203,39,29,3775,3515
-647,2024,"Toyota","Tacoma","TRD Sport","TRD Sport","Truck (Double Cab)","four wheel drive","four wheel drive",5,46300,42600,326,278,,20,5045,4485
-648,2024,"Toyota","Tacoma","TRD Off-Road","TRD Off-Road","Truck (Double Cab)","four wheel drive","four wheel drive",5,46600,42900,326,278,,21,5030,4485
-649,2024,"Toyota","Tacoma","Limited","Limited","Truck (Double Cab)","four wheel drive","four wheel drive",5,55800,52100,326,278,,21,5170,4485
-650,2025,"Toyota","Tacoma","Limited","Limited","Truck (Double Cab)","four wheel drive","four wheel drive",5,56280,52955,326,278,23,21,5170,4715
-651,2025,"Toyota","Tacoma","TRD Sport","TRD Sport","Truck (Double Cab)","four wheel drive","four wheel drive",5,46720,43000,326,278,23,21,5045,4575
-652,2025,"Toyota","Tacoma","TRD Off-Road","TRD Off-Road","Truck (Double Cab)","four wheel drive","four wheel drive",5,47020,43300,326,278,23,21,5030,4630
-653,2026,"Toyota","Tacoma","TRD Off-Road","TRD Off-Road","Truck (Double Cab)","four wheel drive","four wheel drive",5,47335,43615,326,278,23,21,5030,4630
-654,2026,"Toyota","Tacoma","TRD Sport","TRD Sport","Truck (Double Cab)","four wheel drive","four wheel drive",5,47035,43315,326,278,23,21,5045,4575
-655,2026,"Toyota","Tacoma","Limited","Limited","Truck (Double Cab)","four wheel drive","four wheel drive",5,56595,53270,326,278,23,21,5170,4715
-656,2022,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,65120,61720,437,389,20,19,6185,5800
-657,2022,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,64420,61020,437,389,20,19,6185,5800
-658,2022,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,56330,52930,437,389,20,19,6095,5720
-659,2022,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,64790,61390,437,389,20,19,6095,5620
-660,2022,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,62120,58720,437,389,22,20,5865,5535
-661,2022,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,64090,60690,437,389,20,19,6095,5620
-662,2022,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,61420,58020,437,389,22,20,5865,5535
-663,2022,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,53330,49930,437,389,22,20,5785,5465
-664,2022,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,56000,52600,437,389,20,19,6010,5490
-665,2022,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,61790,58390,437,389,22,20,5800,5325
-666,2022,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,61090,57690,437,389,22,20,5800,5325
-667,2022,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,53000,49600,437,389,22,20,5710,5245
-668,2023,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,56415,52615,437,389,22,20,5710,5245
-669,2023,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,64505,60775,437,389,22,20,5800,5325
-670,2023,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,65205,61460,437,389,22,20,5800,5325
-671,2023,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,56745,52945,437,389,22,20,5785,5465
-672,2023,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,64835,61105,437,389,22,20,5865,5535
-673,2023,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,65535,61790,437,389,22,20,5865,5535
-674,2023,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,59415,55615,437,389,20,19,6010,5490
-675,2023,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,67505,63775,437,389,20,19,6095,5620
-676,2023,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,68205,64460,437,389,20,19,6095,5620
-677,2023,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,59745,55945,437,389,20,19,6095,5720
-678,2023,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,67835,64105,437,389,20,19,6185,5800
-679,2023,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,68535,64790,437,389,20,19,6185,5800
-680,2024,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,66735,62790,437,389,22,20,5865,5535
-681,2024,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,66035,62105,437,389,22,20,5865,5535
-682,2024,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,65705,61775,437,389,22,20,5800,5325
-683,2024,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,57625,53905,437,389,22,20,5710,5245
-684,2024,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,57955,54235,437,389,22,20,5785,5465
-685,2024,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,66405,62460,437,389,22,20,5800,5325
-686,2024,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,68705,64775,437,389,20,19,6095,5620
-687,2024,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,60625,56905,437,389,20,19,6010,5490
-688,2024,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,69735,65790,437,389,20,19,6185,5800
-689,2024,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,69035,65105,437,389,20,19,6185,5800
-690,2024,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,69405,65460,437,389,20,19,6095,5620
-691,2024,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,60955,57235,437,389,20,19,6095,5720
-692,2025,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,58005,54305,437,389,22,20,5710,5245
-693,2025,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,67585,63675,437,389,22,20,5800,5325
-694,2025,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,68285,64360,437,389,22,20,5800,5325
-695,2025,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,58335,54635,437,389,22,20,5785,5465
-696,2025,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,61005,57305,437,389,20,19,6010,5490
-697,2025,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,70585,66675,437,389,20,19,6095,5620
-698,2025,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,71285,67360,437,389,20,19,6095,5620
-699,2025,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,61335,57635,437,389,20,19,6095,5720
-700,2025,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,70915,67005,437,389,20,19,6185,5800
-701,2025,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,71615,67690,437,389,20,19,6185,5800
-702,2026,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,58890,55190,437,389,22,20,5810,5480
-703,2026,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,58560,54860,437,389,22,20,5745,5355
-704,2026,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,61890,58190,437,389,20,19,6120,5730
-705,2026,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,70605,66695,437,389,20,19,6120,5730
-706,2026,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,71305,67380,437,389,20,19,6120,5730
-707,2026,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,61560,57860,437,389,20,19,6010,5590
-708,2026,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,70935,67025,437,389,20,19,6205,5830
-709,2026,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,71635,67710,437,389,20,19,6205,5830
-710,2013,"Volkswagen","Jetta","SEL","SEL","Sedan","front wheel drive","front wheel drive",,29325,25250,170,170,45,26,3312,3082
-711,2014,"Volkswagen","Jetta","SEL","SEL","Sedan","front wheel drive","front wheel drive",,30245,25925,170,170,45,26,3312,3070
-712,2012,"Volkswagen","Touareg","Hybrid","VR6 Executive","SUV","all wheel drive","all wheel drive",,61995,55095,380,280,21,19,5135,4711
-713,2013,"Volkswagen","Touareg","Hybrid","VR6 Executive","SUV","all wheel drive","all wheel drive",,62575,55675,380,280,21,19,5135,4711
-714,2014,"Volkswagen","Touareg","Hybrid","V6 Executive","SUV","all wheel drive","all wheel drive",,64745,57935,380,280,21,19,5135,4711
-715,2015,"Volkswagen","Touareg","V6 Hybrid","V6 Executive","SUV","all wheel drive","all wheel drive",,66995,58700,380,280,21,19,5135,4711
+"pair_id","year","make","model","trim_hyb","trim_ice","body_type_hyb","drive_type_hyb","drive_type_ice","truck_bed","package_hyb","package_ice","msrp_hyb","msrp_ice","hp_hyb","hp_ice","mpg_combined_hyb","mpg_combined_ice","curb_weight_hyb","curb_weight_ice"
+1,2013,"Acura","ILX","Hybrid","Technology Package","Sedan","front wheel drive","front wheel drive",,"Technology Package","",34400,31400,111,150,38,28,2987,2970
+2,2014,"Acura","ILX","Technology Package","Technology Package","Sedan","front wheel drive","front wheel drive",,"","",34600,31600,111,150,38,28,2987,2970
+3,2017,"Acura","MDX","Sport Hybrid SH-AWD","SH-AWD","SUV","all wheel drive","all wheel drive",,"Technology Package","Technology Package",51960,50460,321,290,27,21,4471,4244
+4,2017,"Acura","MDX","Sport Hybrid SH-AWD","SH-AWD","SUV","all wheel drive","all wheel drive",,"Advance Package","Advance Package",58000,56500,321,290,27,22,4484,4257
+5,2018,"Acura","MDX","Sport Hybrid SH-AWD","SH-AWD","SUV","all wheel drive","all wheel drive",,"Advance Package","Advance Package",58150,56650,321,290,27,22,4484,4257
+6,2018,"Acura","MDX","Sport Hybrid SH-AWD","SH-AWD","SUV","all wheel drive","all wheel drive",,"Technology Package","Technology Package",52100,50600,321,290,27,21,4471,4244
+7,2019,"Acura","MDX","Sport Hybrid SH-AWD","SH-AWD","SUV","all wheel drive","all wheel drive",,"Technology Package","Technology Package",52800,51300,321,290,27,22,4471,4264
+8,2019,"Acura","MDX","Sport Hybrid SH-AWD","SH-AWD","SUV","all wheel drive","all wheel drive",,"Advance Package","Advance Package",59550,58050,321,290,27,22,4486,4303
+9,2020,"Acura","MDX","Sport Hybrid SH-AWD","SH-AWD","SUV","all wheel drive","all wheel drive",,"Technology Package","Technology Package",53000,51500,321,290,27,22,4471,4264
+10,2020,"Acura","MDX","Sport Hybrid SH-AWD","SH-AWD","SUV","all wheel drive","all wheel drive",,"Advance Package","Advance Package",59750,58250,321,290,27,22,4486,4303
+11,2013,"Audi","Q5","2.0T Prestige quattro","3.0T Prestige quattro","SUV","all wheel drive","all wheel drive",,"","",50900,51400,245,272,26,21,4431,4354
+12,2014,"Audi","Q5","2.0T Prestige quattro","3.0T Prestige quattro","SUV","all wheel drive","all wheel drive",,"","",51300,51900,245,272,26,21,4431,
+13,2015,"Audi","Q5","2.0T Prestige quattro","3.0T Prestige quattro","SUV","all wheel drive","all wheel drive",,"","",51900,52900,245,272,26,21,4431,4354
+14,2016,"Audi","Q5","2.0T Prestige quattro","3.0T Prestige quattro","SUV","all wheel drive","all wheel drive",,"","",52500,53500,245,272,26,21,4431,4354
+15,2013,"BMW","3 Series","ActiveHybrid 3","335i","Sedan","rear wheel drive","rear wheel drive",,"","",49650,43150,335,300,28,23,3860,3545
+16,2014,"BMW","3 Series","ActiveHybrid 3","335i","Sedan","rear wheel drive","rear wheel drive",,"","",49900,43400,335,300,28,25,3825,3555
+17,2015,"BMW","3 Series","ActiveHybrid 3","335i","Sedan","rear wheel drive","rear wheel drive",,"","",50150,43750,335,300,28,25,3825,3595
+18,2014,"BMW","5 Series","ActiveHybrid 5","535i","Sedan","rear wheel drive","rear wheel drive",,"","",61400,55100,335,302,26,24,4365,4068
+19,2015,"BMW","5 Series","ActiveHybrid 5","535i","Sedan","rear wheel drive","rear wheel drive",,"","",61900,55600,335,302,26,24,4365,4090
+20,2016,"BMW","5 Series","ActiveHybrid 5","535i","Sedan","rear wheel drive","rear wheel drive",,"","",62100,55850,335,302,26,24,4288,3957
+21,2013,"BMW","7 Series","740Li","740Li","Sedan","rear wheel drive","rear wheel drive",,"","",84300,77600,350,315,25,22,4680,4350
+22,2014,"BMW","7 Series","740Li","740Li","Sedan","rear wheel drive","rear wheel drive",,"","",84300,78000,350,315,25,22,4680,4350
+23,2015,"BMW","7 Series","740Li","740Li","Sedan","rear wheel drive","rear wheel drive",,"","",84300,78000,335,315,25,23,4680,4350
+24,2012,"Cadillac","Escalade","Platinum Edition","Platinum Edition","SUV","rear wheel drive","rear wheel drive",,"","",83295,79945,332,403,21,16,5879,5488
+25,2012,"Cadillac","Escalade","Platinum Edition","Platinum Edition","SUV","four wheel drive","all wheel drive",,"","",85845,82495,332,403,21,15,6120,5694
+26,2013,"Cadillac","Escalade","Platinum Edition","Platinum Edition","SUV","rear wheel drive","rear wheel drive",,"","",83870,80520,332,403,21,16,5885,5527
+27,2013,"Cadillac","Escalade","Platinum Edition","Platinum Edition","SUV","four wheel drive","all wheel drive",,"","",86420,83070,332,403,21,15,6142,5718
+28,2017,"Chevrolet","Malibu","Hybrid","LT","Sedan","front wheel drive","front wheel drive",,"","",27875,25125,182,160,46,30,3457,3126
+29,2018,"Chevrolet","Malibu","Hybrid","LT","Sedan","front wheel drive","front wheel drive",,"","",27875,25125,182,160,46,30,3366,3152
+30,2019,"Chevrolet","Malibu","Hybrid","LT","Sedan","front wheel drive","front wheel drive",,"","",28220,26620,182,160,46,32,3366,3159
+31,2020,"Ford","Escape","Titanium","Titanium","SUV","all wheel drive","all wheel drive",,"","",35050,36835,198,250,40,26,3668,3566
+32,2021,"Ford","Escape","Titanium Hybrid","Titanium","SUV","all wheel drive","all wheel drive",,"","",34800,36155,165,250,40,26,3668,3566
+33,2021,"Ford","Escape","SE Hybrid","SE","SUV","front wheel drive","front wheel drive",,"","",27605,26610,165,181,41,30,3491,3298
+34,2021,"Ford","Escape","SE Hybrid","SE","SUV","all wheel drive","all wheel drive",,"","",29105,28110,165,181,40,28,3668,3474
+35,2021,"Ford","Escape","SEL Hybrid","SEL","SUV","front wheel drive","front wheel drive",,"","",30200,29205,165,181,41,30,3534,3298
+36,2021,"Ford","Escape","SEL Hybrid","SEL","SUV","all wheel drive","all wheel drive",,"","",31700,30705,165,181,40,28,3668,3474
+37,2022,"Ford","Escape","Titanium Hybrid","Titanium","SUV","all wheel drive","all wheel drive",,"","",36595,37145,165,250,40,26,3668,3566
+38,2022,"Ford","Escape","SE Hybrid","SE","SUV","front wheel drive","front wheel drive",,"","",30185,28360,165,181,41,30,3491,3298
+39,2022,"Ford","Escape","SEL Hybrid","SEL","SUV","all wheel drive","all wheel drive",,"","",34055,32235,165,181,40,28,,3474
+40,2022,"Ford","Escape","SE Hybrid","SE","SUV","all wheel drive","all wheel drive",,"","",31685,29860,165,181,40,28,,3474
+41,2022,"Ford","Escape","SEL Hybrid","SEL","SUV","front wheel drive","front wheel drive",,"","",32550,30735,165,181,41,30,3534,3298
+42,2023,"Ford","Escape","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,"","",38465,37465,192,250,39,26,3668,3566
+43,2023,"Ford","Escape","ST-Line","ST-Line","SUV","front wheel drive","front wheel drive",,"","",33340,30340,192,180,39,30,3534,3298
+44,2023,"Ford","Escape","ST-Line Select","ST-Line Select","SUV","all wheel drive","all wheel drive",,"","",35040,34040,192,250,39,26,3668,3566
+45,2023,"Ford","Escape","ST-Line Elite","ST-Line Elite","SUV","all wheel drive","all wheel drive",,"","",39460,38460,192,250,39,26,3668,3566
+46,2024,"Ford","Escape","ST-Line Select","ST-Line Select","SUV","all wheel drive","all wheel drive",,"","",35040,34040,192,250,39,26,3686,3543
+47,2024,"Ford","Escape","ST-Line Elite","ST-Line Elite","SUV","all wheel drive","all wheel drive",,"","",39460,38460,192,250,39,26,3686,3543
+48,2024,"Ford","Escape","ST-Line","ST-Line","SUV","front wheel drive","front wheel drive",,"","",33340,30340,192,180,39,30,3519,3283
+49,2024,"Ford","Escape","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,"","",38465,37465,192,250,39,26,3686,3543
+50,2025,"Ford","Escape","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,"","",37115,35910,192,250,39,26,3684,3574
+51,2025,"Ford","Escape","ST-Line","ST-Line","SUV","front wheel drive","front wheel drive",,"","",32490,30360,192,180,39,30,3529,
+52,2025,"Ford","Escape","ST-Line Elite","ST-Line Elite","SUV","all wheel drive","all wheel drive",,"","",38110,36905,192,250,39,26,3684,3574
+53,2025,"Ford","Escape","ST-Line Select","ST-Line Select","SUV","all wheel drive","all wheel drive",,"","",34190,33195,192,250,39,26,3670,3505
+54,2026,"Ford","Escape","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,"","",36215,37940,192,250,39,26,,
+55,2026,"Ford","Escape","ST-Line Select","ST-Line Select","SUV","all wheel drive","all wheel drive",,"","",33890,35015,192,250,39,26,3670,3505
+56,2026,"Ford","Escape","ST-Line Elite","ST-Line Elite","SUV","all wheel drive","all wheel drive",,"","",37210,38935,192,250,39,26,,
+57,2020,"Ford","Explorer","Limited Hybrid","Limited","SUV","rear wheel drive","rear wheel drive",,"","",52530,48380,318,300,28,24,4969,4345
+58,2020,"Ford","Explorer","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,"","",54725,50380,318,300,25,23,4969,4345
+59,2021,"Ford","Explorer","Limited Hybrid","Limited","SUV","rear wheel drive","rear wheel drive",,"","",50105,45255,318,300,27,24,4969,4345
+60,2021,"Ford","Explorer","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,"","",52105,47255,318,300,25,23,4969,4345
+61,2021,"Ford","Explorer","Platinum Hybrid","Platinum","SUV","all wheel drive","all wheel drive",,"","",53335,54730,318,365,25,20,,4727
+62,2022,"Ford","Explorer","Limited Hybrid","Limited","SUV","rear wheel drive","rear wheel drive",,"","",52060,47070,318,300,27,24,4969,4345
+63,2022,"Ford","Explorer","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,"","",54060,49070,318,300,25,23,4969,4345
+64,2022,"Ford","Explorer","Platinum Hybrid","Platinum","SUV","all wheel drive","all wheel drive",,"","",54375,55775,318,400,23,20,5076,4727
+65,2022,"Ford","Explorer","Platinum Hybrid","Platinum","SUV","rear wheel drive","rear wheel drive",,"","",52375,53775,318,400,26,21,4969,4727
+66,2023,"Ford","Explorer","Limited Hybrid","Limited","SUV","rear wheel drive","rear wheel drive",,"","",53005,47070,318,300,27,24,4969,4345
+67,2023,"Ford","Explorer","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,"","",55005,49070,318,300,25,23,4969,4345
+68,2023,"Ford","Explorer","Platinum Hybrid","Platinum","SUV","rear wheel drive","rear wheel drive",,"","",53820,54220,318,400,26,21,4969,4727
+69,2023,"Ford","Explorer","Platinum Hybrid","Platinum","SUV","all wheel drive","all wheel drive",,"","",55820,56220,318,400,23,20,5076,4727
+70,2013,"Ford","Fusion","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",27200,23830,188,175,42,26,3615,3615
+71,2013,"Ford","Fusion","Titanium","Titanium","Sedan","front wheel drive","front wheel drive",,"","EcoBoost",32100,30200,188,231,42,26,3615,3526
+72,2014,"Ford","Fusion","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",27280,23935,188,175,42,26,3615,3431
+73,2014,"Ford","Fusion","Titanium","Titanium","Sedan","front wheel drive","front wheel drive",,"","EcoBoost",32600,30600,188,231,42,26,3615,3526
+74,2014,"Ford","Fusion","S","S","Sedan","front wheel drive","front wheel drive",,"","",26270,21970,188,175,42,26,3615,3431
+75,2015,"Ford","Fusion","S","S","Sedan","front wheel drive","front wheel drive",,"","",26575,22500,188,175,42,26,3615,3461
+76,2015,"Ford","Fusion","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",27380,24035,188,175,42,26,3615,3461
+77,2015,"Ford","Fusion","Titanium","Titanium","Sedan","front wheel drive","front wheel drive",,"","EcoBoost",32330,30780,188,231,42,26,3615,3322
+78,2016,"Ford","Fusion","S","S","Sedan","front wheel drive","front wheel drive",,"","",25675,22750,188,175,42,26,3615,3431
+79,2016,"Ford","Fusion","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",26480,24320,188,175,42,26,3615,3431
+80,2016,"Ford","Fusion","Titanium","Titanium","Sedan","front wheel drive","front wheel drive",,"","EcoBoost",31430,31270,188,231,42,26,3615,3526
+81,2017,"Ford","Fusion","Titanium","Titanium","Sedan","front wheel drive","front wheel drive",,"","",31010,30740,188,245,42,25,3668,3526
+82,2017,"Ford","Fusion","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",26480,23740,188,175,42,25,3668,3472
+83,2017,"Ford","Fusion","S","S","Sedan","front wheel drive","front wheel drive",,"","",25675,22610,188,175,42,25,3668,3472
+84,2017,"Ford","Fusion","Platinum","Platinum","Sedan","front wheel drive","front wheel drive",,"","",37020,36750,188,245,42,25,3668,3526
+85,2018,"Ford","Fusion","S","S","Sedan","front wheel drive","front wheel drive",,"","",25390,22215,188,173,42,25,3668,3472
+86,2018,"Ford","Fusion","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",26340,23490,188,173,42,25,3668,3472
+87,2018,"Ford","Fusion","Titanium","Titanium","Sedan","front wheel drive","front wheel drive",,"","",30870,30490,188,245,42,25,3668,3526
+88,2018,"Ford","Fusion","Platinum","Platinum","Sedan","front wheel drive","front wheel drive",,"","",37370,36990,188,245,42,25,3668,3526
+89,2019,"Ford","Fusion","SEL","SEL","Sedan","front wheel drive","front wheel drive",,"","",31520,28580,188,181,42,27,3668,
+90,2019,"Ford","Fusion","Titanium","Titanium","Sedan","front wheel drive","front wheel drive",,"","",34485,34340,188,245,42,25,3668,
+91,2019,"Ford","Fusion","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",27555,24120,188,181,42,27,3668,
+92,2020,"Ford","Fusion","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",28000,24500,188,181,42,27,3668,
+93,2020,"Ford","Fusion","SEL","SEL","Sedan","front wheel drive","front wheel drive",,"","",31630,28690,188,181,42,27,3668,
+94,2020,"Ford","Fusion","Titanium","Titanium","Sedan","front wheel drive","front wheel drive",,"","",34595,34450,188,245,42,25,3668,
+95,2012,"GMC","Yukon","Denali","Denali","SUV","rear wheel drive","rear wheel drive",,"","",60285,55010,332,403,21,16,5877,5505
+96,2012,"GMC","Yukon","Denali","Denali","SUV","four wheel drive","all wheel drive",,"","",63130,58005,332,403,21,15,6110,5688
+97,2013,"GMC","Yukon","Denali","Denali","SUV","rear wheel drive","rear wheel drive",,"","",61960,56685,332,403,21,16,5889,5491
+98,2013,"GMC","Yukon","Denali","Denali","SUV","four wheel drive","all wheel drive",,"","",64805,59680,332,403,21,15,6103,5685
+99,2014,"Honda","Accord","EX-L","EX-L","Sedan","front wheel drive","front wheel drive",,"","",31905,28270,195,185,47,30,3595,3358
+100,2014,"Honda","Accord","Touring","Touring V-6","Sedan","front wheel drive","front wheel drive",,"","",34905,33480,195,278,47,25,3602,3559
+101,2015,"Honda","Accord","EX-L","EX-L","Sedan","front wheel drive","front wheel drive",,"","",32055,28420,196,185,47,31,3595,3358
+102,2015,"Honda","Accord","Touring","Touring V-6","Sedan","front wheel drive","front wheel drive",,"","",35055,33630,196,278,47,26,3602,3559
+103,2017,"Honda","Accord","Touring","Touring V-6","Sedan","front wheel drive","front wheel drive",,"","",35955,34830,212,278,48,25,3536,3605
+104,2017,"Honda","Accord","EX-L","EX-L","Sedan","front wheel drive","front wheel drive",,"","",32905,28820,212,185,48,30,3523,3360
+105,2018,"Honda","Accord","EX","EX","Sedan","front wheel drive","front wheel drive",,"","",28890,27470,212,192,47,33,3377,3199
+106,2018,"Honda","Accord","EX-L","EX-L","Sedan","front wheel drive","front wheel drive",,"","",31440,29970,212,192,47,33,3400,3217
+107,2018,"Honda","Accord","Base","LX","Sedan","front wheel drive","front wheel drive",,"","",25100,23570,212,192,47,33,3342,3131
+108,2018,"Honda","Accord","Touring","Touring","Sedan","front wheel drive","front wheel drive",,"","",34710,33800,212,192,47,31,3428,3294
+109,2018,"Honda","Accord","EX-L","EX-L","Sedan","front wheel drive","front wheel drive",,"Navi","Navi",32440,30970,212,192,47,33,3400,3217
+110,2019,"Honda","Accord","EX","EX","Sedan","front wheel drive","front wheel drive",,"","",29220,27620,212,192,48,33,3377,3199
+111,2019,"Honda","Accord","Touring","Touring","Sedan","front wheel drive","front wheel drive",,"","",34990,35950,212,252,48,26,3428,3428
+112,2019,"Honda","Accord","Base","LX","Sedan","front wheel drive","front wheel drive",,"","",25320,23720,212,192,48,33,3342,3131
+113,2019,"Honda","Accord","EX-L","EX-L","Sedan","front wheel drive","front wheel drive",,"","",31720,30120,212,192,48,33,3400,3217
+114,2020,"Honda","Accord","EX","EX","Sedan","front wheel drive","front wheel drive",,"","",29370,27770,212,192,48,33,3377,3199
+115,2020,"Honda","Accord","Touring","Touring","Sedan","front wheel drive","front wheel drive",,"","",35140,36100,212,252,48,26,3428,3428
+116,2020,"Honda","Accord","Base","LX","Sedan","front wheel drive","front wheel drive",,"","",25470,23870,212,192,48,33,3342,3131
+117,2020,"Honda","Accord","EX-L","EX-L","Sedan","front wheel drive","front wheel drive",,"","",31870,30270,212,192,48,33,3400,3217
+118,2021,"Honda","Accord","Base","LX","Sedan","front wheel drive","front wheel drive",,"","",26370,24770,212,192,48,33,3327,3131
+119,2021,"Honda","Accord","Touring","Touring","Sedan","front wheel drive","front wheel drive",,"","",36240,36700,212,252,43,26,3415,3428
+120,2021,"Honda","Accord","EX-L","EX-L","Sedan","front wheel drive","front wheel drive",,"","",32690,31090,212,192,48,33,3386,3217
+121,2022,"Honda","Accord","Base","LX","Sedan","front wheel drive","front wheel drive",,"","",27720,26520,212,192,47,33,3326,3150
+122,2022,"Honda","Accord","EX-L","EX-L","Sedan","front wheel drive","front wheel drive",,"","",34040,32840,212,192,47,33,3388,3221
+123,2022,"Honda","Accord","Touring","Touring","Sedan","front wheel drive","front wheel drive",,"","",37590,38450,212,252,43,26,3446,3430
+124,2022,"Honda","Accord","Sport","Sport","Sedan","front wheel drive","front wheel drive",,"","",31070,28980,212,192,43,32,3375,3223
+125,2020,"Honda","CR-V","LX","LX","SUV","all wheel drive","all wheel drive",,"","",27850,26550,212,190,38,29,3649,3455
+126,2020,"Honda","CR-V","EX-L","EX-L","SUV","all wheel drive","all wheel drive",,"","",32850,31550,212,190,38,29,3649,3536
+127,2020,"Honda","CR-V","EX","EX","SUV","all wheel drive","all wheel drive",,"","",30360,29060,212,190,38,29,3649,3521
+128,2020,"Honda","CR-V","Touring","Touring","SUV","all wheel drive","all wheel drive",,"","",36050,34750,212,190,38,29,3649,3576
+129,2021,"Honda","CR-V","Touring","Touring","SUV","all wheel drive","all wheel drive",,"","",36350,35150,212,190,38,29,3649,3569
+130,2021,"Honda","CR-V","EX","EX","SUV","all wheel drive","all wheel drive",,"","",30560,29360,212,190,38,29,3649,3514
+131,2021,"Honda","CR-V","EX-L","EX-L","SUV","all wheel drive","all wheel drive",,"","",33150,31950,212,190,38,29,3649,3529
+132,2022,"Honda","CR-V","Touring","Touring","SUV","all wheel drive","all wheel drive",,"","",37800,36600,212,190,38,29,3763,3569
+133,2022,"Honda","CR-V","EX","EX","SUV","all wheel drive","all wheel drive",,"","",32010,30810,212,190,38,29,3708,3514
+134,2022,"Honda","CR-V","EX-L","EX-L","SUV","all wheel drive","all wheel drive",,"","",34600,33400,212,190,38,29,3723,3529
+135,2024,"Honda","CR-V","Sport Hybrid","EX","SUV","front wheel drive","front wheel drive",,"","",34050,32010,204,190,40,30,3752,3497
+136,2024,"Honda","CR-V","Sport Hybrid","EX","SUV","all wheel drive","all wheel drive",,"","",35550,33510,204,190,37,29,3869,3616
+137,2024,"Honda","CR-V","Sport-L Hybrid","EX-L","SUV","front wheel drive","front wheel drive",,"","",37050,34660,204,190,40,30,3777,3525
+138,2024,"Honda","CR-V","Sport-L Hybrid","EX-L","SUV","all wheel drive","all wheel drive",,"","",38550,36160,204,190,37,29,3893,3635
+139,2025,"Honda","CR-V","Sport-L Hybrid","EX-L","SUV","front wheel drive","front wheel drive",,"","",37650,35000,204,190,40,30,3777,3525
+140,2025,"Honda","CR-V","Sport-L Hybrid","EX-L","SUV","all wheel drive","all wheel drive",,"","",39150,36500,204,190,37,28,3893,3635
+141,2025,"Honda","CR-V","Sport Hybrid","EX","SUV","all wheel drive","all wheel drive",,"","",36150,33850,204,190,37,28,3869,3616
+142,2025,"Honda","CR-V","Sport Hybrid","EX","SUV","front wheel drive","front wheel drive",,"","",34650,32350,204,190,40,30,3752,3497
+143,2026,"Honda","CR-V","Sport-L Hybrid","EX-L","SUV","front wheel drive","front wheel drive",,"","",38725,35400,204,190,40,30,3777,3525
+144,2026,"Honda","CR-V","Sport Hybrid","EX","SUV","front wheel drive","front wheel drive",,"","",35630,33150,204,190,40,30,3752,3497
+145,2026,"Honda","CR-V","Sport-L Hybrid","EX-L","SUV","all wheel drive","all wheel drive",,"","",40225,36900,204,190,37,29,3893,3635
+146,2026,"Honda","CR-V","Sport Hybrid","EX","SUV","all wheel drive","all wheel drive",,"","",37130,34650,204,190,37,29,3869,3616
+147,2019,"Honda","Civic","LX","LX","Sedan","front wheel drive","front wheel drive",,"","",22930,20350,151,158,52,33,2987,2771
+148,2019,"Honda","Civic","Touring","Touring","Sedan","front wheel drive","front wheel drive",,"","",28190,27400,151,174,48,33,3078,2963
+149,2019,"Honda","Civic","EX","EX","Sedan","front wheel drive","front wheel drive",,"","",24160,23500,151,174,52,36,3000,2917
+150,2020,"Honda","Civic","Touring","Touring","Sedan","front wheel drive","front wheel drive",,"","",28340,27600,151,174,48,33,3078,2963
+151,2020,"Honda","Civic","EX","EX","Sedan","front wheel drive","front wheel drive",,"","",24310,23700,151,174,52,36,3000,2917
+152,2020,"Honda","Civic","LX","LX","Sedan","front wheel drive","front wheel drive",,"","",22930,20550,151,158,52,33,2987,2771
+153,2021,"Honda","Civic","LX","LX","Sedan","front wheel drive","front wheel drive",,"","",22930,21050,151,158,52,33,2987,2771
+154,2021,"Honda","Civic","EX","EX","Sedan","front wheel drive","front wheel drive",,"","",24810,24200,151,174,52,36,3000,2917
+155,2021,"Honda","Civic","Touring","Touring","Sedan","front wheel drive","front wheel drive",,"","",28840,28100,151,174,48,33,3078,2963
+156,2025,"Honda","Civic","Sport Hybrid","Sport","Sedan","front wheel drive","front wheel drive",,"","",28950,26250,200,150,49,34,3208,2935
+157,2025,"Honda","Civic","Sport Hybrid","Sport","Hatchback","front wheel drive","front wheel drive",,"","",31150,27450,200,150,48,34,3252,2976
+158,2026,"Honda","Civic","Sport Hybrid","Sport","Sedan","front wheel drive","front wheel drive",,"","",29395,26695,200,150,49,34,3208,2926
+159,2026,"Honda","Civic","Sport Hybrid","Sport","Hatchback","front wheel drive","front wheel drive",,"","",30595,27895,200,150,48,34,3252,2976
+160,2021,"Hyundai","Elantra","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",28100,25450,139,147,50,35,3069,2725
+161,2022,"Hyundai","Elantra","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",28600,25950,139,147,50,35,3069,2725
+162,2023,"Hyundai","Elantra","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",29150,26800,139,147,50,34,3069,2725
+163,2024,"Hyundai","Elantra","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",29450,27065,139,147,50,34,3069,2868
+164,2025,"Hyundai","Elantra","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",29800,26775,139,147,50,34,3069,2868
+165,2025,"Hyundai","Elantra","SEL Sport","SEL Sport","Sedan","front wheel drive","front wheel drive",,"","",27425,23250,139,147,50,34,,2868
+166,2026,"Hyundai","Elantra","SEL Sport","SEL Sport","Sedan","front wheel drive","front wheel drive",,"","",27425,23750,139,147,50,34,,2868
+167,2026,"Hyundai","Elantra","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",29800,27175,139,147,50,34,3069,2868
+168,2026,"Hyundai","Palisade","Hybrid Calligraphy","Calligraphy","SUV","front wheel drive","front wheel drive",,"","",56780,54560,329,287,31,21,4795,4872
+169,2026,"Hyundai","Palisade","Hybrid SEL","SEL","SUV","all wheel drive","all wheel drive",,"7 Passenger Seating","7 Passenger Seating",46160,43940,329,287,29,20,4795,4872
+170,2026,"Hyundai","Palisade","Hybrid Limited","Limited","SUV","front wheel drive","front wheel drive",,"","",51990,49770,329,287,31,21,4795,4461
+171,2026,"Hyundai","Palisade","Hybrid Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",53990,51770,329,287,29,20,4938,4795
+172,2026,"Hyundai","Palisade","Hybrid SEL Premium","SEL Premium","SUV","all wheel drive","all wheel drive",,"7 Passenger Seating","7 Passenger Seating",49520,47300,329,287,29,20,4795,4493
+173,2026,"Hyundai","Palisade","Hybrid Calligraphy","Calligraphy","SUV","all wheel drive","all wheel drive",,"","",58780,56560,329,287,29,20,4938,4872
+174,2026,"Hyundai","Palisade","Hybrid SEL Premium","SEL Premium","SUV","all wheel drive","all wheel drive",,"8 Passenger Seating","8 Passenger Seating",49520,47300,329,287,29,20,4795,4575
+175,2026,"Hyundai","Palisade","Hybrid SEL","SEL","SUV","all wheel drive","all wheel drive",,"8 Passenger Seating","8 Passenger Seating",46160,43940,329,287,29,20,4795,4575
+176,2021,"Hyundai","Santa Fe","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",39950,40450,226,277,32,24,4226,4017
+177,2022,"Hyundai","Santa Fe","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",40710,41110,226,277,32,24,4226,4017
+178,2023,"Hyundai","Santa Fe","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",41870,42300,226,281,32,24,4227,4017
+179,2024,"Hyundai","Santa Fe","Calligraphy Hybrid","Calligraphy","SUV","front wheel drive","front wheel drive",,"","",47000,46500,231,277,36,24,4431,4343
+180,2024,"Hyundai","Santa Fe","Limited Hybrid","Limited","SUV","front wheel drive","front wheel drive",,"","",43850,43350,231,277,36,24,4431,4343
+181,2024,"Hyundai","Santa Fe","SEL Hybrid","SEL","SUV","front wheel drive","front wheel drive",,"","",36950,36450,231,277,36,24,4431,4343
+182,2024,"Hyundai","Santa Fe","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,"","",45650,45150,231,277,34,23,4575,4486
+183,2024,"Hyundai","Santa Fe","SEL Hybrid","SEL","SUV","all wheel drive","all wheel drive",,"","",38750,38250,231,277,34,23,4575,4486
+184,2024,"Hyundai","Santa Fe","Calligraphy Hybrid","Calligraphy","SUV","all wheel drive","all wheel drive",,"","",48800,48300,231,277,34,23,4575,4486
+185,2025,"Hyundai","Santa Fe","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,"","",46500,45500,231,277,34,23,4575,4486
+186,2025,"Hyundai","Santa Fe","SEL Hybrid","SEL","SUV","all wheel drive","all wheel drive",,"","",39600,38600,231,277,34,23,4575,4486
+187,2025,"Hyundai","Santa Fe","Limited Hybrid","Limited","SUV","front wheel drive","front wheel drive",,"","",44700,43700,231,277,36,24,4431,4343
+188,2025,"Hyundai","Santa Fe","SEL Hybrid","SEL","SUV","front wheel drive","front wheel drive",,"","",37800,36800,231,277,36,24,4431,4343
+189,2025,"Hyundai","Santa Fe","Calligraphy Hybrid","Calligraphy","SUV","front wheel drive","front wheel drive",,"","",47850,46850,231,277,36,24,4431,4343
+190,2025,"Hyundai","Santa Fe","Calligraphy Hybrid","Calligraphy","SUV","all wheel drive","all wheel drive",,"","",49650,48650,231,277,34,23,4575,4486
+191,2026,"Hyundai","Santa Fe","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,"","",47500,46400,231,277,34,23,4575,4486
+192,2026,"Hyundai","Santa Fe","SEL Hybrid","SEL","SUV","all wheel drive","all wheel drive",,"","",40490,39390,231,277,34,23,4575,4486
+193,2026,"Hyundai","Santa Fe","Calligraphy Hybrid","Calligraphy","SUV","all wheel drive","all wheel drive",,"","",50500,49400,231,277,34,23,4575,4486
+194,2026,"Hyundai","Santa Fe","Calligraphy Hybrid","Calligraphy","SUV","front wheel drive","front wheel drive",,"","",48700,47600,231,277,36,24,4431,4343
+195,2026,"Hyundai","Santa Fe","Limited Hybrid","Limited","SUV","front wheel drive","front wheel drive",,"","",45700,44600,231,277,36,24,4431,4343
+196,2026,"Hyundai","Santa Fe","SEL Hybrid","SEL","SUV","front wheel drive","front wheel drive",,"","",38690,37590,231,277,36,24,4431,4343
+197,2026,"Hyundai","Santa Fe","SE Hybrid","SE","SUV","all wheel drive","all wheel drive",,"","",38200,36850,231,277,34,23,4575,4486
+198,2026,"Hyundai","Santa Fe","SE Hybrid","SE","SUV","front wheel drive","front wheel drive",,"","",36400,35050,231,277,36,24,4431,4343
+199,2020,"Hyundai","Sonata","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",35300,33500,192,180,47,31,3505,3336
+200,2021,"Hyundai","Sonata","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",35300,33950,192,180,47,30,3505,3336
+201,2022,"Hyundai","Sonata","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",35700,34400,192,180,47,31,3505,3336
+202,2023,"Hyundai","Sonata","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",36600,35325,192,180,47,31,3505,3336
+203,2022,"Hyundai","Tucson","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,"","",38050,36800,227,187,37,26,3752,3651
+204,2023,"Hyundai","Tucson","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,"","",39110,37660,226,187,37,25,3794,3651
+205,2024,"Hyundai","Tucson","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,"","",39715,38260,226,187,37,25,3837,3663
+206,2025,"Hyundai","Tucson","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,"","",41295,40145,231,187,35,26,3906,3801
+207,2025,"Hyundai","Tucson","SEL Convenience Hybrid","SEL Convenience","SUV","all wheel drive","all wheel drive",,"","",36465,34515,231,187,35,26,3886,3676
+208,2026,"Hyundai","Tucson","Hybrid Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",42075,40925,231,187,36,26,3920,3800
+209,2026,"Hyundai","Tucson","Hybrid SEL","SEL","SUV","all wheel drive","all wheel drive",,"","",33900,32300,231,187,36,26,3773,3638
+210,2014,"INFINITI","Q50","Hybrid Premium","Premium","Sedan","rear wheel drive","rear wheel drive",,"","",44400,40000,360,328,31,23,3913,3611
+211,2014,"INFINITI","Q50","Hybrid Premium","Premium","Sedan","all wheel drive","all wheel drive",,"","",46200,41800,360,328,30,22,4085,3787
+212,2014,"INFINITI","Q50","Hybrid Sport","Sport","Sedan","rear wheel drive","rear wheel drive",,"","",46800,43650,360,328,31,23,3973,3675
+213,2014,"INFINITI","Q50","Hybrid Sport","Sport","Sedan","all wheel drive","all wheel drive",,"","",48600,45450,360,328,30,22,4145,3849
+214,2015,"INFINITI","Q50","Hybrid Premium","Premium","Sedan","rear wheel drive","rear wheel drive",,"","",44400,40000,360,328,31,23,3913,3611
+215,2015,"INFINITI","Q50","Hybrid Premium","Premium","Sedan","all wheel drive","all wheel drive",,"","",46200,41800,360,328,30,22,4085,3787
+216,2015,"INFINITI","Q50","Hybrid Sport","Sport","Sedan","rear wheel drive","rear wheel drive",,"","",46800,43650,360,328,31,23,3973,3675
+217,2015,"INFINITI","Q50","Hybrid Sport","Sport","Sedan","all wheel drive","all wheel drive",,"","",48600,45450,360,328,30,22,4145,3849
+218,2012,"INFINITI","Q70","M35h","M37","Sedan","rear wheel drive","rear wheel drive",,"","",53700,47700,360,330,29,21,4129,3849
+219,2013,"INFINITI","Q70","M35h","M37","Sedan","rear wheel drive","rear wheel drive",,"","",54750,48700,360,330,29,21,4136,3863
+220,2014,"INFINITI","Q70","Hybrid","Base","Sedan","rear wheel drive","rear wheel drive",,"","",55650,49600,360,330,31,21,4131,3832
+221,2015,"INFINITI","Q70","Hybrid","Base","Sedan","rear wheel drive","rear wheel drive",,"","",55900,49850,360,330,31,21,4134,3867
+222,2016,"INFINITI","Q70","Hybrid","Base","Sedan","rear wheel drive","rear wheel drive",,"","",55900,49850,360,330,31,21,4134,3867
+223,2017,"INFINITI","Q70","Hybrid","Base","Sedan","rear wheel drive","rear wheel drive",,"","",56200,50100,360,330,30,21,4134,3867
+224,2018,"INFINITI","Q70","Hybrid LUXE","3.7 LUXE","Sedan","rear wheel drive","rear wheel drive",,"","",56400,50300,360,330,30,21,4134,3876
+225,2014,"INFINITI","QX60","Hybrid","Base","SUV","front wheel drive","front wheel drive",,"","",45100,42100,250,265,26,22,4485,4323
+226,2014,"INFINITI","QX60","Hybrid","Base","SUV","all wheel drive","all wheel drive",,"","",46500,43500,250,265,26,21,4625,4462
+227,2015,"INFINITI","QX60","Hybrid","Base","SUV","front wheel drive","front wheel drive",,"","",45400,42400,230,265,26,23,4538,4384
+228,2015,"INFINITI","QX60","Hybrid","Base","SUV","all wheel drive","all wheel drive",,"","",46800,43800,230,265,26,22,4678,4523
+229,2025,"Kia","Carnival","SX","SX","Minivan","front wheel drive","front wheel drive",,"","",47900,45900,242,287,33,21,4852,4810
+230,2025,"Kia","Carnival","EX","EX","Minivan","front wheel drive","front wheel drive",,"","",43000,41000,242,287,33,21,4852,4725
+231,2025,"Kia","Carnival","SX Prestige","SX Prestige","Minivan","front wheel drive","front wheel drive",,"","",52900,50900,242,287,33,21,4852,4720
+232,2025,"Kia","Carnival","LXS","LXS","Minivan","front wheel drive","front wheel drive",,"","",40800,38800,242,287,33,21,4852,4630
+233,2026,"Kia","Carnival","LXS","LXS","Minivan","front wheel drive","front wheel drive",,"","",41390,39390,242,287,32,21,4852,4630
+234,2026,"Kia","Carnival","EX","EX","Minivan","front wheel drive","front wheel drive",,"","",43590,41590,242,287,32,21,4852,4725
+235,2026,"Kia","Carnival","SX Prestige","SX Prestige","Minivan","front wheel drive","front wheel drive",,"","",53490,51490,242,287,32,21,4852,4720
+236,2026,"Kia","Carnival","SX","SX","Minivan","front wheel drive","front wheel drive",,"","",48490,46490,242,287,32,21,4852,4810
+237,2019,"Kia","Optima","EX","EX","Sedan","front wheel drive","front wheel drive",,"","",28090,26890,192,178,41,31,3486,3285
+238,2020,"Kia","Optima","EX","EX","Sedan","front wheel drive","front wheel drive",,"","",29310,27190,192,178,42,31,3496,3285
+239,2021,"Kia","Sorento","S","S","SUV","front wheel drive","front wheel drive",,"","",33590,31890,227,191,37,26,3794,3794
+240,2021,"Kia","Sorento","EX","EX","SUV","front wheel drive","front wheel drive",,"","",36590,34990,227,281,37,25,3999,3999
+241,2022,"Kia","Sorento","S","S","SUV","front wheel drive","front wheel drive",,"","",34090,32390,227,191,37,26,3979,3794
+242,2022,"Kia","Sorento","EX","EX","SUV","front wheel drive","front wheel drive",,"","",36090,35490,227,281,37,25,3979,3999
+243,2023,"Kia","Sorento","EX","EX","SUV","front wheel drive","front wheel drive",,"","",36690,35990,227,281,37,25,3979,3999
+244,2023,"Kia","Sorento","SX Prestige","SX Prestige","SUV","all wheel drive","all wheel drive",,"","",42490,43490,227,281,34,24,4255,4120
+245,2024,"Kia","Sorento","EX","EX","SUV","front wheel drive","front wheel drive",,"","",36990,37990,227,281,37,23,4000,4074
+246,2025,"Kia","Sorento","EX","EX","SUV","all wheel drive","all wheel drive",,"","",40490,39590,227,281,36,23,4345,4123
+247,2025,"Kia","Sorento","EX","EX","SUV","front wheel drive","front wheel drive",,"","",38690,38090,227,281,34,23,4211,4074
+248,2026,"Kia","Sorento","X-Line SX Prestige","X-Line SX Prestige","SUV","all wheel drive","all wheel drive",,"","",47190,46790,227,281,34,23,4544,4250
+249,2026,"Kia","Sorento","EX","EX","SUV","all wheel drive","all wheel drive",,"","",40690,39990,227,281,34,23,4431,4250
+250,2026,"Kia","Sorento","EX","EX","SUV","front wheel drive","front wheel drive",,"","",38890,38490,227,281,37,23,4233,4074
+251,2023,"Kia","Sportage","LX","LX","SUV","front wheel drive","front wheel drive",,"","",27490,26290,227,187,43,28,3713,3664
+252,2023,"Kia","Sportage","LX","LX","SUV","all wheel drive","all wheel drive",,"","",29290,28090,227,187,38,25,3896,3834
+253,2023,"Kia","Sportage","EX","EX","SUV","all wheel drive","all wheel drive",,"","",31190,30090,227,187,38,25,3896,3834
+254,2023,"Kia","Sportage","SX-Prestige","SX-Prestige","SUV","all wheel drive","all wheel drive",,"","",36390,35590,227,187,38,25,3896,3834
+255,2024,"Kia","Sportage","LX","LX","SUV","all wheel drive","all wheel drive",,"","",30090,28890,227,187,38,25,3757,3809
+256,2024,"Kia","Sportage","SX-Prestige","SX-Prestige","SUV","all wheel drive","all wheel drive",,"","",37190,36390,227,187,38,25,3935,3809
+257,2024,"Kia","Sportage","LX","LX","SUV","front wheel drive","front wheel drive",,"","",28290,27090,227,187,43,28,3757,3661
+258,2024,"Kia","Sportage","EX","EX","SUV","all wheel drive","all wheel drive",,"","",31990,30890,227,187,38,25,3935,3809
+259,2025,"Kia","Sportage","LX","LX","SUV","front wheel drive","front wheel drive",,"","",28790,27390,227,187,43,28,3757,3661
+260,2025,"Kia","Sportage","EX","EX","SUV","all wheel drive","all wheel drive",,"","",32590,31290,227,187,38,25,3935,3809
+261,2025,"Kia","Sportage","LX","LX","SUV","all wheel drive","all wheel drive",,"","",30590,29190,227,187,38,25,3935,3809
+262,2025,"Kia","Sportage","SX-Prestige","SX-Prestige","SUV","all wheel drive","all wheel drive",,"","",37790,36790,227,187,38,25,3935,3809
+263,2026,"Kia","Sportage","SX-Prestige","SX-Prestige","SUV","all wheel drive","all wheel drive",,"","",40590,38190,232,187,35,26,3994,3827
+264,2026,"Kia","Sportage","X-Line","X-Line","SUV","all wheel drive","all wheel drive",,"","",35690,33090,232,187,35,26,3994,3827
+265,2026,"Kia","Sportage","LX","LX","SUV","front wheel drive","front wheel drive",,"","",30490,28790,232,187,42,28,3831,3697
+266,2026,"Kia","Sportage","EX","EX","SUV","all wheel drive","all wheel drive",,"","",33790,32390,232,187,35,26,3994,3827
+267,2013,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,"","",39250,36370,200,268,40,24,3660,3549
+268,2014,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,"","",39500,36620,200,268,40,24,3660,3549
+269,2015,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,"","",40580,37700,200,268,40,24,3660,3549
+270,2016,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,"","",41020,38100,200,268,40,24,3682,3571
+271,2017,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,"","",41820,38900,200,268,40,24,3682,3571
+272,2018,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,"","",41820,38950,200,268,40,24,3682,3571
+273,2019,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,"","",41560,39750,215,302,44,26,3704,3649
+274,2019,"Lexus","ES","Luxury","Luxury","Sedan","front wheel drive","front wheel drive",,"","",44215,42405,215,302,44,26,3704,3649
+275,2019,"Lexus","ES","Ultra Luxury","Ultra Luxury","Sedan","front wheel drive","front wheel drive",,"","",45210,43400,215,302,44,26,3704,3649
+276,2020,"Lexus","ES","Ultra Luxury","Ultra Luxury","Sedan","front wheel drive","front wheel drive",,"","",45660,43750,215,302,44,26,3704,3649
+277,2020,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,"","",41810,39900,215,302,44,26,3704,3649
+278,2020,"Lexus","ES","Luxury","Luxury","Sedan","front wheel drive","front wheel drive",,"","",44665,42755,215,302,44,26,3704,3649
+279,2021,"Lexus","ES","Ultra Luxury","Ultra Luxury","Sedan","front wheel drive","front wheel drive",,"","",50910,49000,215,302,44,26,3730,3690
+280,2021,"Lexus","ES","Luxury","Luxury","Sedan","front wheel drive","front wheel drive",,"","",47110,45200,215,302,44,26,3730,3690
+281,2021,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,"","",41910,40000,215,302,44,26,3730,3690
+282,2022,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,"","",42150,40950,215,302,44,26,3682,3690
+283,2022,"Lexus","ES","Ultra Luxury","Ultra Luxury","Sedan","front wheel drive","front wheel drive",,"","",51330,50130,215,302,44,26,3682,3690
+284,2022,"Lexus","ES","Luxury","Luxury","Sedan","front wheel drive","front wheel drive",,"","",47550,46350,215,302,44,26,3682,3690
+285,2022,"Lexus","ES","F SPORT","F SPORT","Sedan","front wheel drive","front wheel drive",,"","",45700,45600,215,302,44,25,3682,3690
+286,2023,"Lexus","ES","F SPORT Design","F SPORT Design","Sedan","front wheel drive","front wheel drive",,"","",47725,46525,215,302,44,25,3682,3690
+287,2023,"Lexus","ES","Ultra Luxury","Ultra Luxury","Sedan","front wheel drive","front wheel drive",,"","",52130,50730,215,302,44,26,3682,3690
+288,2023,"Lexus","ES","Luxury","Luxury","Sedan","front wheel drive","front wheel drive",,"","",48510,47110,215,302,44,26,3682,3690
+289,2023,"Lexus","ES","F SPORT Handling","F SPORT Handling","Sedan","front wheel drive","front wheel drive",,"","",49635,48400,215,302,44,25,3682,3690
+290,2023,"Lexus","ES","Base","Base","Sedan","front wheel drive","front wheel drive",,"","",43340,41940,215,302,44,26,3682,3690
+291,2024,"Lexus","ES","300h","350","Sedan","front wheel drive","front wheel drive",,"","",43440,42040,215,302,44,26,3730,3690
+292,2024,"Lexus","ES","300h F SPORT Handling","350 F SPORT Handling","Sedan","front wheel drive","front wheel drive",,"","",49735,48500,215,302,44,25,3730,3690
+293,2024,"Lexus","ES","300h Luxury","350 Luxury","Sedan","front wheel drive","front wheel drive",,"","",48610,47210,215,302,44,26,3730,3690
+294,2024,"Lexus","ES","300h Ultra Luxury","350 Ultra Luxury","Sedan","front wheel drive","front wheel drive",,"","",52330,50930,215,302,44,26,3730,3690
+295,2024,"Lexus","ES","300h F SPORT Design","350 F SPORT Design","Sedan","front wheel drive","front wheel drive",,"","",47825,46625,215,302,44,25,3730,3690
+296,2025,"Lexus","ES","300h F SPORT Handling","350 F SPORT Handling","Sedan","front wheel drive","front wheel drive",,"","",49835,48600,215,302,44,25,3730,3690
+297,2025,"Lexus","ES","300h Luxury","350 Luxury","Sedan","front wheel drive","front wheel drive",,"","",48710,47310,215,302,44,25,3730,3690
+298,2025,"Lexus","ES","300h","350","Sedan","front wheel drive","front wheel drive",,"","",43540,42140,215,302,44,25,3730,3690
+299,2025,"Lexus","ES","300h Ultra Luxury","350 Ultra Luxury","Sedan","front wheel drive","front wheel drive",,"","",52430,51030,215,302,44,25,3730,3690
+300,2025,"Lexus","ES","300h F SPORT Design","350 F SPORT Design","Sedan","front wheel drive","front wheel drive",,"","",47925,46725,215,302,44,25,3730,3690
+301,2018,"Lexus","LS","Base","Base","Sedan","all wheel drive","all wheel drive",,"","",82730,78220,354,416,26,21,5027,4905
+302,2018,"Lexus","LS","Base","Base","Sedan","rear wheel drive","rear wheel drive",,"","",79510,75000,354,416,28,23,4850,4707
+303,2019,"Lexus","LS","Base","Base","Sedan","rear wheel drive","rear wheel drive",,"","",79960,75450,354,416,28,23,4850,4707
+304,2019,"Lexus","LS","Base","Base","Sedan","all wheel drive","all wheel drive",,"","",83180,78670,354,416,26,21,5027,4905
+305,2020,"Lexus","LS","Base","Base","Sedan","rear wheel drive","rear wheel drive",,"","",80010,75450,354,416,28,23,4850,4707
+306,2020,"Lexus","LS","Base","Base","Sedan","all wheel drive","all wheel drive",,"","",83230,78670,354,416,26,21,5027,4905
+307,2025,"Lexus","LX","700h F SPORT Handling","600 F SPORT Handling","SUV","four wheel drive","four wheel drive",,"","",117000,113000,457,409,20,19,5945,5665
+308,2025,"Lexus","LX","700h Luxury","600 Luxury","SUV","four wheel drive","four wheel drive",,"","",119000,115000,457,409,20,19,5945,5665
+309,2026,"Lexus","LX","700h F SPORT Handling","600 F SPORT Handling","SUV","four wheel drive","four wheel drive",,"","",118000,114000,457,409,20,19,5665,5665
+310,2026,"Lexus","LX","700h Luxury","600 Luxury","SUV","four wheel drive","four wheel drive",,"","",120000,116000,457,409,20,19,5945,5665
+311,2015,"Lexus","NX","Base","Base","SUV","front wheel drive","front wheel drive",,"","",39720,34480,194,235,33,24,4055,3940
+312,2015,"Lexus","NX","Base","Base","SUV","all wheel drive","all wheel drive",,"","",41310,35880,194,235,32,24,4180,4050
+313,2016,"Lexus","NX","Base","Base","SUV","front wheel drive","front wheel drive",,"","",39720,34965,194,235,33,25,4055,3940
+314,2016,"Lexus","NX","Base","Base","SUV","all wheel drive","all wheel drive",,"","",41310,36365,194,235,32,24,4180,4050
+315,2017,"Lexus","NX","Base","Base","SUV","all wheel drive","all wheel drive",,"","",39720,36685,194,235,31,24,4180,4050
+316,2018,"Lexus","NX","Base","Base","SUV","all wheel drive","all wheel drive",,"","",38335,37385,194,235,31,24,4180,4050
+317,2019,"Lexus","NX","Base","Base","SUV","all wheel drive","all wheel drive",,"","",38835,37885,194,235,31,24,4180,4050
+318,2020,"Lexus","NX","Base","Base","SUV","all wheel drive","all wheel drive",,"","",39070,38120,194,235,31,24,4180,4050
+319,2020,"Lexus","NX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,"","",46160,45210,194,235,31,24,4180,4050
+320,2021,"Lexus","NX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,"","",46610,45460,194,235,31,24,4180,4050
+321,2021,"Lexus","NX","Base","Base","SUV","all wheel drive","all wheel drive",,"","",40160,39010,194,235,31,24,4180,4050
+322,2022,"Lexus","NX","Base","Base","SUV","all wheel drive","all wheel drive",,"","",41550,39950,240,203,39,28,4080,3790
+323,2022,"Lexus","NX","Premium","Premium","SUV","all wheel drive","all wheel drive",,"","",44600,43000,240,203,39,28,4080,3790
+324,2022,"Lexus","NX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,"","",49000,46100,240,203,39,28,4080,3790
+325,2023,"Lexus","NX","Base","Base","SUV","all wheel drive","all wheel drive",,"","",42655,40655,240,203,39,28,4080,3790
+326,2023,"Lexus","NX","Premium","Premium","SUV","all wheel drive","all wheel drive",,"","",45705,43705,240,203,39,28,4080,3790
+327,2023,"Lexus","NX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,"","",50105,46805,240,203,39,28,4080,3790
+328,2024,"Lexus","NX","350h Premium","250 Premium","SUV","all wheel drive","all wheel drive",,"","",46515,44105,240,203,39,28,4080,3790
+329,2024,"Lexus","NX","350h","250","SUV","all wheel drive","all wheel drive",,"","",43465,41055,240,203,39,28,4080,3790
+330,2024,"Lexus","NX","350h Luxury","350 Luxury","SUV","all wheel drive","all wheel drive",,"","",49605,49355,240,275,39,24,4080,4035
+331,2025,"Lexus","NX","350h Luxury","350 Luxury","SUV","all wheel drive","all wheel drive",,"","",51490,50790,240,275,39,24,4080,4035
+332,2025,"Lexus","NX","350h Premium","250 Premium","SUV","all wheel drive","all wheel drive",,"","",47350,44490,240,203,39,28,4080,3790
+333,2025,"Lexus","NX","350h","250","SUV","all wheel drive","all wheel drive",,"","",45425,42565,240,203,39,28,4080,3790
+334,2026,"Lexus","NX","350h Premium","350 Premium","SUV","all wheel drive","all wheel drive",,"","",48650,47750,240,275,39,24,4080,4035
+335,2026,"Lexus","NX","350h","350","SUV","all wheel drive","all wheel drive",,"","",46725,45825,240,275,39,24,4080,4035
+336,2026,"Lexus","NX","350h Luxury","350 Luxury","SUV","all wheel drive","all wheel drive",,"","",52790,51890,240,275,39,24,4080,4035
+337,2026,"Lexus","NX","350h F SPORT Handling","350 F SPORT Handling","SUV","all wheel drive","all wheel drive",,"","",55200,51800,240,275,39,24,4080,4035
+338,2018,"Lexus","RX","F SPORT","F SPORT","SUV","all wheel drive","all wheel drive",,"","",51255,50520,308,295,30,22,4740,4387
+339,2018,"Lexus","RX","Base","Base","SUV","all wheel drive","all wheel drive",,"","",45895,44870,308,295,30,22,4740,4387
+340,2018,"Lexus","RX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,"","",54555,54085,308,290,30,21,4905,4619
+341,2019,"Lexus","RX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,"","",54905,54435,308,290,30,21,4905,4619
+342,2019,"Lexus","RX","Base","Base","SUV","all wheel drive","all wheel drive",,"","",50970,49420,308,290,30,21,4905,4619
+343,2019,"Lexus","RX","F SPORT","F SPORT","SUV","all wheel drive","all wheel drive",,"","",51605,50870,308,295,30,22,4740,4387
+344,2020,"Lexus","RX","Base","Base","SUV","all wheel drive","all wheel drive",,"","",46800,45550,308,295,30,22,4740,4387
+345,2020,"Lexus","RX","Base","Base","SUV","all wheel drive","all wheel drive",,"","",50510,48700,308,295,29,21,4905,4619
+346,2020,"Lexus","RX","F SPORT","F SPORT","SUV","all wheel drive","all wheel drive",,"","",50600,49350,308,295,30,22,4740,4387
+347,2020,"Lexus","RX","F SPORT Performance","F SPORT Performance","SUV","all wheel drive","all wheel drive",,"","",52920,51750,308,295,30,22,4740,4387
+348,2020,"Lexus","RX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,"","",56510,54700,308,295,29,21,4905,4619
+349,2021,"Lexus","RX","F SPORT","F SPORT","SUV","all wheel drive","all wheel drive",,"","",51400,50100,308,295,30,22,4740,4387
+350,2021,"Lexus","RX","Base","Base","SUV","all wheel drive","all wheel drive",,"","",47920,46620,308,295,30,22,4740,4387
+351,2021,"Lexus","RX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,"","",57310,55400,308,290,29,21,4905,4619
+352,2021,"Lexus","RX","Base","Base","SUV","all wheel drive","all wheel drive",,"","",51310,49400,308,290,29,21,4905,4619
+353,2022,"Lexus","RX","Base","Base","SUV","all wheel drive","all wheel drive",,"","",48720,47320,308,295,30,22,4740,4387
+354,2022,"Lexus","RX","F SPORT","F SPORT","SUV","all wheel drive","all wheel drive",,"","",52200,50800,308,295,30,22,4740,4387
+355,2022,"Lexus","RX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,"","",58110,56150,308,290,29,21,4905,4619
+356,2022,"Lexus","RX","Base","Base","SUV","all wheel drive","all wheel drive",,"","",52110,50150,308,290,29,21,4905,4619
+357,2023,"Lexus","RX","Base","Base","SUV","all wheel drive","all wheel drive",,"","",49000,49000,246,275,36,24,4455,4221
+358,2023,"Lexus","RX","Premium","Premium","SUV","all wheel drive","all wheel drive",,"","",51000,51000,246,275,36,24,4455,4221
+359,2023,"Lexus","RX","Premium Plus","Premium Plus","SUV","all wheel drive","all wheel drive",,"","",53600,53600,246,275,36,24,4455,4221
+360,2023,"Lexus","RX","Luxury","Luxury","SUV","all wheel drive","all wheel drive",,"","",57000,57000,246,275,36,24,4455,4221
+361,2024,"Lexus","RX","350h Premium Plus","350 Premium Plus","SUV","all wheel drive","all wheel drive",,"","",54750,54200,246,275,36,24,4455,4310
+362,2024,"Lexus","RX","350h Premium","350 Premium","SUV","all wheel drive","all wheel drive",,"","",52900,52350,246,275,36,24,4455,4310
+363,2024,"Lexus","RX","350h","350","SUV","all wheel drive","all wheel drive",,"","",50750,50200,246,275,36,24,4455,4310
+364,2024,"Lexus","RX","350h Luxury","350 Luxury","SUV","all wheel drive","all wheel drive",,"","",59880,59330,246,275,36,24,4455,4310
+365,2025,"Lexus","RX","350h F SPORT Design","350 F SPORT Design","SUV","all wheel drive","all wheel drive",,"","",56005,55305,246,275,36,24,4480,4310
+366,2025,"Lexus","RX","350h Premium Plus","350 Premium Plus","SUV","all wheel drive","all wheel drive",,"","",57165,56465,246,275,36,24,4480,4310
+367,2025,"Lexus","RX","350h Luxury","350 Luxury","SUV","all wheel drive","all wheel drive",,"","",62220,61520,246,275,36,24,4480,4310
+368,2025,"Lexus","RX","350h Premium","350 Premium","SUV","all wheel drive","all wheel drive",,"","",53675,52975,246,275,36,24,4480,4310
+369,2025,"Lexus","RX","350h","350","SUV","all wheel drive","all wheel drive",,"","",51425,50725,246,275,36,24,4480,4310
+370,2026,"Lexus","RX","350h","350","SUV","all wheel drive","all wheel drive",,"","",52825,52125,246,275,36,24,4480,4310
+371,2026,"Lexus","RX","350h F SPORT Design","350 F SPORT Design","SUV","all wheel drive","all wheel drive",,"","",57330,56630,246,275,36,24,4480,4310
+372,2026,"Lexus","RX","350h Luxury","350 Luxury","SUV","all wheel drive","all wheel drive",,"","",63545,62845,246,275,36,24,4480,4310
+373,2026,"Lexus","RX","350h Premium","350 Premium","SUV","all wheel drive","all wheel drive",,"","",55000,54300,246,275,36,24,4480,4310
+374,2026,"Lexus","RX","350h Premium Plus","350 Premium Plus","SUV","all wheel drive","all wheel drive",,"","",58490,57790,246,275,36,24,4480,4310
+375,2012,"Lincoln","MKZ","Hybrid","Base","Sedan","front wheel drive","front wheel drive",,"","",34755,34755,191,263,39,21,3752,3598
+376,2013,"Lincoln","MKZ","Hybrid","Base","Sedan","front wheel drive","front wheel drive",,"","EcoBoost",35925,35925,188,240,38,26,3828,3719
+377,2014,"Lincoln","MKZ","Hybrid","Base","Sedan","front wheel drive","front wheel drive",,"","EcoBoost",35190,35190,188,231,38,26,3828,3719
+378,2015,"Lincoln","MKZ","Hybrid","Base","Sedan","front wheel drive","front wheel drive",,"","",35190,35190,188,231,40,26,3792,3719
+379,2015,"Lincoln","MKZ","Black Label Hybrid","Black Label","Sedan","front wheel drive","front wheel drive",,"","",45555,45555,188,231,40,26,3792,3719
+380,2016,"Lincoln","MKZ","Hybrid","Base","Sedan","front wheel drive","front wheel drive",,"","",35190,35190,188,231,40,26,3792,3719
+381,2016,"Lincoln","MKZ","Black Label Hybrid","Black Label","Sedan","front wheel drive","front wheel drive",,"","",45605,45605,188,231,40,26,3792,3719
+382,2017,"Lincoln","MKZ","Hybrid Reserve","Reserve","Sedan","front wheel drive","front wheel drive",,"","",39670,39670,188,245,40,24,3871,3739
+383,2017,"Lincoln","MKZ","Hybrid Select","Select","Sedan","front wheel drive","front wheel drive",,"","",36920,36920,188,245,40,24,3871,3739
+384,2017,"Lincoln","MKZ","Hybrid Premiere","Premiere","Sedan","front wheel drive","front wheel drive",,"","",35170,35170,188,245,40,24,3871,3739
+385,2017,"Lincoln","MKZ","Hybrid Black Label","Black Label","Sedan","front wheel drive","front wheel drive",,"","",47830,47830,188,245,40,24,3871,3739
+386,2018,"Lincoln","MKZ","Hybrid Reserve","Reserve","Sedan","front wheel drive","front wheel drive",,"","",40170,40170,188,245,40,24,3871,3739
+387,2018,"Lincoln","MKZ","Hybrid Premiere","Premiere","Sedan","front wheel drive","front wheel drive",,"","",35605,35605,188,245,40,24,3871,3739
+388,2018,"Lincoln","MKZ","Hybrid Select","Select","Sedan","front wheel drive","front wheel drive",,"","",37355,37355,188,245,40,24,3871,3739
+389,2018,"Lincoln","MKZ","Hybrid Black Label","Black Label","Sedan","front wheel drive","front wheel drive",,"","",47990,47990,188,245,40,24,3871,3739
+390,2019,"Lincoln","MKZ","Hybrid","Base","Sedan","front wheel drive","front wheel drive",,"","",35995,35995,188,245,40,24,3849,3749
+391,2019,"Lincoln","MKZ","Hybrid Reserve I","Reserve I","Sedan","front wheel drive","front wheel drive",,"","",38995,38995,188,245,40,24,3849,3749
+392,2019,"Lincoln","MKZ","Hybrid Reserve II","Reserve II","Sedan","front wheel drive","front wheel drive",,"","",44995,44995,188,245,40,24,3849,3749
+393,2020,"Lincoln","MKZ","Hybrid Reserve","Reserve","Sedan","front wheel drive","front wheel drive",,"","",42500,42500,188,245,41,24,3849,3749
+394,2025,"Mazda","CX-50","Hybrid Premium","2.5 S Premium","SUV","all wheel drive","all wheel drive",,"","",37400,34200,219,187,38,28,4008,3741
+395,2025,"Mazda","CX-50","Hybrid Preferred","2.5 S Preferred","SUV","all wheel drive","all wheel drive",,"","",33970,31850,219,187,38,28,4008,3741
+396,2026,"Mazda","CX-50","Hybrid Premium","2.5 S Premium","SUV","all wheel drive","all wheel drive",,"","",38150,34900,219,187,38,26,4008,3741
+397,2026,"Mazda","CX-50","Hybrid Preferred","2.5 S Preferred","SUV","all wheel drive","all wheel drive",,"","",34750,32400,219,187,38,26,4008,3741
+398,2013,"Mercedes-Benz","E-Class","E400 Hybrid","E350 Sport","Sedan","rear wheel drive","rear wheel drive",,"","",55800,51000,302,302,26,23,4189,3825
+399,2014,"Mercedes-Benz","E-Class","E400 Sport Hybrid","E350 Sport","Sedan","rear wheel drive","rear wheel drive",,"","",56700,51900,302,302,26,24,4409,4012
+400,2015,"Mercedes-Benz","E-Class","E400 Sport Hybrid","E 350 Sport","Sedan","rear wheel drive","rear wheel drive",,"","",57100,52300,302,302,26,23,4255,4012
+401,2016,"Nissan","Murano","Platinum","Platinum","SUV","front wheel drive","front wheel drive",,"","",42180,39180,250,260,29,24,4063,3891
+402,2016,"Nissan","Murano","SL","SL","SUV","all wheel drive","all wheel drive",,"","",41730,38730,250,260,28,24,4145,3979
+403,2016,"Nissan","Murano","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,"","",43780,40780,250,260,28,24,4189,4021
+404,2016,"Nissan","Murano","SL","SL","SUV","front wheel drive","front wheel drive",,"","",40130,37130,250,260,29,24,4021,3847
+405,2014,"Nissan","Pathfinder","SV Hybrid","SV","SUV","four wheel drive","four wheel drive",,"","",36900,33900,250,260,26,21,4558,4312
+406,2014,"Nissan","Pathfinder","Platinum Hybrid","Platinum","SUV","four wheel drive","four wheel drive",,"","",44550,41550,250,260,26,21,4714,4471
+407,2014,"Nissan","Pathfinder","SL Hybrid","SL","SUV","front wheel drive","front wheel drive",,"","",38250,35250,250,260,26,22,4451,4205
+408,2014,"Nissan","Pathfinder","SV Hybrid","SV","SUV","front wheel drive","front wheel drive",,"","",35300,32300,250,260,26,22,4417,4170
+409,2014,"Nissan","Pathfinder","SL Hybrid","SL","SUV","four wheel drive","four wheel drive",,"","",39850,36850,250,260,26,21,4592,4346
+410,2014,"Nissan","Pathfinder","Platinum Hybrid","Platinum","SUV","front wheel drive","front wheel drive",,"","",42950,39950,250,260,26,22,4573,4330
+411,2017,"Nissan","Rogue","SL Hybrid","SL","SUV","all wheel drive","all wheel drive",,"","",32910,31710,176,170,33,27,3814,3627
+412,2017,"Nissan","Rogue","SL Hybrid","SL","SUV","front wheel drive","front wheel drive",,"","",31560,30360,176,170,34,29,3693,3505
+413,2017,"Nissan","Rogue","SV Hybrid","SV","SUV","all wheel drive","all wheel drive",,"","",27990,26990,176,170,33,27,3746,3571
+414,2017,"Nissan","Rogue","SV Hybrid","SV","SUV","front wheel drive","front wheel drive",,"","",26640,25640,176,170,34,29,3624,3441
+415,2018,"Nissan","Rogue","SV Hybrid","SV","SUV","front wheel drive","front wheel drive",,"","",27020,26020,176,170,34,29,3663,3488
+416,2018,"Nissan","Rogue","SV Hybrid","SV","SUV","all wheel drive","all wheel drive",,"","",28370,27370,176,170,33,27,3784,3614
+417,2018,"Nissan","Rogue","SL Hybrid","SL","SUV","front wheel drive","front wheel drive",,"","",32380,31180,176,170,34,29,3717,3541
+418,2018,"Nissan","Rogue","SL Hybrid","SL","SUV","all wheel drive","all wheel drive",,"","",33730,32530,176,170,33,27,3818,3659
+419,2019,"Nissan","Rogue","SV Hybrid","SV","SUV","all wheel drive","all wheel drive",,"","",29050,27790,176,170,33,27,3787,3614
+420,2019,"Nissan","Rogue","SV Hybrid","SV","SUV","front wheel drive","front wheel drive",,"","",27700,26440,176,170,34,29,3666,3488
+421,2012,"Porsche","Cayenne","S Hybrid","S","SUV","four wheel drive","four wheel drive",,"","",69000,65000,380,400,21,18,4938,4553
+422,2013,"Porsche","Cayenne","S Hybrid","S","SUV","all wheel drive","all wheel drive",,"","",69850,65850,380,400,21,18,4938,4553
+423,2014,"Porsche","Cayenne","S Hybrid","S","SUV","all wheel drive","all wheel drive",,"","",70900,66800,380,400,21,18,4938,4553
+424,2014,"Subaru","Crosstrek","Hybrid","Limited","SUV","all wheel drive","all wheel drive",,"","",25995,24495,160,148,31,28,3451,3175
+425,2015,"Subaru","Crosstrek","Hybrid","2.0i Limited PZEV","SUV","all wheel drive","all wheel drive",,"","",25995,24795,160,148,31,29,3451,3208
+426,2016,"Subaru","Crosstrek","Hybrid","2.0i Limited PZEV","SUV","all wheel drive","all wheel drive",,"","",26395,25095,160,148,31,29,3451,3208
+427,2026,"Subaru","Crosstrek","Sport Hybrid","Sport","SUV","all wheel drive","all wheel drive",,"","",33995,30625,194,180,36,29,3677,3332
+428,2026,"Subaru","Crosstrek","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,"","",34995,32995,194,180,36,29,3662,3349
+429,2025,"Subaru","Forester","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,"","",41010,37695,194,180,35,29,3911,3613
+430,2025,"Subaru","Forester","Sport Hybrid","Sport","SUV","all wheel drive","all wheel drive",,"","",39595,36105,194,180,35,28,3913,3611
+431,2025,"Subaru","Forester","Touring Hybrid","Touring","SUV","all wheel drive","all wheel drive",,"","",43295,41595,194,180,35,28,3946,3664
+432,2025,"Subaru","Forester","Premium Hybrid","Premium","SUV","all wheel drive","all wheel drive",,"","",36595,33385,194,180,35,29,3873,3569
+433,2026,"Subaru","Forester","Limited Hybrid","Limited","SUV","all wheel drive","all wheel drive",,"","",38995,35995,194,180,35,29,3911,3613
+434,2026,"Subaru","Forester","Premium Hybrid","Premium","SUV","all wheel drive","all wheel drive",,"","",34730,31995,194,180,35,29,3873,3569
+435,2026,"Subaru","Forester","Touring Hybrid","Touring","SUV","all wheel drive","all wheel drive",,"","",41545,39995,194,180,35,28,3946,3664
+436,2026,"Subaru","Forester","Sport Hybrid","Sport","SUV","all wheel drive","all wheel drive",,"","",37930,34795,194,180,35,28,3913,3611
+437,2025,"Toyota","4Runner","TRD Off-Road","TRD Off-Road","SUV","four wheel drive","four wheel drive",,"","",52490,49690,326,278,23,21,5225,4850
+438,2025,"Toyota","4Runner","TRD Off-Road Premium","TRD Off-Road Premium","SUV","four wheel drive","four wheel drive",,"","",58270,55470,326,278,23,21,5225,4850
+439,2025,"Toyota","4Runner","Limited","Limited","SUV","four wheel drive","four wheel drive",,"","",60700,57900,326,278,23,21,5370,4970
+440,2026,"Toyota","4Runner","Limited","Limited","SUV","four wheel drive","four wheel drive",,"","",61300,58500,326,278,23,21,5370,4970
+441,2026,"Toyota","4Runner","TRD Off-Road Premium","TRD Off-Road Premium","SUV","four wheel drive","four wheel drive",,"","",58870,56070,326,278,23,21,5225,4850
+442,2026,"Toyota","4Runner","TRD Off-Road","TRD Off-Road","SUV","four wheel drive","four wheel drive",,"","",53090,50290,326,278,23,21,5225,4850
+443,2013,"Toyota","Avalon","XLE Premium","XLE Premium","Sedan","front wheel drive","front wheel drive",,"","",35555,33195,200,268,40,25,3594,3461
+444,2013,"Toyota","Avalon","XLE Touring","XLE Touring","Sedan","front wheel drive","front wheel drive",,"","",37250,35500,200,268,40,24,3594,3505
+445,2013,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",41400,39650,200,268,40,24,3638,3538
+446,2014,"Toyota","Avalon","XLE Premium","XLE Premium","Sedan","front wheel drive","front wheel drive",,"","",35805,33445,200,268,40,25,3594,3461
+447,2014,"Toyota","Avalon","XLE Touring","XLE Touring","Sedan","front wheel drive","front wheel drive",,"","",37000,35250,200,268,40,24,3594,3505
+448,2014,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",41650,39900,200,268,40,24,3638,3538
+449,2015,"Toyota","Avalon","XLE Premium","XLE Premium","Sedan","front wheel drive","front wheel drive",,"","",36470,34140,200,268,40,24,3638,3505
+450,2015,"Toyota","Avalon","XLE Touring","XLE Touring","Sedan","front wheel drive","front wheel drive",,"","",37800,36080,200,268,40,24,3638,3549
+451,2015,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",41700,39980,200,268,40,24,3682,3583
+452,2016,"Toyota","Avalon","XLE Premium","XLE Premium","Sedan","front wheel drive","front wheel drive",,"","",38100,35850,200,268,40,24,3594,3461
+453,2016,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",41950,40450,200,268,40,24,3638,3538
+454,2016,"Toyota","Avalon","XLE Plus","XLE Plus","Sedan","front wheel drive","front wheel drive",,"","",36650,34400,200,268,40,24,3594,3461
+455,2017,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",42600,41100,200,268,40,24,3638,3538
+456,2017,"Toyota","Avalon","XLE Premium","XLE Premium","Sedan","front wheel drive","front wheel drive",,"","",38750,36500,200,268,40,24,3594,3461
+457,2017,"Toyota","Avalon","XLE Plus","XLE Plus","Sedan","front wheel drive","front wheel drive",,"","",37300,35050,200,268,40,24,3594,3461
+458,2018,"Toyota","Avalon","XLE Plus","XLE Plus","Sedan","front wheel drive","front wheel drive",,"","",37500,35250,200,268,40,24,3594,3461
+459,2018,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",42800,41300,200,268,40,24,3638,3538
+460,2018,"Toyota","Avalon","XLE Premium","XLE Premium","Sedan","front wheel drive","front wheel drive",,"","",38950,36700,200,268,40,24,3594,3461
+461,2019,"Toyota","Avalon","XLE","XLE","Sedan","front wheel drive","front wheel drive",,"","",36650,35650,215,301,44,26,3638,3560
+462,2019,"Toyota","Avalon","XSE","XSE","Sedan","front wheel drive","front wheel drive",,"","",39150,38150,215,301,43,25,3671,3638
+463,2019,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",42950,41950,215,301,43,25,3715,3660
+464,2020,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",43300,42175,215,301,43,25,3715,3660
+465,2020,"Toyota","Avalon","XLE","XLE","Sedan","front wheel drive","front wheel drive",,"","",37000,35875,215,301,44,26,3638,3560
+466,2020,"Toyota","Avalon","XSE","XSE","Sedan","front wheel drive","front wheel drive",,"","",39500,38375,215,301,43,25,3671,3638
+467,2021,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",43400,42425,215,301,43,25,3695,3695
+468,2021,"Toyota","Avalon","XLE","XLE","Sedan","front wheel drive","front wheel drive",,"","",37100,36125,215,301,44,26,3610,3570
+469,2022,"Toyota","Avalon","XLE","XLE","Sedan","front wheel drive","front wheel drive",,"","",37850,36825,215,301,44,26,3610,3570
+470,2022,"Toyota","Avalon","Limited","Limited","Sedan","front wheel drive","front wheel drive",,"","",44150,43125,215,301,43,25,3695,3695
+471,2012,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",25990,22600,200,178,41,28,3435,3190
+472,2012,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,"","",27500,24775,200,178,40,28,3525,3245
+473,2013,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,"","",27670,24855,200,178,40,28,3525,3245
+474,2013,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",26140,22680,200,178,41,28,3435,3190
+475,2014,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",26330,22870,200,178,41,28,3435,3215
+476,2014,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,"","",28625,25810,200,178,40,28,3525,3280
+477,2015,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,"","",29980,26150,200,178,40,28,3585,3340
+478,2015,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",26790,22970,200,178,41,28,3485,3240
+479,2015,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",27995,23840,200,178,40,28,3565,3300
+480,2016,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",27995,23840,200,178,40,28,3565,3300
+481,2016,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",26790,23070,200,178,41,28,3485,3240
+482,2016,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,"","",30140,26310,200,178,40,28,3585,3340
+483,2017,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",27995,23840,200,178,38,27,3565,3300
+484,2017,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,"","",30140,26310,200,178,38,27,3585,3340
+485,2017,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",26790,23070,200,178,40,27,3485,3240
+486,2018,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",27950,24150,208,203,52,32,3472,3296
+487,2018,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,"","",32400,28600,208,203,46,32,3571,3351
+488,2018,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",29650,25350,208,203,46,32,3549,3340
+489,2019,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,"","",32975,29175,208,203,46,32,3571,3351
+490,2019,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",28400,24600,208,203,52,32,3472,3296
+491,2019,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",30100,25800,208,203,46,32,3549,3340
+492,2020,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",30130,26170,208,203,46,32,3549,3340
+493,2020,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,"","",32730,29455,208,203,46,31,3572,3351
+494,2020,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",28430,24970,208,203,52,32,3472,3296
+495,2021,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",27270,25045,208,203,52,32,3480,3310
+496,2021,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,"","",32170,29945,208,203,46,31,3580,3380
+497,2021,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",28785,26560,208,203,46,32,3535,3340
+498,2021,"Toyota","Camry","XSE","XSE","Sedan","front wheel drive","front wheel drive",,"","",32720,30495,208,206,46,31,3565,3425
+499,2022,"Toyota","Camry","XSE","XSE","Sedan","front wheel drive","front wheel drive",,"","",33420,31145,208,206,46,31,3580,3425
+500,2022,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",29515,27385,208,203,46,32,3535,3340
+501,2022,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",27980,25845,208,203,52,32,3480,3310
+502,2022,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,"","",32870,30595,208,203,46,31,3565,3380
+503,2023,"Toyota","Camry","XSE","XSE","Sedan","front wheel drive","front wheel drive",,"","",34095,31620,208,206,46,31,3580,3425
+504,2023,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",28655,26320,208,203,52,32,3480,3310
+505,2023,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,"","",33545,31070,208,203,46,31,3565,3380
+506,2023,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",30190,27860,208,203,46,32,3535,3340
+507,2024,"Toyota","Camry","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",28855,26420,208,203,52,32,3480,3310
+508,2024,"Toyota","Camry","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",30390,27960,208,203,46,32,3535,3340
+509,2024,"Toyota","Camry","XLE","XLE","Sedan","front wheel drive","front wheel drive",,"","",33745,31170,208,203,46,31,3565,3380
+510,2024,"Toyota","Camry","XSE","XSE","Sedan","front wheel drive","front wheel drive",,"","",34295,31720,208,206,46,31,3580,3425
+511,2020,"Toyota","Corolla","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",23100,20050,121,139,52,33,2850,2955
+512,2021,"Toyota","Corolla","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",23600,20475,121,139,52,33,2850,2955
+513,2022,"Toyota","Corolla","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",24050,20875,121,139,52,33,2850,2955
+514,2023,"Toyota","Corolla","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",23050,21700,134,169,50,35,2850,2955
+515,2023,"Toyota","Corolla","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",25490,24140,134,169,47,34,2850,3110
+516,2024,"Toyota","Corolla","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",23500,22050,138,169,50,35,2850,2955
+517,2024,"Toyota","Corolla","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",25940,24490,138,169,47,34,3140,3110
+518,2024,"Toyota","Corolla","Nightshade","Nightshade","Sedan","front wheel drive","front wheel drive",,"","",26940,25490,138,169,47,34,3140,3110
+519,2025,"Toyota","Corolla","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",23825,22325,138,169,47,35,2850,2955
+520,2025,"Toyota","Corolla","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",26265,24765,138,169,47,34,3140,3110
+521,2026,"Toyota","Corolla","LE","LE","Sedan","front wheel drive","front wheel drive",,"","",24975,23125,138,169,50,35,2850,2955
+522,2026,"Toyota","Corolla","SE","SE","Sedan","front wheel drive","front wheel drive",,"","",27415,25565,138,169,47,34,3140,3110
+523,2023,"Toyota","Corolla Cross","S","L","SUV","all wheel drive","all wheel drive",,"","",27970,24910,196,169,42,30,3395,3295
+524,2023,"Toyota","Corolla Cross","SE","LE","SUV","all wheel drive","all wheel drive",,"","",29290,27240,196,169,42,30,3385,3285
+525,2023,"Toyota","Corolla Cross","XSE","XLE","SUV","all wheel drive","all wheel drive",,"","",31065,29015,196,169,42,30,3430,3325
+526,2024,"Toyota","Corolla Cross","XSE","XLE","SUV","all wheel drive","all wheel drive",,"","",31405,29385,196,169,42,30,3430,3325
+527,2024,"Toyota","Corolla Cross","S","L","SUV","all wheel drive","all wheel drive",,"","",28220,25160,196,169,42,30,3395,3295
+528,2024,"Toyota","Corolla Cross","SE","LE","SUV","all wheel drive","all wheel drive",,"","",29540,27490,196,169,42,30,3385,3285
+529,2025,"Toyota","Corolla Cross","S","L","SUV","all wheel drive","all wheel drive",,"","",28495,25435,196,169,42,30,3340,3274
+530,2025,"Toyota","Corolla Cross","SE","LE","SUV","all wheel drive","all wheel drive",,"","",29815,27765,196,169,42,30,3329,3263
+531,2025,"Toyota","Corolla Cross","XSE","XLE","SUV","all wheel drive","all wheel drive",,"","",31680,29660,196,169,42,30,3373,3296
+532,2026,"Toyota","Corolla Cross","XSE","XLE","SUV","all wheel drive","all wheel drive",,"","",33430,31410,196,169,42,30,3373,3296
+533,2026,"Toyota","Corolla Cross","S","L","SUV","all wheel drive","all wheel drive",,"","",29395,26335,196,169,42,30,3340,3274
+534,2026,"Toyota","Corolla Cross","SE","LE","SUV","all wheel drive","all wheel drive",,"","",30715,28665,196,169,42,30,3329,3263
+535,2024,"Toyota","Grand Highlander","XLE","XLE","SUV","front wheel drive","front wheel drive",,"","",45020,43320,245,265,36,24,4455,4300
+536,2024,"Toyota","Grand Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",46620,44920,245,265,34,23,4575,4455
+537,2024,"Toyota","Grand Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",51410,49710,245,265,34,22,4710,4575
+538,2025,"Toyota","Grand Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",51710,49960,245,265,34,22,4620,4485
+539,2025,"Toyota","Grand Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",46980,45230,245,265,34,23,4565,4440
+540,2025,"Toyota","Grand Highlander","XLE","XLE","SUV","front wheel drive","front wheel drive",,"","",45380,43630,245,265,36,24,4465,4290
+541,2025,"Toyota","Grand Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,"","",44210,42460,245,265,36,23,4565,4440
+542,2026,"Toyota","Grand Highlander","XLE","XLE","SUV","front wheel drive","front wheel drive",,"","",46380,44630,245,265,36,24,4465,4290
+543,2026,"Toyota","Grand Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,"","",45210,43460,245,265,34,23,4565,4440
+544,2026,"Toyota","Grand Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",47980,46230,245,265,34,23,4565,4440
+545,2026,"Toyota","Grand Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",52710,50960,245,265,34,22,4620,4485
+546,2012,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",44370,37195,280,270,28,19,4762,4464
+547,2013,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",46370,39400,280,270,28,19,4762,4464
+548,2014,"Toyota","Highlander","Limited Platinum","Limited Platinum","SUV","all wheel drive","all wheel drive",,"","",49790,43590,280,270,28,20,4861,4509
+549,2014,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",47300,41100,280,270,28,20,4861,4509
+550,2015,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",47850,41650,280,270,28,20,4861,4508
+551,2015,"Toyota","Highlander","Limited Platinum","Limited Platinum","SUV","all wheel drive","all wheel drive",,"","",50340,44140,280,270,28,20,4861,4508
+552,2016,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",47870,42375,280,270,28,20,4861,4508
+553,2016,"Toyota","Highlander","Limited Platinum","Limited Platinum","SUV","all wheel drive","all wheel drive",,"","",50485,44990,280,270,28,20,4861,4508
+554,2017,"Toyota","Highlander","Limited Platinum","Limited Platinum","SUV","all wheel drive","all wheel drive",,"","",47880,46260,306,295,28,22,4965,4508
+555,2017,"Toyota","Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,"","",36270,34140,306,295,29,23,4825,4398
+556,2017,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",41330,39980,306,295,28,22,4910,4464
+557,2017,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",44760,43140,306,295,28,22,4965,4508
+558,2018,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",45360,43740,306,295,28,22,4861,4508
+559,2018,"Toyota","Highlander","Limited Platinum","Limited Platinum","SUV","all wheel drive","all wheel drive",,"","",48480,46860,306,295,28,22,4861,4508
+560,2018,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",41930,40580,306,295,28,22,4464,4464
+561,2018,"Toyota","Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,"","",36870,34740,306,295,29,22,4398,4398
+562,2019,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",46060,44390,306,295,28,22,4861,4508
+563,2019,"Toyota","Highlander","Limited Platinum","Limited Platinum","SUV","all wheel drive","all wheel drive",,"","",49180,47510,306,295,28,22,4861,4508
+564,2019,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",42580,41180,306,295,28,22,4464,4464
+565,2019,"Toyota","Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,"","",37520,35340,306,295,29,22,4398,4398
+566,2020,"Toyota","Highlander","LE","LE","SUV","front wheel drive","front wheel drive",,"","",38200,36800,243,295,36,24,4330,4145
+567,2020,"Toyota","Highlander","Platinum","Platinum","SUV","front wheel drive","front wheel drive",,"","",48250,46850,243,295,36,24,4430,4260
+568,2020,"Toyota","Highlander","XLE","XLE","SUV","front wheel drive","front wheel drive",,"","",41000,39600,243,295,36,24,4365,4195
+569,2020,"Toyota","Highlander","Limited","Limited","SUV","front wheel drive","front wheel drive",,"","",45050,43650,243,295,36,24,4430,4260
+570,2020,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",47000,45600,243,295,35,23,4595,4450
+571,2020,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",42600,41200,243,295,35,23,4515,4370
+572,2020,"Toyota","Highlander","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,"","",50200,48800,243,295,35,23,4595,4450
+573,2020,"Toyota","Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,"","",39800,38400,243,295,35,23,4465,4330
+574,2021,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",47440,45990,243,295,35,23,4595,4450
+575,2021,"Toyota","Highlander","Limited","Limited","SUV","front wheel drive","front wheel drive",,"","",45490,44040,243,295,36,24,4430,4260
+576,2021,"Toyota","Highlander","XLE","XLE","SUV","front wheel drive","front wheel drive",,"","",41535,40085,243,295,36,24,4365,4195
+577,2021,"Toyota","Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,"","",40335,38885,243,295,35,23,4465,4330
+578,2021,"Toyota","Highlander","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,"","",50640,49190,243,295,35,23,4595,4450
+579,2021,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",43135,41685,243,295,35,23,4515,4370
+580,2021,"Toyota","Highlander","Platinum","Platinum","SUV","front wheel drive","front wheel drive",,"","",48690,47240,243,295,36,24,4430,4260
+581,2021,"Toyota","Highlander","LE","LE","SUV","front wheel drive","front wheel drive",,"","",38735,37285,243,295,36,24,4330,4145
+582,2022,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",48460,46960,243,295,35,23,4595,4450
+583,2022,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",44155,42655,243,295,35,23,4515,4370
+584,2022,"Toyota","Highlander","Platinum","Platinum","SUV","front wheel drive","front wheel drive",,"","",49510,48010,243,295,36,24,4430,4260
+585,2022,"Toyota","Highlander","LE","LE","SUV","front wheel drive","front wheel drive",,"","",39555,38055,243,295,36,24,4330,4145
+586,2022,"Toyota","Highlander","Limited","Limited","SUV","front wheel drive","front wheel drive",,"","",46510,45010,243,295,36,24,4430,4260
+587,2022,"Toyota","Highlander","XLE","XLE","SUV","front wheel drive","front wheel drive",,"","",42555,41055,243,295,36,24,4365,4195
+588,2022,"Toyota","Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,"","",41155,39655,243,295,35,23,4465,4330
+589,2022,"Toyota","Highlander","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,"","",51460,49960,243,295,35,23,4595,4450
+590,2023,"Toyota","Highlander","LE","LE","SUV","front wheel drive","front wheel drive",,"","",40620,39020,243,265,36,25,4330,4155
+591,2023,"Toyota","Highlander","XLE","XLE","SUV","front wheel drive","front wheel drive",,"","",43620,42020,243,265,36,25,4365,4199
+592,2023,"Toyota","Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,"","",42220,40620,243,265,35,24,4465,4332
+593,2023,"Toyota","Highlander","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,"","",53025,51425,243,265,35,24,4595,4453
+594,2023,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",45220,43620,243,265,35,24,4515,4376
+595,2023,"Toyota","Highlander","Platinum","Platinum","SUV","front wheel drive","front wheel drive",,"","",51075,49475,243,265,36,25,4430,4265
+596,2023,"Toyota","Highlander","Limited","Limited","SUV","front wheel drive","front wheel drive",,"","",47875,46275,243,265,36,25,4430,4265
+597,2023,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",49825,48225,243,265,35,24,4595,4453
+598,2024,"Toyota","Highlander","XLE","XLE","SUV","front wheel drive","front wheel drive",,"","",44120,42420,243,265,36,25,4365,4199
+599,2024,"Toyota","Highlander","LE","LE","SUV","front wheel drive","front wheel drive",,"","",40970,39270,243,265,36,25,4330,4155
+600,2024,"Toyota","Highlander","Limited","Limited","SUV","front wheel drive","front wheel drive",,"","",48225,46525,243,265,36,25,4430,4265
+601,2024,"Toyota","Highlander","Platinum","Platinum","SUV","front wheel drive","front wheel drive",,"","",51425,49725,243,265,36,25,4430,4265
+602,2024,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",50175,48475,243,265,35,24,4595,4453
+603,2024,"Toyota","Highlander","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,"","",53375,51675,243,265,35,24,4595,4453
+604,2024,"Toyota","Highlander","LE","LE","SUV","all wheel drive","all wheel drive",,"","",42570,40870,243,265,35,24,4465,4332
+605,2024,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",45720,44020,243,265,35,24,4515,4376
+606,2025,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",46820,45070,243,265,35,24,4515,4376
+607,2025,"Toyota","Highlander","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,"","",54475,52725,243,265,35,24,4595,4453
+608,2025,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",51275,49525,243,265,35,24,4595,4453
+609,2026,"Toyota","Highlander","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",47620,45870,243,265,35,24,4515,4376
+610,2026,"Toyota","Highlander","Platinum","Platinum","SUV","all wheel drive","all wheel drive",,"","",55275,53525,243,265,35,24,4595,4453
+611,2026,"Toyota","Highlander","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",52075,50325,243,265,35,24,4595,4453
+612,2016,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",33610,32910,194,176,33,25,3950,3630
+613,2016,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",28370,27670,194,176,33,25,3925,3605
+614,2017,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",34030,32305,194,176,32,24,3950,3630
+615,2017,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",29030,26900,194,176,32,25,3925,3605
+616,2017,"Toyota","RAV4","SE","SE","SUV","all wheel drive","all wheel drive",,"","",32185,30190,194,176,32,25,3950,3630
+617,2018,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",29280,27150,194,176,32,25,3925,3605
+618,2018,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",34280,32555,194,176,32,24,3950,3630
+619,2018,"Toyota","RAV4","SE","SE","SUV","all wheel drive","all wheel drive",,"","",32435,30440,194,176,32,24,3950,3630
+620,2018,"Toyota","RAV4","LE","LE","SUV","all wheel drive","all wheel drive",,"","",27385,26060,194,176,32,25,3925,3570
+621,2019,"Toyota","RAV4","LE","LE","SUV","all wheel drive","all wheel drive",,"","",27850,27050,219,203,39,30,3710,3490
+622,2019,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",29650,28850,219,203,39,28,3755,3490
+623,2019,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",35850,35050,219,203,39,28,3800,3620
+624,2020,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",36880,35880,219,203,40,28,3800,3620
+625,2020,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",29645,28645,219,203,40,29,3755,3490
+626,2020,"Toyota","RAV4","LE","LE","SUV","all wheel drive","all wheel drive",,"","",28350,27350,219,203,40,30,3710,3490
+627,2021,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",30195,29045,219,203,40,29,3775,3490
+628,2021,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",37430,36280,219,203,40,28,3780,3620
+629,2021,"Toyota","RAV4","LE","LE","SUV","all wheel drive","all wheel drive",,"","",28900,27750,219,203,40,30,3690,3490
+630,2021,"Toyota","RAV4","XLE Premium","XLE Premium","SUV","all wheel drive","all wheel drive",,"","",32900,31750,219,203,40,29,3755,3490
+631,2022,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",31045,29845,219,203,40,29,3775,3560
+632,2022,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",38075,36875,219,203,40,28,3805,3690
+633,2022,"Toyota","RAV4","LE","LE","SUV","all wheel drive","all wheel drive",,"","",29575,28375,219,203,40,30,3710,3510
+634,2022,"Toyota","RAV4","XLE Premium","XLE Premium","SUV","all wheel drive","all wheel drive",,"","",33935,32735,219,203,40,29,3755,3560
+635,2023,"Toyota","RAV4","LE","LE","SUV","all wheel drive","all wheel drive",,"","",31225,29675,219,203,40,30,3710,3510
+636,2023,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",39530,37980,219,203,40,28,3805,3690
+637,2023,"Toyota","RAV4","XLE Premium","XLE Premium","SUV","all wheel drive","all wheel drive",,"","",35625,34075,219,203,40,29,3755,3560
+638,2023,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",32735,31185,219,203,40,29,3775,3560
+639,2024,"Toyota","RAV4","LE","LE","SUV","all wheel drive","all wheel drive",,"","",31725,30075,219,203,39,30,3710,3490
+640,2024,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",33235,31585,219,203,39,29,3775,3515
+641,2024,"Toyota","RAV4","XLE Premium","XLE Premium","SUV","all wheel drive","all wheel drive",,"","",36125,34475,219,203,39,29,3755,3515
+642,2024,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",40030,38380,219,203,39,28,3805,3640
+643,2025,"Toyota","RAV4","LE","LE","SUV","all wheel drive","all wheel drive",,"","",32850,31200,219,203,39,30,3690,3490
+644,2025,"Toyota","RAV4","XLE Premium","XLE Premium","SUV","all wheel drive","all wheel drive",,"","",37250,35600,219,203,39,29,3755,3515
+645,2025,"Toyota","RAV4","Limited","Limited","SUV","all wheel drive","all wheel drive",,"","",41155,39505,219,203,39,28,3800,3640
+646,2025,"Toyota","RAV4","XLE","XLE","SUV","all wheel drive","all wheel drive",,"","",34360,32710,219,203,39,29,3775,3515
+647,2024,"Toyota","Tacoma","TRD Sport","TRD Sport","Truck (Double Cab)","four wheel drive","four wheel drive",5,"","",46300,42600,326,278,,20,5045,4485
+648,2024,"Toyota","Tacoma","TRD Off-Road","TRD Off-Road","Truck (Double Cab)","four wheel drive","four wheel drive",5,"","",46600,42900,326,278,,21,5030,4485
+649,2024,"Toyota","Tacoma","Limited","Limited","Truck (Double Cab)","four wheel drive","four wheel drive",5,"","",55800,52100,326,278,,21,5170,4485
+650,2025,"Toyota","Tacoma","Limited","Limited","Truck (Double Cab)","four wheel drive","four wheel drive",5,"","",56280,52955,326,278,23,21,5170,4715
+651,2025,"Toyota","Tacoma","TRD Sport","TRD Sport","Truck (Double Cab)","four wheel drive","four wheel drive",5,"","",46720,43000,326,278,23,21,5045,4575
+652,2025,"Toyota","Tacoma","TRD Off-Road","TRD Off-Road","Truck (Double Cab)","four wheel drive","four wheel drive",5,"","",47020,43300,326,278,23,21,5030,4630
+653,2026,"Toyota","Tacoma","TRD Off-Road","TRD Off-Road","Truck (Double Cab)","four wheel drive","four wheel drive",5,"","",47335,43615,326,278,23,21,5030,4630
+654,2026,"Toyota","Tacoma","TRD Sport","TRD Sport","Truck (Double Cab)","four wheel drive","four wheel drive",5,"","",47035,43315,326,278,23,21,5045,4575
+655,2026,"Toyota","Tacoma","Limited","Limited","Truck (Double Cab)","four wheel drive","four wheel drive",5,"","",56595,53270,326,278,23,21,5170,4715
+656,2022,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,"6.5' Bed","6.5' Bed",65120,61720,437,389,20,19,6185,5800
+657,2022,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,"6.5' Bed","6.5' Bed",64420,61020,437,389,20,19,6185,5800
+658,2022,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,"6.5' Bed","6.5' Bed",56330,52930,437,389,20,19,6095,5720
+659,2022,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,"5.5' Bed","5.5' Bed",64790,61390,437,389,20,19,6095,5620
+660,2022,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,"6.5' Bed","6.5' Bed",62120,58720,437,389,22,20,5865,5535
+661,2022,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,"5.5' Bed","5.5' Bed",64090,60690,437,389,20,19,6095,5620
+662,2022,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,"6.5' Bed","6.5' Bed",61420,58020,437,389,22,20,5865,5535
+663,2022,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,"6.5' Bed","6.5' Bed",53330,49930,437,389,22,20,5785,5465
+664,2022,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,"5.5' Bed","5.5' Bed",56000,52600,437,389,20,19,6010,5490
+665,2022,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,"5.5' Bed","5.5' Bed",61790,58390,437,389,22,20,5800,5325
+666,2022,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,"5.5' Bed","5.5' Bed",61090,57690,437,389,22,20,5800,5325
+667,2022,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,"5.5' Bed","5.5' Bed",53000,49600,437,389,22,20,5710,5245
+668,2023,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,"5.5' Bed","5.5' Bed",56415,52615,437,389,22,20,5710,5245
+669,2023,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,"5.5' Bed","5.5' Bed",64505,60775,437,389,22,20,5800,5325
+670,2023,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,"5.5' Bed","5.5' Bed",65205,61460,437,389,22,20,5800,5325
+671,2023,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,"6.5' Bed","6.5' Bed",56745,52945,437,389,22,20,5785,5465
+672,2023,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,"6.5' Bed","6.5' Bed",64835,61105,437,389,22,20,5865,5535
+673,2023,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,"6.5' Bed","6.5' Bed",65535,61790,437,389,22,20,5865,5535
+674,2023,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,"5.5' Bed","5.5' Bed",59415,55615,437,389,20,19,6010,5490
+675,2023,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,"5.5' Bed","5.5' Bed",67505,63775,437,389,20,19,6095,5620
+676,2023,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,"5.5' Bed","5.5' Bed",68205,64460,437,389,20,19,6095,5620
+677,2023,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,"6.5' Bed","6.5' Bed",59745,55945,437,389,20,19,6095,5720
+678,2023,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,"6.5' Bed","6.5' Bed",67835,64105,437,389,20,19,6185,5800
+679,2023,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,"6.5' Bed","6.5' Bed",68535,64790,437,389,20,19,6185,5800
+680,2024,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,"6.5' Bed","6.5' Bed",66735,62790,437,389,22,20,5865,5535
+681,2024,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,"6.5' Bed","6.5' Bed",66035,62105,437,389,22,20,5865,5535
+682,2024,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,"5.5' Bed","5.5' Bed",65705,61775,437,389,22,20,5800,5325
+683,2024,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,"5.5' Bed","5.5' Bed",57625,53905,437,389,22,20,5710,5245
+684,2024,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,"6.5' Bed","6.5' Bed",57955,54235,437,389,22,20,5785,5465
+685,2024,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,"5.5' Bed","5.5' Bed",66405,62460,437,389,22,20,5800,5325
+686,2024,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,"5.5' Bed","5.5' Bed",68705,64775,437,389,20,19,6095,5620
+687,2024,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,"5.5' Bed","5.5' Bed",60625,56905,437,389,20,19,6010,5490
+688,2024,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,"6.5' Bed","6.5' Bed",69735,65790,437,389,20,19,6185,5800
+689,2024,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,"6.5' Bed","6.5' Bed",69035,65105,437,389,20,19,6185,5800
+690,2024,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,"5.5' Bed","5.5' Bed",69405,65460,437,389,20,19,6095,5620
+691,2024,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,"6.5' Bed","6.5' Bed",60955,57235,437,389,20,19,6095,5720
+692,2025,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,"5.5' Bed","5.5' Bed",58005,54305,437,389,22,20,5710,5245
+693,2025,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,"5.5' Bed","5.5' Bed",67585,63675,437,389,22,20,5800,5325
+694,2025,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,"5.5' Bed","5.5' Bed",68285,64360,437,389,22,20,5800,5325
+695,2025,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,"6.5' Bed","6.5' Bed",58335,54635,437,389,22,20,5785,5465
+696,2025,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,"5.5' Bed","5.5' Bed",61005,57305,437,389,20,19,6010,5490
+697,2025,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,"5.5' Bed","5.5' Bed",70585,66675,437,389,20,19,6095,5620
+698,2025,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,"5.5' Bed","5.5' Bed",71285,67360,437,389,20,19,6095,5620
+699,2025,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,"6.5' Bed","6.5' Bed",61335,57635,437,389,20,19,6095,5720
+700,2025,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,"6.5' Bed","6.5' Bed",70915,67005,437,389,20,19,6185,5800
+701,2025,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,"6.5' Bed","6.5' Bed",71615,67690,437,389,20,19,6185,5800
+702,2026,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",6.5,"6.5' Bed","6.5' Bed",58890,55190,437,389,22,20,5810,5480
+703,2026,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","rear wheel drive","rear wheel drive",5.5,"5.5' Bed","5.5' Bed",58560,54860,437,389,22,20,5745,5355
+704,2026,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,"6.5' Bed","6.5' Bed",61890,58190,437,389,20,19,6120,5730
+705,2026,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,"5.5' Bed","5.5' Bed",70605,66695,437,389,20,19,6120,5730
+706,2026,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,"5.5' Bed","5.5' Bed",71305,67380,437,389,20,19,6120,5730
+707,2026,"Toyota","Tundra","Limited","Limited","Truck (CrewMax)","four wheel drive","four wheel drive",5.5,"5.5' Bed","5.5' Bed",61560,57860,437,389,20,19,6010,5590
+708,2026,"Toyota","Tundra","Platinum","Platinum","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,"6.5' Bed","6.5' Bed",70935,67025,437,389,20,19,6205,5830
+709,2026,"Toyota","Tundra","1794 Edition","1794 Edition","Truck (CrewMax)","four wheel drive","four wheel drive",6.5,"6.5' Bed","6.5' Bed",71635,67710,437,389,20,19,6205,5830
+710,2013,"Volkswagen","Jetta","SEL","SEL","Sedan","front wheel drive","front wheel drive",,"","Navigation",29325,25250,170,170,45,26,3312,3082
+711,2014,"Volkswagen","Jetta","SEL","SEL","Sedan","front wheel drive","front wheel drive",,"","",30245,25925,170,170,45,26,3312,3070
+712,2012,"Volkswagen","Touareg","Hybrid","VR6 Executive","SUV","all wheel drive","all wheel drive",,"","",61995,55095,380,280,21,19,5135,4711
+713,2013,"Volkswagen","Touareg","Hybrid","VR6 Executive","SUV","all wheel drive","all wheel drive",,"","",62575,55675,380,280,21,19,5135,4711
+714,2014,"Volkswagen","Touareg","Hybrid","V6 Executive","SUV","all wheel drive","all wheel drive",,"","",64745,57935,380,280,21,19,5135,4711
+715,2015,"Volkswagen","Touareg","V6 Hybrid","V6 Executive","SUV","all wheel drive","all wheel drive",,"","",66995,58700,380,280,21,19,5135,4711

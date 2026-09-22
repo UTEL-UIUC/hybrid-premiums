@@ -30,12 +30,13 @@ One row per HEV–ICE pair (715 rows). Prices are nominal model-year dollars.
 | `body_type_hyb` | Body type (identical for both sides by construction) |
 | `drive_type_hyb`, `drive_type_ice` | Drive type; all-wheel and four-wheel drive are pooled for matching, so a few pairs differ |
 | `truck_bed` | Pickup bed length in feet (blank for non-pickups); identical for both sides by construction |
+| `package_hyb`, `package_ice` | Option package in the catalog listing (e.g. `Technology Package`), blank if none |
 | `msrp_hyb`, `msrp_ice` | Base MSRP |
 | `hp_hyb`, `hp_ice` | Rated horsepower |
 | `mpg_combined_hyb`, `mpg_combined_ice` | EPA combined MPG |
 | `curb_weight_hyb`, `curb_weight_ice` | Curb weight (lb); blank where it could not be sourced |
 
-A year–model–trim combination can appear more than once when the trim is sold in several drive types or truck bed lengths; the drive and bed columns tell those rows apart.
+A year–model–trim combination can appear more than once when the trim is sold in several drive types, truck bed lengths, or packages; those columns tell the rows apart. The one exception is the 2020–2022 Lexus RX Base, where the standard RX and long-wheelbase RX L share all listed fields; the RX L is the higher-priced row of each pair.
 
 ### `data/curb-weight-corrections.csv`
 

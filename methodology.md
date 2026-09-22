@@ -558,6 +558,7 @@ The matching produced 715 HEV–ICE pairs from 715 distinct HEV catalog rows, co
 - `body_type_hyb`: HEV body type (the ICE body type is identical by construction).
 - `drive_type_hyb`, `drive_type_ice`: source drive types. They differ only where a four-wheel-drive HEV matches an all-wheel-drive ICE under the pooled `awd_4wd` key.
 - `truck_bed`: parsed pickup bed length in feet, blank for other bodies (identical on both sides by construction).
+- `package_hyb`, `package_ice`: source package text (the `w/` suffix of the listing), blank if none. They differ only where a remap moves the package (2013 Acura ILX, 2013 Volkswagen Jetta) or where the ICE listing carries an `EcoBoost` engine label that is dropped from the package key (Ford Fusion and Lincoln MKZ).
 - `msrp_hyb`, `msrp_ice`: base MSRP in nominal model-year dollars.
 - `hp_hyb`, `hp_ice`: rated horsepower.
 - `mpg_combined_hyb`, `mpg_combined_ice`: EPA combined fuel economy.

@@ -11,7 +11,7 @@ The pairs were built from the Teoalida Year-Make-Model-Trim Basic Specs database
 - `data/matched.csv` holds the matched pairs, limited to the fields the analysis uses.
 - `methodology.md` documents every matching rule, including all manual model and trim renamings, exclusions, and the sources behind each brand-level decision.
 - `data/curb-weight-corrections.csv` records the curb weights we sourced by hand where the catalog was missing them.
-- `data/hev-models-by-body.csv` holds aggregate counts of HEV nameplates by year and body type from the catalog, used for one appendix-style figure.
+- `data/hev-models-by-body.csv` holds aggregate counts of HEV nameplates by year and body type from the catalog, used for the HEV-models-by-body figure.
 
 Anyone with a copy of the catalog can rebuild the pairs by following `methodology.md`.
 
@@ -27,6 +27,8 @@ One row per HEV–ICE pair (715 rows). Prices are nominal model-year dollars.
 | `year` | Model year |
 | `make`, `model` | Nameplate, after the renamings in `methodology.md` |
 | `trim_hyb`, `trim_ice` | Source trim names of the HEV and its ICE match |
+| `trim_key` | Normalized trim name on which the pair was matched (lowercase, punctuation and powertrain words removed, Lexus badges stripped, HEV remaps applied); identical for both sides. Used to follow trims across years |
+| `trim_key_hyb` | Normalized HEV trim name before any remap (`basic` for a blank or bare "Hybrid" trim). Used only in a robustness check |
 | `body_type_hyb` | Body type (identical for both sides by construction) |
 | `drive_type_hyb`, `drive_type_ice` | Drive type; all-wheel and four-wheel drive are pooled for matching, so a few pairs differ |
 | `truck_bed` | Pickup bed length in feet (blank for non-pickups); identical for both sides by construction |
@@ -70,22 +72,34 @@ Rscript run-all.R
 
 This builds `output/analysis_sample.rds` (the matched pairs inflated to 2026 dollars with CPI-U, restricted to model years 2012–2026), then writes figures to `output/` and LaTeX tables to `output/tables/`. Each script can also be run on its own from the repository root.
 
+### Estimation design
+
+- **Weights.** Every average and regression uses all matched pairs, each weighted by one over the number of matches its nameplate has in that year (nameplate = make × model × body), so each nameplate–year counts once.
+- **Trim lines.** A trim line is nameplate × body × ICE drive type × truck bed × ICE package × `trim_key`, followed across model years (206 lines).
+- **Adjusted paths.** The adjusted premium, fuel-economy, and performance paths use model-year and trim-line fixed effects, and price the 2026 lineup in each earlier year.
+- **Standard errors.** All standard errors are clustered by nameplate.
+- **Robustness.** `premium-path-fe.R` also prints results with trim lines keyed on the raw ICE trim name (`trim_ice`) and on `trim_key_hyb`, and with nameplate instead of trim fixed effects.
+
 | Paper output | Script | File |
 | --- | --- | --- |
 | Nameplate timeline | `nameplate-timeline.R` | `output/nameplate_timeline.pdf` |
 | Premium vs. horsepower difference | `premium-hpdiff.R` | `output/premium_hpdiff.pdf` |
-| Premium path, matched pairs and nameplate means | `premium-path.R` | `output/premium_path_observations.pdf`, `output/premium_path_nameplates.pdf` |
+| Premium path, matched pairs and nameplates weighted equally | `premium-path.R` | `output/premium_path_observations.pdf`, `output/premium_path_nameplates.pdf` |
 | Yearly mean premiums table | `premium-path-means.R` | `output/tables/tab-premium-path-means.tex` |
-| Selected nameplate paths | `nameplate-path.R` | `output/premium_nameplate_paths.pdf` |
-| Year fixed effects table and adjusted path | `premium-path-fe.R` | `output/tables/tab-year-fe.tex`, `output/premium_path_nameplates_fe.pdf` |
-| Premium vs. ICE price table and figure | `premium-by-ice-price-cr.R` | `output/tables/tab-cr-ice-price.tex`, `output/premium_by_ice_price.pdf` |
+| Selected long-lived trims | `trim-paths.R` | `output/premium_trim_line_paths.pdf` |
+| Year fixed effects table and adjusted premium | `premium-path-fe.R` | `output/tables/tab-year-fe-trim.tex`, `output/premium_path_trim_fe.pdf` |
+| Premium vs. ICE price table and figure | `premium-by-ice-price.R` | `output/tables/tab-cr-ice-price-trim.tex`, `output/premium_by_ice_price_trim.pdf` |
 | HEV sales share and premium | `hev-quarterly-sales.R` | `output/hev_quarterly_sales.pdf` |
-| Fuel economy gaps | `fuel-gaps.R` | `output/fuel_gaps.pdf` |
-| Performance gaps | `perf-gaps.R` | `output/perf_gaps.pdf` |
+| Fuel economy gaps | `fuel-gaps.R` | `output/fuel_gaps_trim.pdf` |
+| Performance gaps | `perf-gaps.R` | `output/perf_gaps_trim.pdf` |
 | HEV models by body type | `hev-models-by-body.R` | `output/hev_models_by_body.pdf` |
-| Appendix: match-level tables | `appendix-match-level.R` | `output/tables/tab-year-fe-matches.tex`, `output/tables/tab-cr-ice-price-matches.tex` |
 
-Shared code lives in `R/`: `analysis_window.R` (model-year range), `build_analysis_sample.R` (CPI inflation and analysis columns), and `path_helpers.R` (nameplate–year collapsing, fixed-effect paths, plot theme).
+Shared code lives in `R/`:
+
+- `analysis_window.R`: the model-year range.
+- `build_analysis_sample.R`: CPI inflation and analysis columns.
+- `path_helpers.R`: nameplate–year collapsing, nameplate fixed-effect paths, and the plot theme.
+- `trim_helpers.R`: the 1/m weights, trim-line identifiers, trim fixed-effect paths with clustered confidence bands, and the joint test of the post-2019 year effects.
 
 ## License
 

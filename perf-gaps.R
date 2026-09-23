@@ -1,5 +1,6 @@
-# HEV minus ICEV performance gaps: raw nameplate-year means and the
-# within-nameplate path. Writes output/perf_gaps.pdf.
+# HEV minus ICEV performance gaps: raw nameplate--year means and the
+# within-trim path (trim fixed effects, matches weighted 1/m).
+# Writes output/perf_gaps_trim.pdf.
 # Left panel is horsepower; right panel is log horsepower per pound.
 
 suppressPackageStartupMessages({
@@ -9,14 +10,17 @@ suppressPackageStartupMessages({
 })
 
 project_root <- getwd()
+dir.create(file.path(project_root, "output"), showWarnings = FALSE)
 source(file.path(project_root, "R", "build_analysis_sample.R"))
 source(file.path(project_root, "R", "path_helpers.R"))
+source(file.path(project_root, "R", "trim_helpers.R"))
 
 df <- load_analysis_sample(project_root)
 
 hp <- df %>%
     filter(!is.na(hp_hyb), !is.na(hp_ice), hp_hyb > 0, hp_ice > 0) %>%
-    mutate(hp_gap = hp_hyb - hp_ice)
+    mutate(hp_gap = hp_hyb - hp_ice) %>%
+    add_trim_weights()
 
 logp <- df %>%
     filter(
@@ -26,41 +30,33 @@ logp <- df %>%
     ) %>%
     mutate(
         log_pwr_gap = log(hp_hyb / curb_weight_hyb) - log(hp_ice / curb_weight_ice)
-    )
-
-cells_hp <- hp %>%
-    group_by(nameplate, body_type, year_fe, year) %>%
-    summarise(hp_gap = mean(hp_gap), .groups = "drop")
-
-cells_log <- logp %>%
-    group_by(nameplate, body_type, year_fe, year) %>%
-    summarise(log_pwr_gap = mean(log_pwr_gap), .groups = "drop")
+    ) %>%
+    add_trim_weights()
 
 path <- bind_rows(
-    build_fe_path(cells_hp, "hp_gap") %>% mutate(metric = "Horsepower"),
-    build_fe_path(cells_log, "log_pwr_gap") %>% mutate(metric = "Log hp per pound")
+    build_trim_path(hp, "hp_gap") %>% mutate(metric = "Horsepower"),
+    build_trim_path(logp, "log_pwr_gap") %>% mutate(metric = "Log hp per pound")
 ) %>%
-    filter(series %in% c("Raw average", "2026 fleet held fixed")) %>%
-    mutate(
-        series = recode(
-            as.character(series),
-            "2026 fleet held fixed" = "Within nameplate"
-        ),
-        series = factor(series, levels = c("Raw average", "Within nameplate")),
-        metric = factor(metric, levels = c("Horsepower", "Log hp per pound"))
-    )
+    mutate(metric = factor(metric, levels = c("Horsepower", "Log hp per pound")))
+
+path %>%
+    filter(year %in% c(2012, 2016, 2019, 2020, 2021, 2023, 2026)) %>%
+    select(metric, series, year, estimate) %>%
+    tidyr::pivot_wider(names_from = year, values_from = estimate) %>%
+    mutate(across(where(is.numeric), ~ round(.x, 3))) %>%
+    as.data.frame()
 
 path_cols <- c(
     "Raw average" = "#E69F00",
-    "Within nameplate" = "#0072B2"
+    "Within trim" = "#0072B2"
 )
 
 ggsave(
-    file.path(project_root, "output", "perf_gaps.pdf"),
+    file.path(project_root, "output", "perf_gaps_trim.pdf"),
     ggplot(path, aes(year, estimate, color = series)) +
         geom_hline(yintercept = 0, color = "grey80", linewidth = 0.4) +
         geom_ribbon(
-            data = path %>% filter(series == "Within nameplate"),
+            data = path %>% filter(series == "Within trim"),
             aes(ymin = conf.low, ymax = conf.high, fill = series),
             alpha = 0.20,
             color = NA,

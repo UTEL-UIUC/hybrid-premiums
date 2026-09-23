@@ -1,5 +1,5 @@
-# HEV minus ICEV fuel gaps: raw nameplate-year means and the
-# within-nameplate path. Writes output/fuel_gaps.pdf.
+# HEV minus ICEV fuel gaps: raw nameplate--year means and the within-trim
+# path (trim fixed effects, matches weighted 1/m). Writes output/fuel_gaps_trim.pdf.
 # Left panel is combined MPG; right panel is gallons per 1,000 miles.
 
 suppressPackageStartupMessages({
@@ -9,8 +9,10 @@ suppressPackageStartupMessages({
 })
 
 project_root <- getwd()
+dir.create(file.path(project_root, "output"), showWarnings = FALSE)
 source(file.path(project_root, "R", "build_analysis_sample.R"))
 source(file.path(project_root, "R", "path_helpers.R"))
+source(file.path(project_root, "R", "trim_helpers.R"))
 
 df <- load_analysis_sample(project_root) %>%
     filter(
@@ -20,41 +22,33 @@ df <- load_analysis_sample(project_root) %>%
     mutate(
         g1000_gap = 1000 / mpg_combined_hyb - 1000 / mpg_combined_ice,
         mpg_gap = mpg_combined_hyb - mpg_combined_ice
-    )
-
-cells <- df %>%
-    group_by(nameplate, body_type, year_fe, year) %>%
-    summarise(
-        g1000_gap = mean(g1000_gap),
-        mpg_gap = mean(mpg_gap),
-        .groups = "drop"
-    )
+    ) %>%
+    add_trim_weights()
 
 path <- bind_rows(
-    build_fe_path(cells, "mpg_gap") %>% mutate(metric = "Combined MPG"),
-    build_fe_path(cells, "g1000_gap") %>% mutate(metric = "Gallons per 1,000 miles")
+    build_trim_path(df, "mpg_gap") %>% mutate(metric = "Combined MPG"),
+    build_trim_path(df, "g1000_gap") %>% mutate(metric = "Gallons per 1,000 miles")
 ) %>%
-    filter(series %in% c("Raw average", "2026 fleet held fixed")) %>%
-    mutate(
-        series = recode(
-            as.character(series),
-            "2026 fleet held fixed" = "Within nameplate"
-        ),
-        series = factor(series, levels = c("Raw average", "Within nameplate")),
-        metric = factor(metric, levels = c("Combined MPG", "Gallons per 1,000 miles"))
-    )
+    mutate(metric = factor(metric, levels = c("Combined MPG", "Gallons per 1,000 miles")))
+
+path %>%
+    filter(year %in% c(2012, 2016, 2019, 2020, 2023, 2026)) %>%
+    select(metric, series, year, estimate) %>%
+    tidyr::pivot_wider(names_from = year, values_from = estimate) %>%
+    mutate(across(where(is.numeric), ~ round(.x, 1))) %>%
+    as.data.frame()
 
 path_cols <- c(
     "Raw average" = "#E69F00",
-    "Within nameplate" = "#0072B2"
+    "Within trim" = "#0072B2"
 )
 
 ggsave(
-    file.path(project_root, "output", "fuel_gaps.pdf"),
+    file.path(project_root, "output", "fuel_gaps_trim.pdf"),
     ggplot(path, aes(year, estimate, color = series)) +
         geom_hline(yintercept = 0, color = "grey80", linewidth = 0.4) +
         geom_ribbon(
-            data = path %>% filter(series == "Within nameplate"),
+            data = path %>% filter(series == "Within trim"),
             aes(ymin = conf.low, ymax = conf.high, fill = series),
             alpha = 0.20,
             color = NA,

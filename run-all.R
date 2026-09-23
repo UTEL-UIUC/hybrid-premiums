@@ -6,14 +6,13 @@ scripts <- c(
     "premium-hpdiff.R",
     "premium-path.R",
     "premium-path-means.R",
-    "nameplate-path.R",
+    "trim-paths.R",
     "premium-path-fe.R",
-    "premium-by-ice-price-cr.R",
+    "premium-by-ice-price.R",
     "hev-quarterly-sales.R",
     "fuel-gaps.R",
     "perf-gaps.R",
-    "hev-models-by-body.R",
-    "appendix-match-level.R"
+    "hev-models-by-body.R"
 )
 
 suppressPackageStartupMessages(library(dplyr))

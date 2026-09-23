@@ -1,6 +1,5 @@
 # Premium vs matched ICEV price on matched trims weighted 1/m (one vote per
-# nameplate--year). Columns (5)-(6) add nameplate--year fixed effects, so
-# their slopes compare trims of the same car in the same year.
+# nameplate--year).
 # Writes output/tables/tab-cr-ice-price-trim.tex and output/premium_by_ice_price_trim.pdf.
 
 suppressPackageStartupMessages({
@@ -25,14 +24,6 @@ df <- add_trim_weights(load_analysis_sample(project_root)) %>%
         p_ice_post = p_ice * post,
         year_fe = droplevels(year_fe),
         cell = factor(paste(nameplate, body_type, year))
-    ) %>%
-    group_by(cell) %>%
-    mutate(xbar = mean(p_ice)) %>%
-    ungroup() %>%
-    mutate(
-        xdev = p_ice - xbar,
-        xdev_pre = xdev * pre, xdev_post = xdev * post,
-        xbar_pre = xbar * pre, xbar_post = xbar * post
     )
 
 stars <- function(p) {
@@ -66,20 +57,11 @@ fits <- list(
     fit_w(premium ~ p_ice),
     fit_w(premium ~ 0 + pre + post + p_ice_pre + p_ice_post),
     fit_w(premium ~ 0 + year_fe + p_ice),
-    fit_w(premium ~ 0 + year_fe + p_ice_pre + p_ice_post),
-    fit_w(premium ~ 0 + cell + p_ice),
-    fit_w(premium ~ 0 + cell + p_ice_pre + p_ice_post)
-)
-# Between slopes for columns (5)-(6): ICEV price split into its
-# nameplate--year mean and the deviation from it, with year fixed effects.
-# The within slopes and SEs in (5)-(6) come from the nameplate--year FE fits.
-between_fits <- list(
-    `5` = fit_w(premium ~ 0 + year_fe + xdev + xbar),
-    `6` = fit_w(premium ~ 0 + year_fe + xdev_pre + xdev_post + xbar_pre + xbar_post)
+    fit_w(premium ~ 0 + year_fe + p_ice_pre + p_ice_post)
 )
 
 fmt_slope <- function(fit, term, part) {
-    if (is.null(fit) || !term %in% names(coef(fit$m))) {
+    if (!term %in% names(coef(fit$m))) {
         return("")
     }
     s <- slope(fit, term)
@@ -90,18 +72,11 @@ fmt_slope <- function(fit, term, part) {
     }
 }
 
-# Each row names, per column, the fit and term to report ("" = blank).
-row_spec <- function(label, terms, part, source = "main") {
-    vals <- vapply(seq_along(terms), function(i) {
-        if (terms[[i]] == "") return("")
-        fit <- if (source == "between") between_fits[[as.character(i)]] else fits[[i]]
-        fmt_slope(fit, terms[[i]], part)
-    }, "")
+row4 <- function(label, term, part) {
+    vals <- vapply(fits, function(f) fmt_slope(f, term, part), "")
     sprintf("        %s & %s \\\\", label, paste(vals, collapse = " & "))
 }
-rows2 <- function(label, terms, source = "main") {
-    c(row_spec(label, terms, "coef", source), row_spec("", terms, "se", source))
-}
+rows2 <- function(label, term) c(row4(label, term, "coef"), row4("", term, "se"))
 
 tab <- c(
     "\\begin{table}[ht]",
@@ -109,35 +84,28 @@ tab <- c(
     "    \\label{tab:cr-ice-price}",
     "    \\centering",
     "    \\footnotesize",
-    "    \\begin{tabular}{lcccccc}",
+    "    \\begin{tabular}{lcccc}",
     "        \\toprule",
-    "        & \\multicolumn{2}{c}{No fixed effects} & \\multicolumn{2}{c}{Year fixed effects} & \\multicolumn{2}{c}{Within and between} \\\\",
-    "        \\cmidrule(lr){2-3} \\cmidrule(lr){4-5} \\cmidrule(lr){6-7}",
-    "        & (1) & (2) & (3) & (4) & (5) & (6) \\\\",
+    "        & \\multicolumn{2}{c}{No year fixed effects} & \\multicolumn{2}{c}{Year fixed effects} \\\\",
+    "        \\cmidrule(lr){2-3} \\cmidrule(lr){4-5}",
+    "        & (1) & (2) & (3) & (4) \\\\",
     "        \\midrule",
-    rows2("ICEV price", c("p_ice", "", "p_ice", "", "", "")),
-    rows2("ICEV price (pre-2020)", c("", "p_ice_pre", "", "p_ice_pre", "", "")),
-    rows2("ICEV price (2020+)", c("", "p_ice_post", "", "p_ice_post", "", "")),
+    rows2("ICEV price", "p_ice"),
+    rows2("ICEV price (pre-2020)", "p_ice_pre"),
+    rows2("ICEV price (2020+)", "p_ice_post"),
     "        \\midrule",
-    rows2("Within nameplate--year", c("", "", "", "", "p_ice", "")),
-    rows2("\\quad pre-2020", c("", "", "", "", "", "p_ice_pre")),
-    rows2("\\quad 2020+", c("", "", "", "", "", "p_ice_post")),
-    rows2("Between nameplate--years", c("", "", "", "", "xbar", ""), "between"),
-    rows2("\\quad pre-2020", c("", "", "", "", "", "xbar_pre"), "between"),
-    rows2("\\quad 2020+", c("", "", "", "", "", "xbar_post"), "between"),
-    "        \\midrule",
-    sprintf("        Matched pairs & %s \\\\", paste(rep(nrow(df), 6), collapse = " & ")),
-    sprintf("        Nameplate--years & %s \\\\", paste(rep(nlevels(df$cell), 6), collapse = " & ")),
-    sprintf("        Nameplate clusters & %s \\\\", paste(rep(n_clusters, 6), collapse = " & ")),
+    sprintf("        Matched pairs & %s \\\\", paste(rep(nrow(df), 4), collapse = " & ")),
+    sprintf("        Nameplate--years & %s \\\\", paste(rep(nlevels(df$cell), 4), collapse = " & ")),
+    sprintf("        Nameplate clusters & %s \\\\", paste(rep(n_clusters, 4), collapse = " & ")),
     sprintf(
-        "        Adjusted $R^2$ & %s & & \\\\",
-        paste(vapply(fits[1:4], function(f) formatC(f$r2, format = "f", digits = 3), ""), collapse = " & ")
+        "        Adjusted $R^2$ & %s \\\\",
+        paste(vapply(fits, function(f) formatC(f$r2, format = "f", digits = 3), ""), collapse = " & ")
     ),
     "        \\bottomrule",
     "    \\end{tabular}",
     "    \\par\\medskip",
     "    \\begin{minipage}{0.95\\textwidth}",
-    "        \\footnotesize \\emph{Notes:} Weighted least squares on matched pairs, each weighted by one over the number of matches in its nameplate--year, so that each nameplate--year carries equal weight. Columns (1), (3), and (5) estimate one slope across all years; columns (2), (4), and (6) estimate separate slopes before 2020 and since 2020. Columns (3) and (4) include model-year fixed effects. Columns (5) and (6) split the ICEV price into its nameplate--year mean and each trim's deviation from that mean. The within slope compares trims of the same nameplate in the same year and is estimated with nameplate--year fixed effects. The between slope compares nameplate--year means and is estimated with model-year fixed effects, controlling for the within deviation. Intercepts and fixed effects omitted. Nameplate-clustered standard errors in parentheses. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.",
+    "        \\footnotesize \\emph{Notes:} Weighted least squares on matched pairs, each weighted by one over the number of matches in its nameplate--year, so that each nameplate--year carries equal weight. Columns (1) and (3) estimate one slope across all years; columns (2) and (4) estimate separate slopes before 2020 and since 2020. Columns (3) and (4) include model-year fixed effects. Intercepts and year coefficients omitted. Nameplate-clustered standard errors in parentheses. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.",
     "    \\end{minipage}",
     "\\end{table}"
 )
@@ -169,13 +137,6 @@ sapply(c(2019, 2020, 2021), function(cut) {
     f <- fit_w(premium ~ 0 + pre + post + p_ice_pre + p_ice_post, d)
     round(slope(f, "p_ice_post"), 3)
 })
-
-# Multi-trim cells with a single premium across all trims.
-df %>%
-    group_by(cell) %>%
-    filter(n() > 1) %>%
-    summarise(same = n_distinct(msrp_hyb - msrp_ice) == 1) %>%
-    summarise(cells = n(), single_premium = sum(same))
 
 plot_w <- function(d, x_label, y_label) {
     labs_d <- d %>%

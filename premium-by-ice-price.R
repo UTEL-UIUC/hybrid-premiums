@@ -25,6 +25,14 @@ df <- add_trim_weights(load_analysis_sample(project_root)) %>%
         p_ice_post = p_ice * post,
         year_fe = droplevels(year_fe),
         cell = factor(paste(nameplate, body_type, year))
+    ) %>%
+    group_by(cell) %>%
+    mutate(xbar = mean(p_ice)) %>%
+    ungroup() %>%
+    mutate(
+        xdev = p_ice - xbar,
+        xdev_pre = xdev * pre, xdev_post = xdev * post,
+        xbar_pre = xbar * pre, xbar_post = xbar * post
     )
 
 stars <- function(p) {
@@ -62,14 +70,19 @@ fits <- list(
     fit_w(premium ~ 0 + cell + p_ice),
     fit_w(premium ~ 0 + cell + p_ice_pre + p_ice_post)
 )
-pooled_cols <- c(1, 3, 5)
-era_cols <- c(2, 4, 6)
+# Between slopes for columns (5)-(6): ICEV price split into its
+# nameplate--year mean and the deviation from it, with year fixed effects.
+# The within slopes and SEs in (5)-(6) come from the nameplate--year FE fits.
+between_fits <- list(
+    `5` = fit_w(premium ~ 0 + year_fe + xdev + xbar),
+    `6` = fit_w(premium ~ 0 + year_fe + xdev_pre + xdev_post + xbar_pre + xbar_post)
+)
 
-cell_text <- function(i, term, part) {
-    if (!term %in% names(coef(fits[[i]]$m))) {
+fmt_slope <- function(fit, term, part) {
+    if (is.null(fit) || !term %in% names(coef(fit$m))) {
         return("")
     }
-    s <- slope(fits[[i]], term)
+    s <- slope(fit, term)
     if (part == "coef") {
         paste0(sub("^-", "$-$", formatC(s[["b"]], format = "f", digits = 3)), stars(s[["p"]]))
     } else {
@@ -77,9 +90,17 @@ cell_text <- function(i, term, part) {
     }
 }
 
-row6 <- function(label, term, part) {
-    vals <- vapply(seq_along(fits), function(i) cell_text(i, term, part), "")
+# Each row names, per column, the fit and term to report ("" = blank).
+row_spec <- function(label, terms, part, source = "main") {
+    vals <- vapply(seq_along(terms), function(i) {
+        if (terms[[i]] == "") return("")
+        fit <- if (source == "between") between_fits[[as.character(i)]] else fits[[i]]
+        fmt_slope(fit, terms[[i]], part)
+    }, "")
     sprintf("        %s & %s \\\\", label, paste(vals, collapse = " & "))
+}
+rows2 <- function(label, terms, source = "main") {
+    c(row_spec(label, terms, "coef", source), row_spec("", terms, "se", source))
 }
 
 tab <- c(
@@ -90,29 +111,33 @@ tab <- c(
     "    \\footnotesize",
     "    \\begin{tabular}{lcccccc}",
     "        \\toprule",
-    "        & \\multicolumn{2}{c}{No fixed effects} & \\multicolumn{2}{c}{Year fixed effects} & \\multicolumn{2}{c}{Nameplate--year fixed effects} \\\\",
+    "        & \\multicolumn{2}{c}{No fixed effects} & \\multicolumn{2}{c}{Year fixed effects} & \\multicolumn{2}{c}{Within and between} \\\\",
     "        \\cmidrule(lr){2-3} \\cmidrule(lr){4-5} \\cmidrule(lr){6-7}",
     "        & (1) & (2) & (3) & (4) & (5) & (6) \\\\",
     "        \\midrule",
-    row6("ICEV price", "p_ice", "coef"),
-    row6("", "p_ice", "se"),
-    row6("ICEV price (pre-2020)", "p_ice_pre", "coef"),
-    row6("", "p_ice_pre", "se"),
-    row6("ICEV price (2020+)", "p_ice_post", "coef"),
-    row6("", "p_ice_post", "se"),
+    rows2("ICEV price", c("p_ice", "", "p_ice", "", "", "")),
+    rows2("ICEV price (pre-2020)", c("", "p_ice_pre", "", "p_ice_pre", "", "")),
+    rows2("ICEV price (2020+)", c("", "p_ice_post", "", "p_ice_post", "", "")),
+    "        \\midrule",
+    rows2("Within nameplate--year", c("", "", "", "", "p_ice", "")),
+    rows2("\\quad pre-2020", c("", "", "", "", "", "p_ice_pre")),
+    rows2("\\quad 2020+", c("", "", "", "", "", "p_ice_post")),
+    rows2("Between nameplate--years", c("", "", "", "", "xbar", ""), "between"),
+    rows2("\\quad pre-2020", c("", "", "", "", "", "xbar_pre"), "between"),
+    rows2("\\quad 2020+", c("", "", "", "", "", "xbar_post"), "between"),
     "        \\midrule",
     sprintf("        Matched pairs & %s \\\\", paste(rep(nrow(df), 6), collapse = " & ")),
     sprintf("        Nameplate--years & %s \\\\", paste(rep(nlevels(df$cell), 6), collapse = " & ")),
     sprintf("        Nameplate clusters & %s \\\\", paste(rep(n_clusters, 6), collapse = " & ")),
     sprintf(
-        "        Adjusted $R^2$ & %s \\\\",
-        paste(vapply(fits, function(f) formatC(f$r2, format = "f", digits = 3), ""), collapse = " & ")
+        "        Adjusted $R^2$ & %s & & \\\\",
+        paste(vapply(fits[1:4], function(f) formatC(f$r2, format = "f", digits = 3), ""), collapse = " & ")
     ),
     "        \\bottomrule",
     "    \\end{tabular}",
     "    \\par\\medskip",
     "    \\begin{minipage}{0.95\\textwidth}",
-    "        \\footnotesize \\emph{Notes:} Weighted least squares on matched pairs, each weighted by one over the number of matches in its nameplate--year, so that each nameplate--year carries equal weight. Columns (1), (3), and (5) estimate one slope across all years; columns (2), (4), and (6) estimate separate slopes before 2020 and since 2020. Columns (3) and (4) include model-year fixed effects. Columns (5) and (6) include nameplate--year fixed effects, so their slopes are identified only by differences between trims of the same nameplate in the same year. Intercepts and fixed effects omitted. Nameplate-clustered standard errors in parentheses. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.",
+    "        \\footnotesize \\emph{Notes:} Weighted least squares on matched pairs, each weighted by one over the number of matches in its nameplate--year, so that each nameplate--year carries equal weight. Columns (1), (3), and (5) estimate one slope across all years; columns (2), (4), and (6) estimate separate slopes before 2020 and since 2020. Columns (3) and (4) include model-year fixed effects. Columns (5) and (6) split the ICEV price into its nameplate--year mean and each trim's deviation from that mean. The within slope compares trims of the same nameplate in the same year and is estimated with nameplate--year fixed effects. The between slope compares nameplate--year means and is estimated with model-year fixed effects, controlling for the within deviation. Intercepts and fixed effects omitted. Nameplate-clustered standard errors in parentheses. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.",
     "    \\end{minipage}",
     "\\end{table}"
 )

@@ -182,7 +182,7 @@ An exact key can occasionally identify more than one ICE source row. Candidate r
 
 These are soft preferences: if the preferred candidate does not exist, the candidate set is left unchanged.
 
-With the current source snapshot, the raw exact join has 38 HEVs with two candidates. The non-manual preference resolves 9; the displacement declarations resolve the remaining 29. The final output therefore contains 715 pairs and zero ties.
+With the current source snapshot, the raw exact join has 38 HEVs with two candidates. The non-manual preference resolves 9; the displacement declarations resolve the remaining 29. The final output therefore contains 714 pairs and zero ties.
 
 ## Brand and model decisions
 
@@ -291,7 +291,7 @@ XV Crosstrek is recoded as Crosstrek, and a leading `2.0i` is removed from the t
 
 For 2014–2016, Hybrid Base or a blank/basic hybrid trim maps to gas Limited. Edmunds describes the Hybrid as carrying the 2.0i Limited features except leather, plus hybrid-specific equipment. Sources: [Edmunds 2014 XV Crosstrek](https://www.edmunds.com/subaru/xv-crosstrek/2014/review/) and the [2014 XV Crosstrek brochure](https://cdn.dealereprocess.org/cdn/brochures/subaru/2014-xvcrosstrek.pdf).
 
-The 2026 Crosstrek and the Forester use normal same-grade matching. The 2026 Forester gas sticker corrections are described under preparation.
+The 2026 Crosstrek Limited and the Forester use normal same-grade matching. The 2026 Sport Hybrid is excluded. Subaru's pricing release says it adds, over the gas Sport, a power moonroof, a power driver's seat, blind-spot detection with rear cross-traffic alert, and navigation. The gas Sport cannot be ordered with the moonroof. Source: [Subaru 2026 Crosstrek pricing release](https://media.subaru.com/pressrelease/2335/subaru-announces-pricing-2026-crosstrek-including-new-2026). The 2026 Forester gas sticker corrections are described under preparation.
 
 ### Lincoln MKZ
 
@@ -550,7 +550,7 @@ On explicit nameplates, these HEVs are admitted with their own keys unchanged:
 
 ## Output
 
-The matching produced 715 HEV–ICE pairs from 715 distinct HEV catalog rows, covering 53 nameplates in model years 2012–2026, with zero unresolved ties. This repository publishes those pairs as `data/matched.csv`, limited to the fields used in the analysis:
+The matching produced 714 HEV–ICE pairs from 714 distinct HEV catalog rows, covering 53 nameplates in model years 2012–2026, with zero unresolved ties. This repository publishes those pairs as `data/matched.csv`, limited to the fields used in the analysis:
 
 - `pair_id`: sequential row identifier.
 - `year`, `make`, `model`: model year and prepared nameplate (after the model renamings above).

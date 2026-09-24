@@ -178,7 +178,8 @@ plot_w <- function(d, x_label, y_label) {
         theme(
             panel.grid.minor = element_blank(),
             legend.position = "none",
-            strip.text = element_text(face = "bold")
+            strip.text = element_text(face = "bold"),
+            axis.title.y = element_text(size = 7)
         )
 }
 
@@ -199,5 +200,5 @@ plot_w(raw_plot_data, "Matched ICEV MSRP (2026 $)", "Premium (2026 $)") /
 ggsave(
     file.path(project_root, "output", "premium_by_ice_price_trim.pdf"),
     width = 6.4,
-    height = 5.2
+    height = 4.5
 )

@@ -2,7 +2,7 @@
 
 Data and code for Shih and Lehe, "The hybrid electric vehicle price premium in the United States: 2012–2026."
 
-The paper compares the base MSRP of conventional hybrid-electric vehicles (HEVs) with gasoline (ICE) trims of the same make, model, model year, body, drive, and equipment level. This repository contains the 715 matched HEV–ICE pairs and the R code that produces every figure and table in the paper from them.
+The paper compares the base MSRP of conventional hybrid-electric vehicles (HEVs) with gasoline (ICE) trims of the same make, model, model year, body, drive, and equipment level. This repository contains the 714 matched HEV–ICE pairs and the R code that produces every figure and table in the paper from them.
 
 ## What is and is not included
 
@@ -19,7 +19,7 @@ Anyone with a copy of the catalog can rebuild the pairs by following `methodolog
 
 ### `data/matched.csv`
 
-One row per HEV–ICE pair (715 rows). Prices are nominal model-year dollars.
+One row per HEV–ICE pair (714 rows). Prices are nominal model-year dollars.
 
 | Column | Description |
 | --- | --- |
@@ -75,7 +75,7 @@ This builds `output/analysis_sample.rds` (the matched pairs inflated to 2026 dol
 ### Estimation design
 
 - **Weights.** Every average and regression uses all matched pairs, each weighted by one over the number of matches its nameplate has in that year (nameplate = make × model × body), so each nameplate–year counts once.
-- **Trim lines.** A trim line is nameplate × body × ICE drive type × truck bed × ICE package × `trim_key`, followed across model years (206 lines).
+- **Trim lines.** A trim line is nameplate × body × ICE drive type × truck bed × ICE package × `trim_key`, followed across model years (205 lines).
 - **Adjusted paths.** The adjusted premium, fuel-economy, and performance paths use model-year and trim-line fixed effects, and price the 2026 lineup in each earlier year.
 - **Standard errors.** All standard errors are clustered by nameplate.
 - **Robustness.** `premium-path-fe.R` also prints results with trim lines keyed on the raw ICE trim name (`trim_ice`) and on `trim_key_hyb`, and with nameplate instead of trim fixed effects.

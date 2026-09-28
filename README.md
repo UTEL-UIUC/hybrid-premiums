@@ -1,6 +1,6 @@
-# The hybrid electric vehicle price premium in the United States: 2012–2026
+# How hybrid vehicles differ from their gasoline partners: 2012–2026
 
-Data and code for Shih and Lehe, "The hybrid electric vehicle price premium in the United States: 2012–2026."
+Data and code for Shih and Lehe, "How hybrid vehicles differ from their gasoline partners: 2012–2026."
 
 The paper compares the base MSRP of conventional hybrid-electric vehicles (HEVs) with gasoline (ICE) trims of the same make, model, model year, body, drive, and equipment level. This repository contains the 730 matched HEV–ICE pairs and the R code that produces every figure and table in the paper from them.
 

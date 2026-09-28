@@ -5,13 +5,13 @@ scripts <- c(
     "nameplate-timeline.R",
     "premium-hpdiff.R",
     "premium-path.R",
-    "premium-path-means.R",
     "trim-paths.R",
     "premium-path-fe.R",
     "premium-by-ice-price.R",
     "hev-quarterly-sales.R",
     "fuel-gaps.R",
     "perf-gaps.R",
+    "cargo-gaps.R",
     "hev-models-by-body.R"
 )
 

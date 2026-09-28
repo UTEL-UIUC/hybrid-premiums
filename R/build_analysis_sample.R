@@ -46,8 +46,8 @@ build_analysis_sample <- function(project_root = getwd()) {
 
     df <- df %>%
         dplyr::mutate(
-            msrp_2026_hyb = inflate_to_2026(msrp_hyb, year),
-            msrp_2026_ice = inflate_to_2026(msrp_ice, year),
+            msrp_2026_hyb = inflate_to_2026(msrp_hyb + option_price_hyb, year),
+            msrp_2026_ice = inflate_to_2026(msrp_ice + option_price_ice, year),
             raw_premium_2026 = msrp_2026_hyb - msrp_2026_ice,
             make = factor(make, levels = sort(unique(make))),
             year_fe = factor(year),

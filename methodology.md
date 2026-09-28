@@ -18,7 +18,7 @@ This is an MSRP comparison, not a transaction-price or ownership-cost estimate. 
 
 The source is the Teoalida Year-Make-Model-Trim Basic Specs database, a licensed trim-level catalog of US vehicles (August 2026 snapshot). The license does not allow redistribution, so this repository contains only the matched pairs in `data/matched.csv`, not the catalog or the code that reads it. The matching sample begins in model year 2012 and includes conventional HEVs only. Plug-in hybrids are outside this pipeline.
 
-The 53 in-scope nameplates are:
+The 56 in-scope nameplates are:
 
 - BMW: 3 Series, 5 Series, 7 Series.
 - Acura: MDX, ILX.
@@ -26,9 +26,9 @@ The 53 in-scope nameplates are:
 - Lexus: ES, LS, LX, NX, RX.
 - Mercedes-Benz: E-Class.
 - Subaru: Crosstrek, Forester.
-- Lincoln: MKZ.
+- Lincoln: MKZ, Nautilus.
 - Mazda: CX-50.
-- Ford: Fusion, Explorer, Escape.
+- Ford: Fusion, Explorer, Escape, F-150, Maverick.
 - Hyundai: Sonata, Tucson, Elantra, Santa Fe, Palisade.
 - Kia: Optima, Sorento, Sportage, Carnival.
 - Toyota: 4Runner, Avalon, Camry, Corolla, Corolla Cross, Grand Highlander, Highlander, RAV4, Tacoma, Tundra.
@@ -53,9 +53,22 @@ The source engine classifications are reduced to two analysis categories:
 
 Flex-fuel vehicles are conventional comparison vehicles for this purpose. Mild hybrids are also treated as the conventional baseline because their small assist systems are part of the ordinary ICE ladder in many recent lineups.
 
-The Acura ILX is the one exception to the source taxonomy. Teoalida calls the 2013–2014 ILX Hybrid a mild hybrid, but its Honda IMA motor assists propulsion. Those rows are therefore coded as `hev`.
+Honda's Integrated Motor Assist (IMA) hybrids are the one exception to the source taxonomy. Teoalida calls the 2012–2016 IMA vehicles (Civic Hybrid, Insight, CR-Z, and Acura ILX Hybrid) mild hybrids, but the IMA motor assists propulsion, so every Honda and Acura row labeled `mild hybrid` is coded as `hev`. Only the Civic and ILX have gas versions; the Insight and CR-Z affect only the HEV menu counts. The 2012–2015 Civic Hybrid does not match any gas Civic (see the Civic section below).
 
 Rows without a positive base MSRP are removed.
+
+## Option-priced pairs
+
+Some HEVs are sold as a powertrain option on an ordinary trim rather than as a separate trim. The catalog lists each trim once with its standard engine, so these hybrids (or, for the 2022–2023 Maverick, their gas alternatives) have no catalog row. For these, both sides of each pair are built from the manufacturer's prices:
+
+- HEV MSRP = trim base MSRP + hybrid option price; ICE MSRP = the same trim with the gas engine closest in horsepower (the engine tiebreaker used elsewhere).
+- One configuration per trim: F-150 SuperCrew 4x4 with the 5.5-ft bed; Maverick SuperCrew in each drive offered with both engines; Nautilus AWD.
+- Covered: Ford F-150 PowerBoost (2021–2026; partner 3.5L EcoBoost; Ford price lists for 2021, 2022, 2023, 2025, and 2026, and Ford window stickers for the 2024 XLT, where the printed $1,900 PowerBoost Hybrid Discount makes the premium $0; the 2022 Limited is not included because the catalog has no row for it), Ford Maverick (2022–2026), and Lincoln Nautilus (2024–2026; partner 2.0L turbo).
+- The F-150 PowerBoost includes Pro Power Onboard (2.4 kW) as standard; it is treated as part of the hybrid powertrain as sold, with no price adjustment.
+
+The Toyota Tundra, Tacoma, and 4Runner hybrids and the 2024–2026 Ford Escape hybrid are also options on some trims, but the catalog lists them as separate styles, so they are matched from catalog rows as usual.
+
+Notable results: the 2022 Maverick hybrid was the standard engine and cost $1,085 less than the optional EcoBoost; in 2023 the EcoBoost was a no-cost option; and in 2024 and 2025 Ford applied a $1,900 hybrid discount to the F-150 PowerBoost, pricing it the same as the 3.5L EcoBoost.
 
 ## Vehicle preparation
 
@@ -108,9 +121,19 @@ The following corrections are made before matching:
 - Missing 2017 Lincoln MKZ Hybrid horsepower is filled with 188.
 - The 2026 Subaru Forester gas MSRPs are replaced with the official stickers: Premium $31,995, Sport $34,795, Limited $35,995, and Touring $39,995. Source: [Subaru 2026 Forester pricing](https://media.subaru.com/newsrelease.do?id=2421).
 
-Missing curb weights used in the matched sample are supplemented through `data/curb-weight-corrections.csv`, where each row is identified by model year, make, model, trim, and side (`hev` or `ice`). The correction file records the value, source URL and tier, quoted evidence, and whether the value is exact or shared across a mechanically identical configuration. Configuration propagation requires the same model year, powertrain/engine, drivetrain, body/wheelbase, and truck cab/bed where applicable; equipment-only trims may share a value when the cited source reports one weight for that configuration. The raw vendor CSV is unchanged. Of 98 matched source records investigated, 81 receive sourced weights and 17 remain unresolved rather than being guessed; unresolved weights are blank in `data/matched.csv`.
+Missing curb weights used in the matched sample are supplemented through `data/curb-weight-corrections.csv`, where each row is identified by model year, make, model, trim, and side (`hev` or `ice`). The correction file records the value, source URL and tier, quoted evidence, and whether the value is exact or shared across a mechanically identical configuration. Configuration propagation requires the same model year, powertrain/engine, drivetrain, body/wheelbase, and truck cab/bed where applicable; equipment-only trims may share a value when the cited source reports one weight for that configuration. The raw vendor CSV is unchanged. Of 98 matched source records investigated, 96 receive sourced weights and 2 remain unresolved rather than being guessed; unresolved weights are blank in `data/matched.csv`. Fifteen of the 96 (2019–2020 Fusion, 2022–2026 Escape, 2021 Explorer Platinum Hybrid, and 2014 Q5 3.0T) were filled in a later second-source check and carry source tier `secondary`. In that check, 69 of the previously researched weights agreed with an independent source within 25 lb and 6 within 100 lb. Four 2026 Palisade Hybrid rows disagreed with Kelley Blue Book, which lists one trim's weight for all FWD or AWD trims; the Hyundai USA specification table supports the researched values.
 
 Matching rationales and citations are documented in the brand and model sections below. The complete rule tables are listed under [Manual renamings and rule tables](#manual-renamings-and-rule-tables).
+
+### Cargo volume
+
+The catalog has no cargo volume, and cargo plays no part in matching. It is added afterwards to each matched row as `cargo_seats_up_*` and `cargo_seats_folded_*` in `data/matched.csv`, with the source of every value in `data/cargo-sources.csv`. Seats-up is cargo with all seats in place (for three-row vehicles, behind the third row); folded is cargo with the rear seats folded (for three-row vehicles, behind the first row). The sources, in order of use:
+
+- CarAPI (carapi.app), whose trim-level specifications carry the same Edmunds trim descriptions as the catalog and are joined on model year, make, trim description, and model. They cover model years through 2023. CarAPI curb weights, horsepower, and MPG agree exactly with the catalog wherever both are present. CarAPI repeats the trunk volume as the folded figure for sedans; a folded figure equal to the seats-up figure is dropped.
+- Where CarAPI is blank (all of 2024–2026, and a few earlier rows), values looked up on Edmunds trim and specification pages, manufacturer specification sheets and press kits, Car and Driver, and a few dealer specification pages, each recorded with a URL and a verbatim quote. A value is `exact` when the source names the trim, and `shared` when it gives one figure for the model year and powertrain. Hybrid and gas values are always sourced separately.
+- One override: the CarAPI value for the 2019–2020 gas RX 350L (16.3 cu ft) is replaced with 7.5, the figure CarAPI gives behind the third row for the 2018 and 2021 RX 350L and every RX 450hL.
+
+Pickups are left blank: a bed has no comparable cargo volume. Every other matched row has a seats-up figure. One folded value is unsettled: Honda's 2024 and 2025 CR-V specification tables give the Sport and Sport-L hybrids 76.5 cu ft folded, and the 2026 table gives 71.8 for the same body. Each year's official figure is used.
 
 ## Matching framework
 
@@ -182,7 +205,24 @@ An exact key can occasionally identify more than one ICE source row. Candidate r
 
 These are soft preferences: if the preferred candidate does not exist, the candidate set is left unchanged.
 
-With the current source snapshot, the raw exact join has 38 HEVs with two candidates. The non-manual preference resolves 9; the displacement declarations resolve the remaining 29. The final output therefore contains 714 pairs and zero ties.
+With the current source snapshot, candidate resolution leaves zero ties.
+
+## Equipment check and priced options
+
+After the exact join, the equipment of every pair was compared using the manufacturers' brochures, press kits, order guides, and pricing releases, and Kelley Blue Book's trim-level equipment tables. A pair is dropped when one trim has, as standard, any of the following that the other lacks: navigation; a sunroof or moonroof; leather seats against cloth; or a driver-assistance system (for example adaptive cruise control, blind-spot monitoring, lane keeping, or automated parking). Other differences, such as wheel size, remote start, heated or ventilated seats, premium audio, parking sensors, or captain's chairs, are treated as minor and the pair is kept. The check drops 34 of the 764 exact-join pairs, leaving 730. Of these, 437 have identical equipment apart from the powertrain.
+
+When the difference is an item that the other trim sells as a priced option, the pair is kept and the option's MSRP, in that model year's dollars, is added to the price of the trim that lacks it before inflation. This applies to 29 pairs. Their totals are in `option_price_hyb` and `option_price_ice` in `data/matched.csv`, and each option, with its price, source URL, and quoted evidence, is in `data/option-adjustments.csv`:
+
+- 2019–2020 Ford Fusion SE and SEL FWD: Co-Pilot360 Assist (adaptive cruise and navigation), standard on the hybrid; $655 added to the gas trim.
+- 2012–2014 Toyota Camry XLE FWD: power moonroof (SR), standard on the gas XLE; $915 added to the hybrid.
+- 2025–2026 Subaru Forester Limited AWD: the gas Limited's options package (Harman Kardon audio, navigation, Reverse Automatic Braking), standard on the hybrid; $1,600 added to the gas trim.
+- 2023 Kia Sorento SX Prestige AWD: Panoramic Sunroof Package, standard on the gas trim; $1,300 added to the hybrid.
+- 2026 Kia Sportage X-Line AWD: X-Line Premium Package (panoramic sunroof, smart power liftgate), standard on the hybrid; $1,500 added to the gas trim.
+- 2014–2015 INFINITI Q50 Hybrid Premium: Leather Seating Package, standard on the hybrid; $1,000 added to the gas Premium.
+- 2020–2023 Ford Explorer Limited: 20-inch hand-polished wheels (64U, $595, 2020–2022) and the Limited Convenience Package (301A: $995 in 2021, $700 in 2022, $840 in 2023), standard on the hybrid; added to the gas Limited.
+- 2025–2026 Ford Escape: mini spare wheel (51U), standard on the hybrid; $345 added to the gas trim.
+
+Option prices come from the manufacturer (price lists, press kits, pricing releases) or from trim-level option lists that give the option code. The Fusion price is the exception: it is from CarsDirect (2019) and a dealer option list (2020), which agree on $655 but give no code. Packages that bundle items the two trims do not differ on are not used.
 
 ## Brand and model decisions
 
@@ -362,6 +402,8 @@ Sport Touring has no declared remap. It does not join when there is no same-name
 #### Civic
 
 Civic uses normal exact matching. The 2019–2021 Insight is recoded as Civic before matching because the third-generation Insight occupies the Civic Hybrid product and trim position in the source catalog.
+
+The 2012–2015 Civic Hybrid (IMA; recoded to HEV, see Powertrain definitions) has no gas partner and stays unmatched. Its natural partners are EX, EX w/Navigation, EX-L, and EX-L w/Navigation, but in every year the gas EX and EX-L have a power moonroof that the Hybrid never offered, and 16- or 17-inch alloy wheels against the Hybrid's 15-inch alloys; the Hybrid's automatic climate control and (from 2013) forward-collision and lane-departure warnings also differ. The Hybrid's trim label (`Hybrid`) does not equal any gas trim, so no pairs form without a remap, and none is added. Sources: Honda press kits and specification sheets.
 
 #### Accord
 
@@ -550,7 +592,7 @@ On explicit nameplates, these HEVs are admitted with their own keys unchanged:
 
 ## Output
 
-The matching produced 714 HEV–ICE pairs from 714 distinct HEV catalog rows, covering 53 nameplates in model years 2012–2026, with zero unresolved ties. This repository publishes those pairs as `data/matched.csv`, limited to the fields used in the analysis:
+The exact join produces 764 HEV–ICE pairs; the equipment check leaves 730, covering 54 nameplates in model years 2012–2026, with zero unresolved ties. This repository publishes those pairs as `data/matched.csv`, limited to the fields used in the analysis:
 
 - `pair_id`: sequential row identifier.
 - `year`, `make`, `model`: model year and prepared nameplate (after the model renamings above).
@@ -562,8 +604,10 @@ The matching produced 714 HEV–ICE pairs from 714 distinct HEV catalog rows, co
 - `truck_bed`: parsed pickup bed length in feet, blank for other bodies (identical on both sides by construction).
 - `package_hyb`, `package_ice`: source package text (the `w/` suffix of the listing), blank if none. They differ only where a remap moves the package (2013 Acura ILX, 2013 Volkswagen Jetta) or where the ICE listing carries an `EcoBoost` engine label that is dropped from the package key (Ford Fusion and Lincoln MKZ).
 - `msrp_hyb`, `msrp_ice`: base MSRP in nominal model-year dollars.
+- `option_price_hyb`, `option_price_ice`: nominal price of options added to that side for the comparison (see [Equipment check and priced options](#equipment-check-and-priced-options)); zero for all but 29 pairs.
 - `hp_hyb`, `hp_ice`: rated horsepower.
 - `mpg_combined_hyb`, `mpg_combined_ice`: EPA combined fuel economy.
 - `curb_weight_hyb`, `curb_weight_ice`: curb weight in pounds, including the sourced supplements in `data/curb-weight-corrections.csv`.
+- `cargo_seats_up_*`, `cargo_seats_folded_*`: cargo volume (see [Cargo volume](#cargo-volume)).
 
-Missing values are blank CSV fields. Inflation to 2026 dollars and analysis variables are added by `R/build_analysis_sample.R`.
+Missing values are blank CSV fields. Inflation to 2026 dollars and analysis variables are added by `R/build_analysis_sample.R`, which adds `option_price_*` to `msrp_*` before inflating. The 34 pairs dropped by the equipment check are listed, with the reason, in `data/equipment-exclusions.csv`.

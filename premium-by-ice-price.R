@@ -30,7 +30,7 @@ stars <- function(p) {
     if (p < 0.01) "$^{***}$" else if (p < 0.05) "$^{**}$" else if (p < 0.10) "$^{*}$" else ""
 }
 
-n_clusters <- nlevels(df$nameplate)
+n_clusters <- nlevels(df$trim_id)
 
 slope <- function(fit, term) {
     b <- coef(fit$m)[[term]]
@@ -50,7 +50,7 @@ weighted_adj_r2 <- function(m, d) {
 
 fit_w <- function(formula, d = df) {
     m <- lm(formula, data = d, weights = w)
-    list(m = m, V = sandwich::vcovCL(m, cluster = d$nameplate), r2 = weighted_adj_r2(m, d))
+    list(m = m, V = sandwich::vcovCL(m, cluster = d$trim_id), r2 = weighted_adj_r2(m, d))
 }
 
 fits <- list(
@@ -96,7 +96,7 @@ tab <- c(
     "        \\midrule",
     sprintf("        Matched pairs & %s \\\\", paste(rep(nrow(df), 4), collapse = " & ")),
     sprintf("        Nameplate--years & %s \\\\", paste(rep(nlevels(df$cell), 4), collapse = " & ")),
-    sprintf("        Nameplate clusters & %s \\\\", paste(rep(n_clusters, 4), collapse = " & ")),
+    sprintf("        Trim lines & %s \\\\", paste(rep(n_clusters, 4), collapse = " & ")),
     sprintf(
         "        Adjusted $R^2$ & %s \\\\",
         paste(vapply(fits, function(f) formatC(f$r2, format = "f", digits = 3), ""), collapse = " & ")
@@ -105,7 +105,7 @@ tab <- c(
     "    \\end{tabular}",
     "    \\par\\medskip",
     "    \\begin{minipage}{0.95\\textwidth}",
-    "        \\footnotesize \\emph{Notes:} Weighted least squares on matched pairs, each weighted by one over the number of matches in its nameplate--year, so that each nameplate--year carries equal weight. Columns (1) and (3) estimate one slope across all years; columns (2) and (4) estimate separate slopes before 2020 and since 2020. Columns (3) and (4) include model-year fixed effects. Intercepts and year coefficients omitted. Nameplate-clustered standard errors in parentheses. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.",
+    "        \\footnotesize \\emph{Notes:} Weighted least squares on matched pairs, each weighted by one over the number of matches in its nameplate--year. Intercepts omitted. Trim-line-clustered standard errors in parentheses. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.",
     "    \\end{minipage}",
     "\\end{table}"
 )

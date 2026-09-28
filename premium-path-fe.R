@@ -8,11 +8,11 @@ suppressPackageStartupMessages({
 })
 
 project_root <- getwd()
-dir.create(file.path(project_root, "output", "tables"), recursive = TRUE, showWarnings = FALSE)
 source(file.path(project_root, "R", "analysis_window.R"))
 source(file.path(project_root, "R", "build_analysis_sample.R"))
 source(file.path(project_root, "R", "path_helpers.R"))
 source(file.path(project_root, "R", "trim_helpers.R"))
+dir.create(file.path(project_root, "output", "tables"), recursive = TRUE, showWarnings = FALSE)
 df <- add_trim_weights(load_analysis_sample(project_root))
 
 fit <- fit_trim_fe(df)
@@ -36,9 +36,22 @@ fmt_se <- function(x) {
     sprintf("(%s)", fmt_num(x))
 }
 
+yearly <- df %>%
+    group_by(year) %>%
+    summarise(
+        mean = weighted.mean(premium, w),
+        n_nameplates = n_distinct(paste(nameplate, body_type)),
+        .groups = "drop"
+    )
+raw_mean <- setNames(yearly$mean, yearly$year)[as.character(years)]
+n_np <- setNames(yearly$n_nameplates, yearly$year)[as.character(years)]
+adjusted <- raw_mean[["2026"]] + alpha_hat
+
+row <- function(label, x) sprintf("        %s & %s \\\\", label, paste(x, collapse = " & "))
+
 tab <- c(
     "\\begin{table}[ht]",
-    "    \\caption{Year fixed effects from \\eqref{eq:path-trim} (2026 dollars, relative to 2026)}",
+    "    \\caption{Nameplate-weighted mean premium, year fixed effects from \\eqref{eq:path-trim}, and adjusted premium (2026 dollars)}",
     "    \\label{tab:year-fe}",
     "    \\centering",
     "    \\scriptsize",
@@ -47,28 +60,26 @@ tab <- c(
     "        \\toprule",
     sprintf("        & %s \\\\", paste(years, collapse = " & ")),
     "        \\midrule",
-    sprintf("        $\\hat\\alpha_t$ & %s \\\\", paste(vapply(alpha_hat, fmt_num, ""), collapse = " & ")),
-    sprintf("        SE & %s \\\\", paste(vapply(alpha_se, fmt_se, ""), collapse = " & ")),
+    row("Mean premium", vapply(raw_mean, fmt_num, "")),
+    row("Nameplates", n_np),
+    "        \\midrule",
+    row("$\\hat\\alpha_t$", vapply(alpha_hat, fmt_num, "")),
+    row("", vapply(alpha_se, fmt_se, "")),
+    "        \\midrule",
+    row("Adjusted premium", vapply(adjusted, fmt_num, "")),
     "        \\bottomrule",
     "    \\end{tabular}%",
     "    }",
     "    \\par\\medskip",
     "    \\begin{minipage}{\\textwidth}",
     sprintf(
-        "        \\footnotesize \\emph{Notes:} Weighted least squares on the %d matched pairs, each weighted by one over the number of matches in its nameplate--year, with model-year and trim-line fixed effects. 2026 is omitted, so $\\alpha_{2026}=0$. Nameplate-clustered standard errors in parentheses. The 2020--2025 effects are jointly insignificant ($p=%.2f$).",
-        nrow(df), joint[["p_F"]]
+        "        \\footnotesize \\emph{Notes:} Mean premium weights each match by one over the number of matches in its nameplate--year. $\\hat\\alpha_t$ is from weighted least squares on the %d matched pairs with model-year and trim-line fixed effects; 2026 is omitted, so $\\alpha_{2026}=0$. Trim-line-clustered standard errors in parentheses. The 2020--2025 effects are jointly %s ($p=%.2f$). Adjusted premium is the 2026 mean premium plus $\\hat\\alpha_t$.",
+        nrow(df), if (joint[["p_F"]] < 0.10) "significant" else "insignificant", joint[["p_F"]]
     ),
     "    \\end{minipage}",
     "\\end{table}"
 )
 writeLines(tab, file.path(project_root, "output", "tables", "tab-year-fe-trim.tex"))
-
-path_series <- build_trim_path(df)
-path_series %>%
-    select(series, year, estimate) %>%
-    tidyr::pivot_wider(names_from = series, values_from = estimate) %>%
-    mutate(across(-year, round)) %>%
-    as.data.frame()
 
 # Nameplate fixed effects on nameplate--year cells, for the footnote.
 build_fe_path(collapse_nameplate_year(df)) %>%
@@ -100,27 +111,35 @@ c(
     ])
 )
 
+se0 <- ifelse(is.na(alpha_se), 0, alpha_se)
+path_series <- bind_rows(
+    tibble::tibble(year = years, estimate = unname(raw_mean), series = "Unadjusted"),
+    tibble::tibble(
+        year = years,
+        estimate = unname(adjusted),
+        conf.low = unname(adjusted - 1.96 * se0),
+        conf.high = unname(adjusted + 1.96 * se0),
+        series = "Adjusted"
+    )
+) %>%
+    mutate(series = factor(series, levels = c("Unadjusted", "Adjusted")))
+
 path_cols <- c(
-    "Raw average" = "#E69F00",
-    "Within trim" = "#0072B2"
+    "Unadjusted" = "#E69F00",
+    "Adjusted" = "#0072B2"
 )
 
 ggsave(
     file.path(project_root, "output", "premium_path_trim_fe.pdf"),
     ggplot(path_series, aes(year, estimate, color = series)) +
         geom_hline(yintercept = 0, color = "grey80", linewidth = 0.6) +
-        geom_ribbon(
-            data = path_series %>% filter(series == "Within trim"),
-            aes(ymin = conf.low, ymax = conf.high, fill = series),
-            alpha = 0.20,
-            color = NA,
-            show.legend = FALSE
-        ) +
         geom_line(linewidth = 0.85) +
         scale_color_manual(values = path_cols) +
-        scale_fill_manual(values = path_cols) +
         scale_x_continuous(breaks = seq(ANALYSIS_YEAR_MIN, ANALYSIS_YEAR_MAX, by = 2)) +
-        scale_y_continuous(labels = scales::label_dollar(scale = 1e-3, suffix = "k")) +
+        scale_y_continuous(
+            breaks = seq(0, 10000, by = 2000),
+            labels = scales::label_dollar(scale = 1e-3, suffix = "k")
+        ) +
         labs(x = NULL, y = NULL, color = NULL) +
         path_plot_theme() +
         theme(

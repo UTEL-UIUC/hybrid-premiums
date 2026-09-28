@@ -2,7 +2,7 @@
 
 Data and code for Shih and Lehe, "The hybrid electric vehicle price premium in the United States: 2012–2026."
 
-The paper compares the base MSRP of conventional hybrid-electric vehicles (HEVs) with gasoline (ICE) trims of the same make, model, model year, body, drive, and equipment level. This repository contains the 714 matched HEV–ICE pairs and the R code that produces every figure and table in the paper from them.
+The paper compares the base MSRP of conventional hybrid-electric vehicles (HEVs) with gasoline (ICE) trims of the same make, model, model year, body, drive, and equipment level. This repository contains the 730 matched HEV–ICE pairs and the R code that produces every figure and table in the paper from them.
 
 ## What is and is not included
 
@@ -10,7 +10,10 @@ The pairs were built from the Teoalida Year-Make-Model-Trim Basic Specs database
 
 - `data/matched.csv` holds the matched pairs, limited to the fields the analysis uses.
 - `methodology.md` documents every matching rule, including all manual model and trim renamings, exclusions, and the sources behind each brand-level decision.
+- `data/option-adjustments.csv` lists the option prices added to one side of 29 pairs whose trims differ by an item the other trim sells as an option, with sources.
+- `data/equipment-exclusions.csv` lists the 34 pairs dropped because their equipment differs in a way that cannot be priced (navigation, a sunroof, leather against cloth, or driver assistance).
 - `data/curb-weight-corrections.csv` records the curb weights we sourced by hand where the catalog was missing them.
+- `data/cargo-sources.csv` records the source of every cargo-volume figure (the catalog has no cargo volume).
 - `data/hev-models-by-body.csv` holds aggregate counts of HEV nameplates by year and body type from the catalog, used for the HEV-models-by-body figure.
 
 Anyone with a copy of the catalog can rebuild the pairs by following `methodology.md`.
@@ -19,7 +22,7 @@ Anyone with a copy of the catalog can rebuild the pairs by following `methodolog
 
 ### `data/matched.csv`
 
-One row per HEV–ICE pair (714 rows). Prices are nominal model-year dollars.
+One row per HEV–ICE pair (730 rows). Prices are nominal model-year dollars.
 
 | Column | Description |
 | --- | --- |
@@ -34,15 +37,30 @@ One row per HEV–ICE pair (714 rows). Prices are nominal model-year dollars.
 | `truck_bed` | Pickup bed length in feet (blank for non-pickups); identical for both sides by construction |
 | `package_hyb`, `package_ice` | Option package in the catalog listing (e.g. `Technology Package`), blank if none |
 | `msrp_hyb`, `msrp_ice` | Base MSRP |
+| `option_price_hyb`, `option_price_ice` | Price of options added to that side so both trims have the same equipment (zero for all but 29 pairs; see `data/option-adjustments.csv`) |
 | `hp_hyb`, `hp_ice` | Rated horsepower |
 | `mpg_combined_hyb`, `mpg_combined_ice` | EPA combined MPG |
 | `curb_weight_hyb`, `curb_weight_ice` | Curb weight (lb); blank where it could not be sourced |
+| `cargo_seats_up_hyb`, `cargo_seats_up_ice` | Cargo volume with all seats in place (cu ft; behind the third row for three-row vehicles); blank for pickups |
+| `cargo_seats_folded_hyb`, `cargo_seats_folded_ice` | Cargo volume with the rear seats folded (cu ft); blank for pickups and where none is published, as for most sedans |
 
 A year–model–trim combination can appear more than once when the trim is sold in several drive types, truck bed lengths, or packages; those columns tell the rows apart. The one exception is the 2020–2022 Lexus RX Base, where the standard RX and long-wheelbase RX L share all listed fields; the RX L is the higher-priced row of each pair.
+
+### `data/option-adjustments.csv`
+
+One row per option price added to a pair (33 rows for 29 pairs; four 2021–2022 Explorer Limited pairs have two options). Columns: `pair_id`, `year`, `make`, `model`, `trim`, `drive_type`, `side` (the side whose price is raised: `hev` or `ice`), `option_price` (nominal model-year dollars), `option_code` (where the source gives one), `option_name`, `source_url`, `source_quote`. The analysis adds these prices to `msrp_*` before inflating (see `R/build_analysis_sample.R`).
+
+### `data/equipment-exclusions.csv`
+
+Pairs with the same model, year, drive, body, and trim position that are not in `matched.csv` because one trim has navigation, a sunroof or moonroof, leather against cloth seats, or a driver-assistance system that the other lacks and does not sell as a priced option (34 rows). Columns: `year`, `make`, `model`, `trim_hyb`, `trim_ice`, `drive_type`, `reason`.
 
 ### `data/curb-weight-corrections.csv`
 
 Curb weights researched by hand for matched vehicles whose catalog weight was missing (98 rows). Columns: `year`, `make`, `model`, `trim`, `side` (`hev` or `ice`), `curb_weight_lbs`, `status` (`exact`, `shared_configuration`, or `unresolved`), `source_url`, `source_tier`, `source_quote`, `notes`. These values are already applied in `matched.csv`.
+
+### `data/cargo-sources.csv`
+
+Where each cargo figure in `matched.csv` came from (1,230 rows, one per non-pickup matched catalog row). Columns: `pair_id` (the pair or pairs in `matched.csv` that use the row, separated by `;`), `year`, `make`, `model`, `trim`, `side` (`hev` or `ice`), `body_type`, `drive_type`, `package`, `cargo_seats_up`, `cargo_seats_folded`, `cargo_behind_second_row` (three-row vehicles, where looked up), `cargo_source`, `cargo_source_url`, `cargo_source_quote`. `cargo_source` is `carapi` (CarAPI's Edmunds-based specifications, used through model year 2023), `lookup_exact` or `lookup_shared` (looked up on Edmunds or manufacturer specification sheets, for one trim or shared across trims of the same model year and powertrain), `carapi+lookup_*` (CarAPI seats-up with a looked-up folded figure), or `override` (a CarAPI value replaced; see `methodology.md`). URLs and quotes are given for everything except the plain `carapi` rows.
 
 ### `data/hev-models-by-body.csv`
 
@@ -75,9 +93,9 @@ This builds `output/analysis_sample.rds` (the matched pairs inflated to 2026 dol
 ### Estimation design
 
 - **Weights.** Every average and regression uses all matched pairs, each weighted by one over the number of matches its nameplate has in that year (nameplate = make × model × body), so each nameplate–year counts once.
-- **Trim lines.** A trim line is nameplate × body × ICE drive type × truck bed × ICE package × `trim_key`, followed across model years (205 lines).
+- **Trim lines.** A trim line is nameplate × body × ICE drive type × truck bed × ICE package × `trim_key`, followed across model years (210 lines).
 - **Adjusted paths.** The adjusted premium, fuel-economy, and performance paths use model-year and trim-line fixed effects, and price the 2026 lineup in each earlier year.
-- **Standard errors.** All standard errors are clustered by nameplate.
+- **Standard errors.** Standard errors are clustered by trim line (by nameplate in the nameplate fixed-effect robustness check).
 - **Robustness.** `premium-path-fe.R` also prints results with trim lines keyed on the raw ICE trim name (`trim_ice`) and on `trim_key_hyb`, and with nameplate instead of trim fixed effects.
 
 | Paper output | Script | File |
@@ -85,13 +103,13 @@ This builds `output/analysis_sample.rds` (the matched pairs inflated to 2026 dol
 | Nameplate timeline | `nameplate-timeline.R` | `output/nameplate_timeline.pdf` |
 | Premium vs. horsepower difference | `premium-hpdiff.R` | `output/premium_hpdiff.pdf` |
 | Premium path, matched pairs and nameplates weighted equally | `premium-path.R` | `output/premium_path_observations.pdf`, `output/premium_path_nameplates.pdf` |
-| Yearly mean premiums table | `premium-path-means.R` | `output/tables/tab-premium-path-means.tex` |
 | Selected long-lived trims | `trim-paths.R` | `output/premium_trim_line_paths.pdf` |
 | Year fixed effects table and adjusted premium | `premium-path-fe.R` | `output/tables/tab-year-fe-trim.tex`, `output/premium_path_trim_fe.pdf` |
 | Premium vs. ICE price table and figure | `premium-by-ice-price.R` | `output/tables/tab-cr-ice-price-trim.tex`, `output/premium_by_ice_price_trim.pdf` |
 | HEV sales share and premium | `hev-quarterly-sales.R` | `output/hev_quarterly_sales.pdf` |
 | Fuel economy gaps | `fuel-gaps.R` | `output/fuel_gaps_trim.pdf` |
 | Performance gaps | `perf-gaps.R` | `output/perf_gaps_trim.pdf` |
+| Cargo volume gaps | `cargo-gaps.R` | `output/cargo_gaps_trim.pdf` |
 | HEV models by body type | `hev-models-by-body.R` | `output/hev_models_by_body.pdf` |
 
 Shared code lives in `R/`:
@@ -103,4 +121,4 @@ Shared code lives in `R/`:
 
 ## License
 
-Code is released under the MIT License (see `LICENSE`). The data files we created (`matched.csv` as a compilation, `curb-weight-corrections.csv`, `hev-models-by-body.csv`, and `methodology.md`) are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The Argonne files are public data from Argonne National Laboratory.
+Code is released under the MIT License (see `LICENSE`). The data files we created (`matched.csv` as a compilation, `curb-weight-corrections.csv`, `cargo-sources.csv`, `option-adjustments.csv`, `equipment-exclusions.csv`, `hev-models-by-body.csv`, and `methodology.md`) are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The Argonne files are public data from Argonne National Laboratory.

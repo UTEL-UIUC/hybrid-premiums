@@ -54,7 +54,7 @@ fit_trim_fe <- function(d, outcome = "premium", key = "trim_id") {
             year_fe = relevel(factor(year), ref = "2026")
         )
     m <- lm(y ~ year_fe + unit, data = d2, weights = w)
-    list(model = m, V = sandwich::vcovCL(m, cluster = d2$nameplate), data = d2)
+    list(model = m, V = sandwich::vcovCL(m, cluster = d2$unit), data = d2)
 }
 
 year_effects <- function(fit) {
@@ -74,7 +74,7 @@ joint_year_test <- function(fit, years = 2020:2025) {
     b <- coef(fit$model)[terms]
     V <- fit$V[terms, terms]
     W <- drop(t(b) %*% solve(V) %*% b)
-    g <- nlevels(droplevels(factor(fit$data$nameplate)))
+    g <- nlevels(droplevels(fit$data$unit))
     q <- length(terms)
     F_stat <- W / q
     c(
